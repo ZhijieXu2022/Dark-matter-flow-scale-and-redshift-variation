@@ -1,0 +1,23 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,"Table 3: generalized kurtosis K_4, K_6, K_8 of the velocity distributions at z = 0 (N-body, recomputed) and models",,,
+"#Ref. [1] Eq. (47, 54), Fig. 5, Table 3",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+,,,,
+,,,,
+distribution,velocity,K4,K6,K8
+N-body r->0 (0.005-0.02 Mpc/h),u_L,4.92747393,58.7803087,1183.42787
+N-body r->0,Sigma u_L,4.67868035,55.5849173,1198.8562
+N-body r->0,Delta u_L,7.40651449,157.398041,6132.06331
+X distribution alpha=1.33,"u_L, Sigma u_L",4.59214659,48.8947766,944.765659
+Eq. 47 p=0.36 q=0.556,Delta u_L,7.70219436,159.235021,6355.92328
+N-body r->inf (80-119.7 Mpc/h),Delta u_L,4.16434717,40.9892926,754.413903
+N-body r->inf,Sigma u_L,4.22996356,42.7851492,820.60738
+N-body r->inf,u_L,5.39802646,86.3656287,2818.86961
+N-body 50-80 Mpc/h,Delta u_L,4.06938541,38.4801855,681.260338
+N-body 50-80 Mpc/h,Sigma u_L,4.32869898,45.1057726,881.472713
+X distribution alpha=2.1,"Delta u_L, Sigma u_L",4.1759759,38.4080331,623.996644
+P_uL Option 1 (logistic Delta u_L),u_L,5.4,78.4286,2269.8
+P_uL Option 2 (X(2.1) Delta u_L),u_L,5.35195,73.3529,1935.57
+logistic,"Delta u_L, Sigma u_L",4.2,39.8571429,685.8
+Laplace,,6,90,2520
+Gaussian,,3,15,105

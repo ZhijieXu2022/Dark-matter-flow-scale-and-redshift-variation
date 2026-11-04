@@ -1,0 +1,16 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,10/2026
+#Name,Table 1: SCDM simulation parameters
+#Ref. [1] Table 1,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+,
+,
+quantity,value
+Omega_0,1
+Lambda,0
+h,0.5
+Gamma,0.5
+sigma_8,0.51
+L (Mpc/h),239.5
+N,16777216
+m_p (Msun/h),2.27226848e+11
+l_soft (kpc/h),36

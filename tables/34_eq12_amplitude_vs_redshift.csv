@@ -1,0 +1,11 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,10/2026
+#Name,"Least-squares amplitude c of u a^(-5/3) (r/r_t)^(5/2) in Eq. (12), 0.05 < r < r_t/2"
+"#Ref. [1] Eq. (12), Fig. 7",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+,
+,
+z,c
+0,0.770590379
+0.3,0.795846206
+1,0.761613968
+2,0.752776869

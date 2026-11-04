@@ -1,0 +1,80 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,Plotted data of Fig. 26: K_3..K_6 of eta for halo and out-of-halo particles vs a,,,
+#Ref. [1] Fig. 26,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
+,,,,
+,,,,
+series,label,x,y,source
+0,K_3(eta) for particles in halos [halo],0.166666667,1.41880549,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.25,1.43706956,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.333333333,1.180893,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.4,0.95732081,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.5,0.698610132,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.666666667,0.405864336,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.769230769,0.289312163,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],0.909090909,0.172177878,results/particles.json halo
+0,K_3(eta) for particles in halos [halo],1,0.116501345,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.166666667,7.85709467,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.25,6.04487376,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.333333333,4.31239725,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.4,3.41110731,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.5,2.70637466,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.666666667,2.27213319,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.769230769,2.19449753,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],0.909090909,2.17584627,results/particles.json halo
+1,K_4(eta) for particles in halos [halo],1,2.1923395,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.166666667,39.5842489,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.25,20.2792786,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.333333333,10.8280485,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.4,6.99023035,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.5,4.26538435,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.666666667,2.3513998,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.769230769,1.75164814,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],0.909090909,1.17841462,results/particles.json halo
+2,K_5(eta) for particles in halos [halo],1,0.905048946,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.166666667,274.91663,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.25,83.3150762,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.333333333,34.8669296,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.4,20.3451404,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.5,12.0429074,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.666666667,7.90001415,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.769230769,7.10887258,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],0.909090909,6.72766973,results/particles.json halo
+3,K_6(eta) for particles in halos [halo],1,6.71789936,results/particles.json halo
+4,K_3(eta) for particles out-of-halo [out],0.166666667,0.720908863,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.25,0.871655522,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.333333333,0.877714106,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.4,0.873173416,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.5,0.869822097,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.666666667,0.83963803,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.769230769,0.806460886,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],0.909090909,0.747553822,results/particles.json out
+4,K_3(eta) for particles out-of-halo [out],1,0.705600669,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.166666667,4.18647404,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.25,4.40753591,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.333333333,4.23583993,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.4,4.11916412,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.5,3.98703665,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.666666667,3.69600651,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.769230769,3.49928972,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],0.909090909,3.23090986,results/particles.json out
+5,K_4(eta) for particles out-of-halo [out],1,3.07042683,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.166666667,10.1707404,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.25,11.6551168,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.333333333,10.6489906,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.4,10.0113885,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.5,9.30443191,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.666666667,7.86867206,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.769230769,6.97034144,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],0.909090909,5.81774796,results/particles.json out
+6,K_5(eta) for particles out-of-halo [out],1,5.15860192,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.166666667,47.6067826,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.25,50.3111132,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.333333333,42.9019164,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.4,38.8341993,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.5,34.446828,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.666666667,26.9622432,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.769230769,22.9611283,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],0.909090909,18.3993733,results/particles.json out
+7,K_6(eta) for particles out-of-halo [out],1,16.0393605,results/particles.json out

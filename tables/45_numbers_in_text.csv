@@ -1,0 +1,132 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,
+# Updated,10/2026,,,,,,,
+#Name,"Every number quoted in the text, captions and tables: quoted vs recomputed",,,,,,,
+#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,
+,,,,,,,,
+,,,,,,,,
+item,location,quoted,recomputed,tolerance,rel,status,method,note
+particle mass m_p [1e11 Msun/h],Table 1,2.27,2.27227,0.005,False,pass,"rho_crit Omega_m L^3/N, rho_crit = 2.775e11 h^2 Msun/Mpc^3",
+sigma_8,Table 1; Sec. 5.2.3 (Fig. 34),0.51,0.509694,0.005,False,pass,"sqrt(sigma_delta^2(8 Mpc/h)) from the measured xi(r) (Eq. 80, trapezoid rule)",sigma_delta^2(8) = 0.2598 (left Riemann sums: 0.2599) vs 0.51^2 = 0.2601
+pair bin width dr [Mpc/h],Sec. 3,0.001,0.001,1e-09,False,pass,r grid of the pair statistics (data/level2),
+a0(z = 0),Table 4,0.451,0.450684,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 0.1),Table 4,0.463,0.462768,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 0.3),Table 4,0.486,0.486215,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 0.5),Table 4,0.509,0.508705,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 1),Table 4,0.559,0.558593,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 1.5),Table 4,0.604,0.604177,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 2),Table 4,0.643,0.642892,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+a0(z = 3),Table 4,0.694,0.693538,0.0005,False,pass,least squares of Eq. (86) (r2 = 23.1321 fixed) to xi(r) over 20-90 Mpc/h (code/pipeline/fits.py),
+u(z = 0) [km/s],Table 4,354.61,354.607,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 0.1) [km/s],Table 4,335.42,335.416,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 0.3) [km/s],Table 4,303.37,303.374,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 0.5) [km/s],Table 4,277.67,277.669,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 1) [km/s],Table 4,231.29,231.289,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 1.5) [km/s],Table 4,199.76,199.758,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 2) [km/s],Table 4,177.15,177.146,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+u(z = 3) [km/s],Table 4,148.61,148.611,0.005,False,pass,rms 1-D peculiar velocity over all 16.8 M particles (data/velocity_amplitude),
+"a0 u^2/(u0^2 a) (= 0.45, i.e. a0 u^2 proportional to a)",Sec. 5.3,0.45,0.469968,0.05,True,pass,mean over z = 0 ... 3,"values 0.451, 0.455, 0.463, 0.468, 0.475, 0.479, 0.481, 0.487"
+pivot scale r2 [Mpc/h],Fig. 1 caption,21.3,23.1321,0.05,False,FLAG,least squares of Eq. (86) with free r2 (fits.py); text Sec. 6.5: 23.14,"erratum E1 (also P19 E1, P20 E5)"
+k_max r2 (= sqrt 2),Sec. 1,1.4142135623730951,1.3878,0.05,True,pass,maximum of the N-body P(k) (0.01 h/Mpc grid) times r2 = 23.13,k_max = 0.060 h/Mpc; resolution of the k grid 0.01 h/Mpc (7 per cent of k_max)
+r_t ~ 1 Mpc/h; r_t = 1.3 a^(1/2) Mpc/h,"Secs 1, 3.4",1.3,,,,cited,from P20 (longitudinal = transverse correlation),not recomputed here
+"alpha = 5/2 (xi ~ a^alpha on small scales, used for Fig. 3)","Sec. 3.1, Fig. 30",2.5,2.5002,0.25,False,pass,"log-log slope of xi(r = 0.1 Mpc/h) vs a, a >= 0.5",r = 0.3: 2.75; r = 0.5: 3.03
+rho_L = 1/2 for r -> 0,"Secs 3.3, 3.5, Table 2",0.5,0.395182,0.1,True,FLAG,"L_2/<u_L^2> median over 0.005-0.02 Mpc/h, z = 0","0.02-0.05 Mpc/h: 0.365; equivalently <Sigma u_L^2>/<u_L^2> = 2(1 + rho_L) = 2.77, not 3 (open issue O1)"
+rho_L = 0 for r -> infinity,"Sec. 3.3, Table 2",0.0,-0.0139465,0.05,False,pass,median over 80-119.7 Mpc/h,
+<Delta u_L^2>/u^2 (r -> 0) = 2,"Eq. (16), Fig. 10, Table 2",2.0,2.4291,0.1,True,FLAG,"median over 0.005-0.02 Mpc/h, z = 0",0.06-0.1 Mpc/h: 3.33 (open issue O1)
+<u_L^2>/u^2 (r -> 0) = 2,"Eq. (16), Table 2",2.0,2.02479,0.1,True,pass,median over 0.005-0.02 Mpc/h,
+<Sigma u_L^2>/u^2 (r -> 0) = 6,Eq. (16),6.0,5.614,0.1,True,pass,median over 0.005-0.02 Mpc/h,O1
+<Delta u_L^2>/u^2 (r -> infinity) = 2,"Eq. (17), Table 2",2.0,2.02767,0.05,True,pass,median over 80-119.7 Mpc/h,
+<u_L^2>/u^2 (r -> infinity) = 1,"Eq. (17), Table 2",1.0,1.00006,0.05,True,pass,median over 80-119.7 Mpc/h,
+<u^2>/u^2 (r -> infinity) = 3,"Sec. 3.5, Fig. 9",3.0,2.99979,0.05,True,pass,"pair-averaged <|u|^2>, median over 80-119.7 Mpc/h",
+<u_L^2>(r = 0)/<u_L^2>(r = infinity) = 2,Sec. 3.5,2.0,2.02467,0.1,True,pass,ratio of the medians above,
+r_d / a (scale of the maximum of S_2^lp) ~ 0.7,Sec. 3.6,0.7,0.744,0.1,True,pass,"argmax of S_2^lp(r), median of r_d/a over z = 0 ... 2","r_d/a = 0.78, 0.72, 0.69, 0.73, 0.74, 0.77, 0.84"
+t0 [Gyr] (age of the universe),Sec. 3.6 (after Eq. 24),13.7,13.0372,0.05,False,FLAG,"t0 = 2/(3 H0), SCDM h = 0.5 (the value implied by Eqs. 23-24)",erratum E3
+-eps_u [1e-7 m^2/s^3],Eq. (24),4.6,4.58454,0.05,False,pass,9/4 u0^2 H0,
+-eps_u / (u0^3 h/Mpc),Eq. (24),0.6345,0.634506,5e-05,False,pass,9/4 u0^2 H0 / u0^3,
+r_s [Mpc/h],Eq. (23),1.58,1.57603,0.005,False,pass,4/9 u0/H0,
+eps_u quoted after Eq. (71) [1e-7 m^2/s^3],Sec. 5.2.2,-1.0,-4.58454,0.05,False,FLAG,-3/2 u0^2/t0,erratum E4
+beta_2^*,"Eqs. (22), (29)",9.5,8.05427,0.15,True,FLAG,"least squares of S_2n^lp/u^2n - 2^n K_2n(0) = beta (r/r_s)^(2/3) over 0.05-0.5 Mpc/h, z = 0",median ratio 8.73; the published Fig. 11 curve used 8.84 (open issue O2)
+beta_4^*,"Eqs. (22), (29)",300.0,286.139,0.15,True,pass,"least squares of S_2n^lp/u^2n - 2^n K_2n(0) = beta (r/r_s)^(2/3) over 0.05-0.5 Mpc/h, z = 0",median ratio 305.3
+beta_6^*,"Eqs. (22), (29)",22500.0,20450.7,0.15,True,pass,"least squares of S_2n^lp/u^2n - 2^n K_2n(0) = beta (r/r_s)^(2/3) over 0.05-0.5 Mpc/h, z = 0",median ratio 2.17e+04
+beta_8^*,"Eqs. (22), (29)",2750000.0,2425190.0,0.15,True,pass,"least squares of S_2n^lp/u^2n - 2^n K_2n(0) = beta (r/r_s)^(2/3) over 0.05-0.5 Mpc/h, z = 0",median ratio 2.558e+06
+"n (L_2 model, Eq. 25)",Sec. 3.6,0.25,,,,cited,P20 Eq. 138,validated in P20
+r_1 a^3 [Mpc/h] (L_2 model),Sec. 3.6,19.4,,,,cited,P20 Eq. 138,validated in P20
+"nu [Mpc km/s] (effective viscosity, Eq. 27)",Sec. 3.6,-6000,-6050.62,0.15,True,pass,"least squares of Eq. (27) to <u_L^2> over 10-30 Mpc/h, z = 0; (Mpc/h) km/s converted with h = 0.5","nu = -3025 (Mpc/h) km/s; P19 quotes -6.1e3 (Mpc/h) km/s from a3 (cross-paper factor 2, open issue O10)"
+r2 [Mpc/h] (Sec. 4.5),Sec. 3.6,23,23.1321,0.5,False,pass,least-squares r2,
+a0 (z = 0),"Secs 3.6, 5.3",0.45,0.450684,0.005,False,pass,least squares,
+"2^n K_2n(Delta u_L, 0), n = 1",Fig. 12 caption,2,2.0,0.05,True,pass,2^n x K_2n(Delta u_L) median over 0.005-0.02 Mpc/h,
+"2^n K_2n(Delta u_L, 0), n = 2",Fig. 12 caption,30,29.6261,0.05,True,pass,2^n x K_2n(Delta u_L) median over 0.005-0.02 Mpc/h,
+"2^n K_2n(Delta u_L, 0), n = 3",Fig. 12 caption,1280,1259.18,0.05,True,pass,2^n x K_2n(Delta u_L) median over 0.005-0.02 Mpc/h,
+K_3(Delta u_L) around r_t: -0.1 to -1 (minimum),"Sec. 3.7, Table 2",-1.0,-1.09136,0.3,False,pass,"minimum of K_3(Delta u_L, r) over 0.1-5 Mpc/h, z = 0","K_3 = 0.03 at r = 1 Mpc/h; K_3 at r = 0.005-0.02: -0.039, at 80-119.7: 0.016"
+"K_3 = -0.4 (incompressible turbulence, dissipation range)",Table 2,-0.4,,,,cited,literature value,
+"K_4(Delta u_L) ~ 4 (incompressible turbulence, r -> 0)",Table 2,4,,,,cited,literature value,
+<u_L^2>/u0^2 at r = 0.1 Mpc/h,Sec. 4.1,2.5,2.51015,0.05,False,pass,"pair statistics, z = 0",
+"v0^2/u0^2 (alpha = 1.33, <u_L^2> = 2.5 u0^2)",Sec. 4.1,0.84,0.833738,0.02,True,pass,Eq. (33),text: approximately 0.84
+alpha ~ 1.33 (shape parameter of the X distribution for u_L at r -> 0),"Sec. 4.1, Table 3",1.33,1.12018,0.3,True,pass,alpha matching K_4(u_L) of the r = 0.1 Mpc/h pair sample,K_4 = 4.753 -> alpha = 1.12; K_4 = 4.8 (Table 3) -> 1.06; K_4 = 4.93 (0.005-0.02 Mpc/h) -> 0.92; X(1.33) has K_4 = 4.59
+<Sigma u_L^2>/<u_L^2> ~ 3 (r -> 0),Sec. 4.1,3.0,2.77263,0.1,True,pass,ratio of medians over 0.005-0.02 Mpc/h,
+beta_p,Sec. 4.2,1.5426,1.54259,5e-05,False,pass,"Eq. (44) with p = 0.36, q = 0.556, eta0 = 0.76",
+p (pair-count exponent),Sec. 4.2,0.36,0.370821,0.05,False,pass,"least squares of Eq. (47) to the N-body K_4, K_6, K_8 (r -> 0)",from K_4 alone: 0.403
+alpha_p = 1 + 2p/3,Sec. 4.2,1.24,1.24721,0.03,False,pass,from the fitted p,
+N_pair/N (r -> 0),Eq. (48),0.26,0.256472,0.005,False,pass,"mu_p mu_v^(alpha_p - 1)/beta_p with the quoted mu_p, mu_v",
+"mu_p ~ 0.21, mu_v ~ 14",Sec. 4.2,0.21,,,,not recomputed,halo pair counts at r = 0.1 Mpc/h,needs halo membership of every pair; the halo catalogue of the pairs is not in the folder
+"eta0 = 0.76, q = 0.556 (double-lambda mass function)",Sec. 4.2,0.76,,,,cited,Xu (2023) halo mass functions,
+"Table 3 N-body K_4, r -> 0, u_L / Sigma u_L",Table 3,4.8,4.92747,0.05,True,pass,"median of K_n over 0.005-0.02 Mpc/h, z = 0",Sigma u_L: 4.679
+"Table 3 N-body K_6, r -> 0, u_L / Sigma u_L",Table 3,57,58.7803,0.05,True,pass,"median of K_n over 0.005-0.02 Mpc/h, z = 0",Sigma u_L: 55.58
+"Table 3 N-body K_8, r -> 0, u_L / Sigma u_L",Table 3,1200,1183.43,0.05,True,pass,"median of K_n over 0.005-0.02 Mpc/h, z = 0",Sigma u_L: 1199
+"Table 3 N-body K_4, r -> 0, Delta u_L",Table 3,7.5,7.40651,0.05,True,pass,"median of K_n over 0.005-0.02 Mpc/h, z = 0",
+"Table 3 N-body K_6, r -> 0, Delta u_L",Table 3,160,157.398,0.05,True,pass,"median of K_n over 0.005-0.02 Mpc/h, z = 0",
+"Table 3 N-body K_8, r -> 0, Delta u_L",Table 3,6000,6132.06,0.05,True,pass,"median of K_n over 0.005-0.02 Mpc/h, z = 0",
+"Table 3 N-body K_4, r -> infinity, Delta u_L / Sigma u_L",Table 3,4.181,4.16435,0.02,True,pass,"median over 80-119.7 Mpc/h, z = 0","Sigma u_L: 4.23; 50-80 Mpc/h: Delta 4.069, Sigma 4.329 (open issue O6)"
+"Table 3 N-body K_6, r -> infinity, Delta u_L / Sigma u_L",Table 3,41.46,40.9893,0.02,True,pass,"median over 80-119.7 Mpc/h, z = 0","Sigma u_L: 42.79; 50-80 Mpc/h: Delta 38.48, Sigma 45.11 (open issue O6)"
+"Table 3 N-body K_8, r -> infinity, Delta u_L / Sigma u_L",Table 3,670.8,754.414,0.02,True,FLAG,"median over 80-119.7 Mpc/h, z = 0","Sigma u_L: 820.6; 50-80 Mpc/h: Delta 681.3, Sigma 881.5 (open issue O6)"
+"Table 3 N-body K_4, r -> infinity, u_L",Table 3,5.39,5.39803,0.02,True,pass,"median over 80-119.7 Mpc/h, z = 0",
+"Table 3 N-body K_6, r -> infinity, u_L",Table 3,85.78,86.3656,0.02,True,pass,"median over 80-119.7 Mpc/h, z = 0",
+"Table 3 N-body K_8, r -> infinity, u_L",Table 3,2800,2818.87,0.02,True,pass,"median over 80-119.7 Mpc/h, z = 0",
+"Table 3 X distribution alpha = 1.33, K_4",Table 3,4.6,4.59215,0.05,False,pass,Eq. (54),
+"Table 3 X distribution alpha = 1.33, K_6",Table 3,48.9,48.8948,0.05,False,pass,Eq. (54),
+"Table 3 X distribution alpha = 1.33, K_8",Table 3,944.8,944.766,0.05,False,pass,Eq. (54),
+"Table 3 X distribution alpha = 2.1, K_4",Table 3,4.18,4.17598,0.005,False,pass,Eq. (54),
+"Table 3 X distribution alpha = 2.1, K_6",Table 3,38.4,38.408,0.05,False,pass,Eq. (54),
+"Table 3 X distribution alpha = 2.1, K_8",Table 3,624,623.997,0.5,False,pass,Eq. (54),
+"Table 3 model Eq. (47), K_4",Table 3,7.7,7.70219,0.05,False,pass,"p = 0.36, q = 0.556",
+"Table 3 model Eq. (47), K_6",Table 3,159.24,159.235,0.005,False,pass,"p = 0.36, q = 0.556",
+"Table 3 model Eq. (47), K_8",Table 3,6356,6355.92,0.5,False,pass,"p = 0.36, q = 0.556",
+Table 3 logistic K_4,Table 3,4.2,4.2,0.05,False,pass,quadrature,
+Table 3 logistic K_6,Table 3,39.857142857142854,39.8571,0.001,False,pass,quadrature,
+Table 3 logistic K_8,Table 3,686,685.8,0.5,False,pass,quadrature,
+"Table 3 P_uL Option 1 (logistic Delta u_L), K_4",Table 3,5.4,5.4,0.005,False,pass,"cumulants of u_L = half the cumulants of Delta u_L (independent u_L, u_L')",
+"Table 3 P_uL Option 1 (logistic Delta u_L), K_6",Table 3,78.4,78.4286,0.05,False,pass,"cumulants of u_L = half the cumulants of Delta u_L (independent u_L, u_L')",
+"Table 3 P_uL Option 1 (logistic Delta u_L), K_8",Table 3,2270,2269.8,0.5,False,pass,"cumulants of u_L = half the cumulants of Delta u_L (independent u_L, u_L')",
+"Table 3 P_uL Option 2 (X(2.1) Delta u_L), K_4",Table 3,5.35,5.35195,0.005,False,pass,"cumulants of u_L = half the cumulants of Delta u_L (independent u_L, u_L')",
+"Table 3 P_uL Option 2 (X(2.1) Delta u_L), K_6",Table 3,73.4,73.3529,0.05,False,pass,"cumulants of u_L = half the cumulants of Delta u_L (independent u_L, u_L')",
+"Table 3 P_uL Option 2 (X(2.1) Delta u_L), K_8",Table 3,1936,1935.57,0.5,False,pass,"cumulants of u_L = half the cumulants of Delta u_L (independent u_L, u_L')",
+Table 3 Laplace K_4,Table 3,6,6.0,0.5,False,pass,n!/2^(n/2),
+Table 3 Laplace K_6,Table 3,90,90.0,0.5,False,pass,n!/2^(n/2),
+Table 3 Laplace K_8,Table 3,2520,2520.0,0.5,False,pass,n!/2^(n/2),
+"bimodal fit c1 (Eq. 57, minus signs restored)",Sec. 5.1,0.404,0.404461,0.005,False,pass,least squares to the z = 0 eta PDF (fits.py),
+"bimodal fit mu1 (Eq. 57, minus signs restored)",Sec. 5.1,-0.3,-0.273478,0.05,False,pass,least squares to the z = 0 eta PDF (fits.py),
+"bimodal fit sigma1 (Eq. 57, minus signs restored)",Sec. 5.1,1.212,1.21248,0.005,False,pass,least squares to the z = 0 eta PDF (fits.py),
+"bimodal fit mu2 (Eq. 57, minus signs restored)",Sec. 5.1,4.256,4.28143,0.05,False,pass,least squares to the z = 0 eta PDF (fits.py),
+"bimodal fit sigma2 (Eq. 57, minus signs restored)",Sec. 5.1,2.979,2.97827,0.005,False,pass,least squares to the z = 0 eta PDF (fits.py),
+fraction of particles in haloes (~60 per cent),"Sec. 5.1, Fig. 25",0.6,0.613361,0.05,True,pass,"halo flag of the author's halo files, z = 0",1 - c1 = 0.596
+"<eta> of halo particles ~ 5.17 (= ln 18 pi^2, ""matches mu_2"")",Sec. 5.1,5.17,4.18706,0.05,True,FLAG,"mean of eta over halo particles, z = 0",ln(18 pi^2) = 5.180; mu_2 = 4.256 (refit 4.281); erratum E7
+peak of the halo-particle eta distribution ~ 5 (Delta_c = 18 pi^2),"Sec. 5.1, Figs 24-25",5.0,4.61025,0.1,True,pass,"mode of the halo eta histogram (0.2 running mean), z = 0",
+tail of the delta PDF ~ delta^-3,"Sec. 5.1, Fig. 23a",-3.0,-2.90565,0.25,False,pass,"log-log slope of p(delta), 3e4 < delta < 1e6, z = 0","slope over 1e3-1e5: -1.77, 100-1e4: -1.24: the -3 tail is reached only for delta > 3e4"
+delta PDF ~ delta^-1 for small delta,Sec. 5.1,-1.0,-1.01201,0.25,False,pass,"log-log slope of p(delta), 1 < delta < 100, z = 0",
+grid (CIC) density PDF ~ delta^-2,"Sec. 5.1, Fig. 23b",-2.0,-2.00649,0.25,False,pass,"slope for 10 < 1+delta < 100, 1024^3 grid (Delta x = 0.234 Mpc/h)",
+"K_4(eta), out-of-halo particles ~ 3 (z = 0)","Sec. 5.1, Fig. 26",3.0,3.07043,0.1,True,pass,central moments,
+"K_6(eta), out-of-halo particles ~ 15 (z = 0)","Sec. 5.1, Fig. 26",15.0,16.0394,0.1,True,pass,central moments,
+"K_4(eta), halo particles -> 2","Sec. 5.1, Fig. 26",2.0,2.19234,0.1,True,pass,"central moments, z = 0",
+"K_6(eta), halo particles -> 7","Sec. 5.1, Fig. 26",7.0,6.7179,0.1,True,pass,"central moments, z = 0",
+<eta> of out-of-halo particles < 0 after z = 1,"Sec. 5.1, Fig. 27",1.0,1.06043,0.1,False,pass,sign change of the out-of-halo mean eta (linear interpolation z = 1 ... 1.5),"<eta>_out = -0.0081 (z = 1), 0.0586 (z = 1.5)"
+<eta> of halo particles ~ a^(1/2) (exponent),"Sec. 5.1, Fig. 27",0.5,0.574293,0.25,False,pass,"log-log slope, a >= 0.25",a >= 0.5: 0.51
+std(eta) of halo particles ~ a^(1/2) (exponent),"Sec. 5.1, Fig. 27",0.5,0.55343,0.25,False,pass,"log-log slope, a >= 0.25",a >= 0.5: 0.35
+std(eta) of out-of-halo particles ~ a^(1/2) (exponent),"Sec. 5.1, Fig. 27",0.5,0.557732,0.25,False,pass,"log-log slope, a >= 0.25",a >= 0.5: 0.53
+l_delta1 ~ a^(5/4) (exponent),"Sec. 5.2.2, Fig. 28",1.25,1.13643,0.25,False,pass,"log-log slope, a >= 0.5",a >= 0.25: 1.19
+l_delta0 ~ a^(5/2) (exponent),"Sec. 5.2.2, Fig. 28",2.5,2.69105,0.25,False,pass,"log-log slope, a >= 0.5",
+P_y ~ a^(3/2) (exponent),"Sec. 5.2.2, Fig. 28",1.5,1.25679,0.25,False,pass,"log-log slope of -P_y from the particle potentials, a >= 0.5",Eq. (66): 1.27; marginal (open issue O3: K proportional to t requires 3/2)
+"xi ~ a^2 on large scales (exponent, r = 10 Mpc/h)","Sec. 5.2.3, Fig. 30",2.0,1.86873,0.25,False,pass,"log-log slope, a >= 0.5",r = 3: 1.80; r = 5: 1.85
+"xi ~ a^(5/2) on small scales (exponent, r = 0.1 Mpc/h)","Sec. 5.2.3, Fig. 30",2.5,2.5002,0.25,False,pass,"log-log slope, a >= 0.5",r = 0.3: 2.75; r = 0.5: 3.03
+xi < 0 for r > 33 Mpc/h (z = 0),"Sec. 5.2.3, Figs 29, 34",33,31.648,0.05,True,pass,"first zero of xi(r), z = 0","z = 0: 31.6, 0.1: 31.2, 0.3: 31.5, 0.5: 31.1, 1: 30.4, 1.5: 28.2, 2: 25.5, 3: 21.9, 5: 17.5, 10: 10.0 (fixed scale only for z <= 1; open issue O8)"
+0.5 (7 - sqrt 17) r2 ~ 33 Mpc/h,Sec. 5.3,33,33.2857,0.5,False,pass,Eq. (86) with r2 = 23.14,
+r2 [Mpc/h] (Sec. 6.5),Sec. 5.3,23.14,23.1321,0.01,False,pass,least-squares r2 (20-90 Mpc/h),
+l_delta1^2(a = 1) from Eq. (72) [(Mpc/h)^2],Sec. 5.2.2,35.209517629902116,36.618,0.1,True,pass,Eq. (72) vs measured l_delta1^2,Eq. (72) value (quoted column) vs the data

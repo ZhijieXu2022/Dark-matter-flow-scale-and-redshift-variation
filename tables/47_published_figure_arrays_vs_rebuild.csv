@@ -1,0 +1,505 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,
+# Updated,10/2026,,,,,,,,
+#Name,Every series of the published figures (.fig arrays) vs the rebuilt series,,,,,,,,
+#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+figure,fig_file,pub_series,pub_label,variant,built_label,unit,median_diff,max_dev_over_max,n_points
+01,Fig21_4_power_spectrum,0,P_\delta(k) from N-body simulation,published_rule,N-body,rel,4.764e-16,4.204e-16,10000
+01,Fig21_4_power_spectrum,1,P_\delta(k) from nonlinear theory,published_rule,nonlinear theory,rel,1.421e-08,1.078e-03,76002
+01,Fig21_4_power_spectrum,2,P_\delta(k) from linear theory,published_rule,linear theory,rel,3.857e-11,7.357e-12,76001
+03,Fig17,0,-<\Deltau_L/(Hr)>,published_rule,-<Delta u_L>/(Har),rel,9.132e-06,9.132e-06,119752
+03,Fig17,1,Linear regime,published_rule,"linear regime, Eq. 4",rel,3.865e-04,6.143e-05,119751
+03,Fig17,2,Nonlinear regime,published_rule,"nonlinear regime, Eq. 5 (alpha = 5/2)",rel,2.696e-05,4.031e-04,119751
+04,Fig14,0,K_4(u_p) for all particles ,published_rule,K_4(u_p),rel,1.910e-05,4.521e-05,10
+04,Fig14,1,K_6(u_p) for all particles,published_rule,K_6(u_p),rel,2.552e-05,1.755e-04,10
+04,Fig14,2,K_8(u_p) for all particles,published_rule,K_8(u_p),rel,4.345e-05,3.752e-04,10
+04,Fig14,3,K_4(u_{hp}) for halo particles,published_rule,K_4(u_hp),rel,1.131e-06,6.867e-06,9
+04,Fig14,4,K_6(u_{hp}) for halo particles,published_rule,K_6(u_hp),rel,2.114e-06,5.348e-06,9
+04,Fig14,5,K_8(u_{hp}) for halo particles,published_rule,K_8(u_hp),rel,1.310e-05,1.647e-05,9
+04,Fig14,6,K_4(u_{op}) for  out-of-halo particles,published_rule,K_4(u_op),rel,3.435e-06,8.128e-06,9
+04,Fig14,7,K_6(u_{op}) for  out-of-halo particles,published_rule,K_6(u_op),rel,7.380e-06,1.166e-05,9
+04,Fig14,8,K_8(u_{op}) for  out-of-halo particles,published_rule,K_8(u_op),rel,7.551e-06,7.837e-06,9
+05,Fig15,0,"K_4(u_L,r)",published_rule,"K_4(u_L,r)",rel,1.640e-16,8.036e-16,119752
+05,Fig15,1,"K_4(\Deltau_L,r)",published_rule,"K_4(Delta u_L,r)",rel,1.716e-04,2.986e-03,119751
+05,Fig15,2,"K_4(\Sigmau_L,r)",published_rule,"K_4(Sigma u_L,r)",rel,0.000e+00,0.000e+00,119752
+05,Fig15,3,"K_6(u_L,r)",published_rule,"K_6(u_L,r)",rel,1.648e-16,1.091e-15,119752
+05,Fig15,4,"K_6(\Deltau_L,r)",published_rule,"K_6(Delta u_L,r)",rel,1.890e-08,3.485e-04,119751
+05,Fig15,5,"K_6(\Sigmau_L,r)",published_rule,"K_6(Sigma u_L,r)",rel,0.000e+00,1.746e-16,119752
+05,Fig15,6,"K_8(u_L,r)",published_rule,"K_8(u_L,r)",rel,2.884e-05,3.009e-03,119752
+05,Fig15,7,"K_8(\Deltau_L,r)",published_rule,"K_8(Delta u_L,r)",rel,5.572e-13,6.802e-06,119751
+05,Fig15,8,"K_8(\Sigmau_L,r)",published_rule,"K_8(Sigma u_L,r)",rel,0.000e+00,1.016e-16,119752
+06,Fig16,0,"K_3(\Deltau_L,r)",published_rule,"|K_3(Delta u_L,r)|",rel,4.995e-03,5.313e-03,119751
+06,Fig16,1,"K_5(\Deltau_L,r)",published_rule,"|K_5(Delta u_L,r)|",rel,8.775e-05,2.820e-03,119751
+07,Fig18,0,<u_L>=-<\Deltau_L>/2  at z=0,published_rule,<u_L> = -<Delta u_L>/2 at z=0,rel,0.000e+00,0.000e+00,119752
+07,Fig18,1,-<\Deltau_L> at z=0,published_rule,-<Delta u_L> at z=0,rel,0.000e+00,0.000e+00,119752
+07,Fig18,2,-<\Deltau_L> at z=0.3,published_rule,-<Delta u_L> at z=0.3,rel,0.000e+00,0.000e+00,119752
+07,Fig18,3,-<\Deltau_L> at z=1.0,published_rule,-<Delta u_L> at z=1,rel,0.000e+00,0.000e+00,119752
+07,Fig18,4,-<\Deltau_L> at z=2.0,published_rule,-<Delta u_L> at z=2,rel,0.000e+00,0.000e+00,119752
+07,Fig18,5,<\Deltau_L> from Eq. (14) at z=0,published_rule,"-<Delta u_L>, Eq. 14, z=0",rel,2.852e-03,3.555e-03,11900
+07,Fig18,6,<\Deltau_L> from Eq. (14) at z=2,published_rule,"-<Delta u_L>, Eq. 14, z=2",rel,1.550e-03,3.557e-03,11900
+07,Fig18,7,<\Deltau_L> from Eq. (12) at z=0,published_rule,"-<Delta u_L>, Eq. 12, z=0",rel,5.500e-06,3.215e-06,100
+07,Fig18,8,<\Deltau_L> from Eq. (12) at z=2,published_rule,"-<Delta u_L>, Eq. 12, z=2",rel,7.324e-02,8.178e-02,100
+08,Fig19,0,<u_L^2>,published_rule,<u_L^2>,rel,0.000e+00,0.000e+00,119752
+08,Fig19,1,S_2^{lp}(r)=<\Deltau_L^2>,published_rule,S_2^lp = <Delta u_L^2>,rel,0.000e+00,0.000e+00,119752
+08,Fig19,2,<\Sigmau_L^2>,published_rule,<Sigma u_L^2>,rel,0.000e+00,0.000e+00,119752
+08,Fig19,3,"S_2^{cp}(u_L,r)",published_rule,S_2^cp(u_L),rel,0.000e+00,1.375e-16,119752
+08,Fig19,4,"S_2^{cp}(\Deltau_L,r)",published_rule,S_2^cp(Delta u_L),rel,0.000e+00,1.686e-16,119752
+08,Fig19,5,<u_L^2> from Eq. (26),published_rule,"<u_L^2>, Eq. 26",rel,0.000e+00,3.535e-16,1000
+08,Fig19,6,<u_L^2> from Eq. (27),published_rule,"<u_L^2>, Eq. 27",rel,3.335e-16,2.204e-14,119001
+09,Fig20,0,<u^2>,published_rule,<u^2>,rel,7.434e-16,4.085e-15,119751
+09,Fig20,1,<u_L^2>,published_rule,<u_L^2>,rel,0.000e+00,0.000e+00,119751
+09,Fig20,2,<u^2>/<u_L^2>,published_rule,<u^2>/<u_L^2>,rel,7.531e-16,7.225e-15,119751
+09,Fig20,3,<u_T^2>/2,published_rule,<u_T^2>/2,rel,1.283e-15,6.475e-15,119751
+09,Fig20,4,<\Deltau_L^2>,published_rule,<Delta u_L^2>,rel,0.000e+00,0.000e+00,119752
+09,Fig20,5,<\Sigmau_L^2>,published_rule,<Sigma u_L^2>,rel,0.000e+00,0.000e+00,119752
+10,Fig21,0,z=0.0,published_rule,z=0,rel,0.000e+00,0.000e+00,119752
+10,Fig21,1,z=0.1,published_rule,z=0.1,rel,0.000e+00,0.000e+00,119752
+10,Fig21,2,z=0.3,published_rule,z=0.3,rel,0.000e+00,0.000e+00,119751
+10,Fig21,3,z=0.5,published_rule,z=0.5,rel,0.000e+00,0.000e+00,119752
+10,Fig21,4,z=1.0,published_rule,z=1,rel,0.000e+00,0.000e+00,119752
+10,Fig21,5,z=1.5,published_rule,z=1.5,rel,0.000e+00,0.000e+00,119752
+10,Fig21,6,z=2.0,published_rule,z=2,rel,0.000e+00,0.000e+00,119752
+10,Fig21,7,z=3.0,published_rule,z=3,rel,0.000e+00,0.000e+00,119751
+10,Fig21,8,z=5.0,published_rule,z=5,rel,0.000e+00,0.000e+00,119750
+10,Fig21,9,z=10.0,published_rule,z=10,rel,0.000e+00,0.000e+00,119486
+10,Fig21,10,z=10.0 S_2^l(r),published_rule,"S_2^l(r), z=10 (Eq. 21)",rel,0.000e+00,0.000e+00,119253
+11,Fig22,0,z=0.0,published_rule,z=0,rel,0.000e+00,0.000e+00,119752
+11,Fig22,1,z=0.1,published_rule,z=0.1,rel,0.000e+00,0.000e+00,119752
+11,Fig22,2,z=0.3,published_rule,z=0.3,rel,0.000e+00,0.000e+00,119751
+11,Fig22,3,z=0.5,published_rule,z=0.5,rel,0.000e+00,0.000e+00,119752
+11,Fig22,4,z=1.0,published_rule,z=1,rel,0.000e+00,0.000e+00,119752
+11,Fig22,5,z=1.5,published_rule,z=1.5,rel,0.000e+00,0.000e+00,119752
+11,Fig22,6,z=2.0,published_rule,z=2,rel,0.000e+00,0.000e+00,119752
+11,Fig22,7,z=3.0,published_rule,z=3,rel,0.000e+00,0.000e+00,119751
+11,Fig22,8,z=5.0,published_rule,z=5,rel,0.000e+00,0.000e+00,119750
+11,Fig22,9,z=10.0,published_rule,z=10,rel,0.000e+00,0.000e+00,119486
+11,Fig22,10,From Eq. (22),published_rule,Eq. 22 (beta_2^* = 8.84),rel,0.000e+00,3.434e-16,2000
+12,Fig23,0,S_2^{lp}(r)/u^2-2,published_rule,S_2^lp/u^2 - 2,rel,0.000e+00,0.000e+00,119752
+12,Fig23,1,S_4^{lp}(r)/u^4-30,published_rule,S_4^lp/u^4 - 30,rel,2.497e-04,1.216e-03,119751
+12,Fig23,2,S_6^{lp}(r)/u^6-1280,published_rule,S_6^lp/u^6 - 1280,rel,0.000e+00,0.000e+00,119752
+12,Fig23,3,S_8^{lp}(r)/u^8-96000,published_rule,S_8^lp/u^8 - 96000,rel,0.000e+00,0.000e+00,119752
+12,Fig23,4,S_3^{lp}(r)/u^3,published_rule,|S_3^lp/u^3|,rel,2.479e-03,1.519e-03,119751
+12,Fig23,5,S_5^{lp}(r)/u^5,published_rule,|S_5^lp/u^5|,rel,0.000e+00,0.000e+00,119752
+12,Fig23,6,S_7^{lp}(r)/u^7,published_rule,|S_7^lp/u^7|,rel,0.000e+00,0.000e+00,119752
+12,Fig23,7,\beta_2^*=9.5,published_rule,beta_2^* = 9.5,rel,3.038e-07,3.999e-07,2000
+12,Fig23,8,\beta_4^*=300,published_rule,beta_4^* = 300,rel,3.038e-07,3.999e-07,2000
+12,Fig23,9,\beta_6^*=2.25e4,published_rule,beta_6^* = 2.25e4,rel,3.038e-07,3.999e-07,2000
+12,Fig23,10,\beta_8^*=2.75e6,published_rule,beta_8^* = 2.75e6,rel,3.038e-07,3.999e-07,2000
+13,Fig24,0,S_3^{lp}/(S_2^{lp}S_1^{lp}),published_rule,S_3/(S_2 S_1),rel,2.479e-03,4.925e-02,119751
+13,Fig24,1,S_5^{lp}/(S_4^{lp}S_1^{lp}),published_rule,S_5/(S_4 S_1),rel,1.716e-04,9.010e-05,119751
+13,Fig24,2,S_7^{lp}/(S_6^{lp}S_1^{lp}),published_rule,S_7/(S_6 S_1),rel,0.000e+00,1.991e-16,119752
+14,Fig25,0,u_L (longitudinal),published_rule,u_L,dex,2.440e-02,1.219e+00,741
+14,Fig25,1,\Deltau_L=u_L^{'}-u_L,published_rule,Delta u_L,dex,4.274e-02,1.281e+00,1023
+14,Fig25,2,\Sigmau_L=u_L^{'}+u_L,published_rule,Sigma u_L,dex,3.075e-02,9.801e-01,791
+14,Fig25,3,X distribution,published_rule,"X distribution (alpha = 1.33, v0^2 = 0.84)",dex,7.005e-03,1.601e-02,2001
+16,Fig26,0,u_L,published_rule,u_L,dex,2.294e-01,1.425e+00,1164
+16,Fig26,1,\Deltau_L,published_rule,Delta u_L,dex,2.800e-02,1.353e+00,1116
+16,Fig26,2,\Sigmau_L,published_rule,Sigma u_L,dex,1.824e-02,1.206e+00,1215
+17,FIg27,0,"K_4(\Deltau_L,r) at z=0",published_rule,"K_4(Delta u_L,r) at z=0",rel,1.716e-04,2.986e-03,119751
+17,FIg27,1,"K_6(\Deltau_L,r) at z=0 ",published_rule,"K_6(Delta u_L,r) at z=0",rel,1.890e-08,3.485e-04,119751
+17,FIg27,2,"K_4(\Deltau_L,r) at z=0.3",published_rule,"K_4(Delta u_L,r) at z=0.3",rel,1.067e-04,2.059e-03,119751
+17,FIg27,3,"K_6(\Deltau_L,r) at z=0.3",published_rule,"K_6(Delta u_L,r) at z=0.3",rel,1.398e-04,2.718e-03,119751
+17,FIg27,4,"K_4(\Deltau_L,r) at z=1",published_rule,"K_4(Delta u_L,r) at z=1",rel,3.189e-16,8.117e-16,119751
+17,FIg27,5,"K_6(\Deltau_L,r) at z=1",published_rule,"K_6(Delta u_L,r) at z=1",rel,5.042e-16,8.335e-16,119751
+17,FIg27,6,"K_4(\Deltau_L,r) at z=2",published_rule,"K_4(Delta u_L,r) at z=2",rel,2.704e-16,1.616e-15,119752
+17,FIg27,7,"K_6(\Deltau_L,r) at z=2",published_rule,"K_6(Delta u_L,r) at z=2",rel,4.984e-16,1.575e-15,119752
+17,FIg27,8,"K_8(\Deltau_L,r) at z=0",published_rule,"K_8(Delta u_L,r) at z=0",rel,5.572e-13,6.802e-06,119751
+17,FIg27,9,"K_8(\Deltau_L,r) at z=0.3",published_rule,"K_8(Delta u_L,r) at z=0.3",rel,1.875e-04,3.785e-03,119751
+17,FIg27,10,"K_8(\Deltau_L,r) at z=1",published_rule,"K_8(Delta u_L,r) at z=1",rel,6.988e-16,1.325e-15,119751
+17,FIg27,11,"K_8(\Deltau_L,r) at z=2",published_rule,"K_8(Delta u_L,r) at z=2",rel,6.765e-16,1.486e-15,119752
+18,Fig28,0,"K_3(\Deltau_L,r) at z=0",published_rule,"K_3(Delta u_L,r) at z=0",rel,4.995e-03,5.313e-03,119751
+18,Fig28,1,"K_3(\Deltau_L,r) at z=0.3",published_rule,"K_3(Delta u_L,r) at z=0.3",rel,5.050e-03,3.057e-03,119751
+18,Fig28,2,"K_3(\Deltau_L,r) at z=1",published_rule,"K_3(Delta u_L,r) at z=1",rel,6.246e-16,1.712e-15,119751
+18,Fig28,3,"K_3(\Deltau_L,r) at z=2",published_rule,"K_3(Delta u_L,r) at z=2",rel,5.100e-16,1.763e-15,119752
+19,Fig29(ab),0,Logistic,published_rule,logistic,dex,1.015e-13,2.860e-13,2401
+19,Fig29(ab),1,P_{uL},published_rule,P_uL (option 1),dex,7.319e-04,2.878e-02,101
+19,Fig29(ab),2,u_L,published_rule,u_L,dex,7.572e-02,2.000e+00,3575
+19,Fig29(ab),3,\Deltau_L,published_rule,Delta u_L,dex,6.806e-02,2.000e+00,2050
+19,Fig29(ab),4,\Sigmau_L,published_rule,Sigma u_L,dex,5.833e-02,1.523e+00,2023
+19,Fig29(ab),5,Laplace or,published_rule,Laplace,dex,1.964e-13,3.944e-13,3001
+19,Fig29(ab),6,Exponential  Approximation from Eq. (49),published_rule,"exponential tail, Eq. 49",dex,1.781e-13,3.570e-13,3001
+20,Fig29(ab),0,Logistic,published_rule,logistic,dex,1.015e-13,2.860e-13,2401
+20,Fig29(ab),1,P_{uL},published_rule,P_uL (option 1),dex,7.319e-04,2.878e-02,101
+20,Fig29(ab),2,u_L,published_rule,u_L,dex,7.572e-02,2.000e+00,3575
+20,Fig29(ab),3,\Deltau_L,published_rule,Delta u_L,dex,6.806e-02,2.000e+00,2050
+20,Fig29(ab),4,\Sigmau_L,published_rule,Sigma u_L,dex,5.833e-02,1.523e+00,2023
+20,Fig29(ab),5,Laplace or,published_rule,Laplace,dex,1.964e-13,3.944e-13,3001
+20,Fig29(ab),6,Exponential  Approximation from Eq. (49),published_rule,"exponential tail, Eq. 49",dex,1.781e-13,3.570e-13,3001
+21,Fig30,0,K_6 from X distribution,published_rule,K_6 from X distribution,rel,4.657e-11,4.115e-08,49998
+21,Fig30,1,K_8 from X distribution,published_rule,K_8 from X distribution,rel,2.331e-10,1.141e-07,49998
+21,Fig30,2,K_{10} from X distribution,published_rule,K_10 from X distribution,rel,8.516e-09,4.457e-03,14676
+21,Fig30,3,"K_6(u_{hp}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_6(u_hp),rel,2.114e-06,5.348e-06,9
+21,Fig30,4,"K_8(u_{hp}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_8(u_hp),rel,1.310e-05,1.647e-05,9
+21,Fig30,5,"K_{10}(u_{hp}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_10(u_hp),rel,3.654e-05,3.832e-05,9
+21,Fig30,6,"K_6(u_{p}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_6(u_p),rel,3.552e-05,9.425e-03,10
+21,Fig30,7,"K_8(u_{p}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_8(u_p),rel,6.900e-05,4.756e-03,10
+21,Fig30,8,"K_{10}(u_{p}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_10(u_p),rel,8.511e-06,1.786e-03,10
+21,Fig30,9,"K_6(u_{op}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_6(u_op),rel,7.380e-06,1.166e-05,9
+21,Fig30,10,"K_8(u_{op}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_8(u_op),rel,7.551e-06,7.837e-06,9
+21,Fig30,11,"K_{10}(u_{op}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_10(u_op),rel,1.735e-05,5.246e-05,9
+21,Fig30,12,"K_6(u_{h}) for z=3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_6(u_h),rel,4.790e-05,1.475e-04,8
+21,Fig30,13,"K_8(u_{h}) for z=3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_8(u_h),rel,5.982e-05,1.533e-04,8
+21,Fig30,14,"K_{10}(u_{h}) for z=3,2,1.5,1.0,0.5,0.3,0.1,0",published_rule,K_10(u_h),rel,1.017e-04,1.865e-04,8
+21,Fig30,15,"K_6(\Sigmau_L,r=\infty) for z=2,1,0.3,0",published_rule,"K_6(Sigma u_L, r = inf)",rel,5.403e-02,4.695e-02,4
+21,Fig30,16,"K_8(\Sigmau_L,r=\infty) for z=2,1,0.3,0",published_rule,"K_8(Sigma u_L, r = inf)",rel,9.948e-02,7.781e-02,4
+21,Fig30,17,"K_6(\Deltau_L,r=\infty) for z=2,1,0.3,0",published_rule,"K_6(Delta u_L, r = inf)",rel,6.226e-02,6.232e-02,4
+21,Fig30,18,"K_8(\Deltau_L,r=\infty) for z=2,1,0.3,0",published_rule,"K_8(Delta u_L, r = inf)",rel,1.153e-01,1.235e-01,4
+21,Fig30,19,"K_6(u_L,r=\infty) for z=2,1,0.3,0",published_rule,"K_6(u_L, r = inf)",rel,3.513e-03,1.048e-02,4
+21,Fig30,20,"K_8(u_L,r=\infty) for z=2,1,0.3,0",published_rule,"K_8(u_L, r = inf)",rel,6.201e-01,7.247e-01,4
+21,Fig30,21,"K_6(u_L,r=0) for z=0",published_rule,"K_6(u_L, r = 0)",rel,3.123e-02,3.123e-02,1
+21,Fig30,22,"K_8(u_L,r=0) for z=0",published_rule,"K_8(u_L, r = 0)",rel,1.381e-02,1.381e-02,1
+21,Fig30,23,"K_6(\Deltau_L,r=0) for z=0",published_rule,"K_6(Delta u_L, r = 0)",rel,1.626e-02,1.626e-02,1
+21,Fig30,24,"K_8(\Deltau_L,r=0) for z=0",published_rule,"K_8(Delta u_L, r = 0)",rel,2.201e-02,2.201e-02,1
+23a,Fig1a,0,z=10,published_rule,z=10,rel,3.786e-14,3.595e-14,1310
+23a,Fig1a,1,z=5,published_rule,z=5,rel,1.421e-14,5.139e-16,758
+23a,Fig1a,2,z=3,published_rule,z=3,rel,0.000e+00,0.000e+00,3452
+23a,Fig1a,3,z=2,published_rule,z=2,rel,0.000e+00,0.000e+00,3844
+23a,Fig1a,4,z=1.5,published_rule,z=1.5,rel,0.000e+00,0.000e+00,4338
+23a,Fig1a,5,z=1,published_rule,z=1,rel,0.000e+00,0.000e+00,4351
+23a,Fig1a,6,z=0.5,published_rule,z=0.5,rel,0.000e+00,0.000e+00,3821
+23a,Fig1a,7,z=0.3,published_rule,z=0.3,rel,0.000e+00,0.000e+00,3600
+23a,Fig1a,8,z=0.1,published_rule,z=0.1,rel,0.000e+00,0.000e+00,3140
+23a,Fig1a,9,z=0,published_rule,z=0,rel,0.000e+00,0.000e+00,3821
+23b,Fig1b,0,\Deltax=15Mpc/h,published_rule,Delta x = 15 Mpc/h,rel,9.474e-16,1.743e-15,46
+23b,Fig1b,1,\Deltax=7.5Mpc/h,published_rule,Delta x = 7.48 Mpc/h,rel,3.553e-15,1.313e-15,121
+23b,Fig1b,2,\Deltax=3.75Mpc/h,published_rule,Delta x = 3.74 Mpc/h,rel,1.421e-14,9.722e-16,370
+23b,Fig1b,3,\Deltax=1.87Mpc/h,published_rule,Delta x = 1.87 Mpc/h,rel,5.684e-14,5.720e-06,1302
+23b,Fig1b,4,\Deltax=0.94Mpc/h,published_rule,Delta x = 0.936 Mpc/h,rel,8.527e-14,1.122e-06,4359
+23b,Fig1b,5,\Deltax=0.47Mpc/h,published_rule,Delta x = 0.468 Mpc/h,rel,2.274e-13,1.367e-07,13269
+23b,Fig1b,6,\Deltax=0.23Mpc/h,published_rule,Delta x = 0.234 Mpc/h,rel,9.095e-13,4.164e-08,36872
+23b,Fig1b,7,Particle density,published_rule,particle density (Delaunay),rel,0.000e+00,1.036e-03,3821
+24,Fig2,0,z=10,published_rule,z=10,rel,3.616e-14,3.583e-14,844
+24,Fig2,1,z=5,published_rule,z=5,rel,2.133e-14,2.369e-14,1417
+24,Fig2,2,z=3,published_rule,z=3,rel,2.132e-14,2.111e-14,1149
+24,Fig2,3,z=2,published_rule,z=2,rel,2.131e-14,1.806e-14,660
+24,Fig2,4,z=1.5,published_rule,z=1.5,rel,2.132e-14,2.032e-14,709
+24,Fig2,5,z=1,published_rule,z=1,rel,2.123e-14,8.760e-15,501
+24,Fig2,6,z=0.5,published_rule,z=0.5,rel,2.125e-14,1.361e-14,554
+24,Fig2,7,z=0.3,published_rule,z=0.3,rel,2.128e-14,1.552e-14,569
+24,Fig2,8,z=0.1,published_rule,z=0.1,rel,1.418e-14,1.193e-14,360
+24,Fig2,9,z=0,published_rule,z=0,rel,1.418e-14,1.266e-14,366
+24,Fig2,10,Eq. (57) at z=0,published_rule,Eq. 57 at z=0,rel,6.716e-04,1.065e-03,2001
+25,Fig3,0,\eta(z=0) for halo particles,published_rule,eta(z=0) for halo particles,rel,3.581e-05,1.589e-04,350
+25,Fig3,1,\eta(z=0) for out-of-halo particles,published_rule,eta(z=0) for out-of-halo particles,rel,7.990e-05,3.003e-04,312
+25,Fig3,2,\eta(z=0.3) for halo particles,published_rule,eta(z=0.3) for halo particles,rel,1.414e-14,1.586e-05,332
+25,Fig3,3,\eta(z=0.3) for out-of-halo particles,published_rule,eta(z=0.3) for out-of-halo particles,rel,2.123e-14,1.675e-05,447
+25,Fig3,4,\eta(z=1) for halo particles,published_rule,eta(z=1) for halo particles,rel,1.414e-14,1.518e-05,289
+25,Fig3,5,\eta(z=1) for out-of-halo particles,published_rule,eta(z=1) for out-of-halo particles,rel,2.144e-14,1.149e-04,813
+25,Fig3,6,\eta(z=2) for halo particles,published_rule,eta(z=2) for halo particles,rel,1.779e-14,1.155e-04,256
+25,Fig3,7,\eta(z=2) for out-of-halo particles,published_rule,eta(z=2) for out-of-halo particles,rel,6.767e-14,1.416e-04,746
+26,Fig4,0,K_3(\eta) for particles in halos,published_rule,K_3(eta) for particles in halos,rel,1.634e-07,4.659e-05,9
+26,Fig4,1,K_4(\eta) for particles in halos,published_rule,K_4(eta) for particles in halos,rel,3.004e-08,4.229e-05,9
+26,Fig4,2,K_5(\eta) for particles in halos,published_rule,K_5(eta) for particles in halos,rel,1.773e-07,7.421e-05,9
+26,Fig4,3,K_6\eta) for particles in halos,published_rule,K_6(eta) for particles in halos,rel,1.024e-07,9.210e-05,9
+26,Fig4,4,K_3(\eta) for particles out-of-halo,published_rule,K_3(eta) for particles out-of-halo,rel,1.089e-06,1.506e-04,9
+26,Fig4,5,K_4(\eta) for particles out-of-halo,published_rule,K_4(eta) for particles out-of-halo,rel,4.615e-07,7.124e-05,9
+26,Fig4,6,K_5\eta) for particles out-of-halo,published_rule,K_5(eta) for particles out-of-halo,rel,1.300e-06,2.032e-04,9
+26,Fig4,7,K_6(\eta) for particles out-of-halo,published_rule,K_6(eta) for particles out-of-halo,rel,1.209e-06,2.169e-04,9
+27,Fig5,0,mean(\eta) for all particles,published_rule,mean(eta) for all particles,rel,2.872e-05,1.932e-05,10
+27,Fig5,1,std(\eta) for all particles,published_rule,std(eta) for all particles,rel,1.210e-05,1.437e-05,10
+27,Fig5,2,mean(\eta) for out-of-halo particles ,published_rule,mean(eta) for out-of-halo particles,rel,4.142e-06,8.742e-05,9
+27,Fig5,3,std(\eta) for out-of-halo particles,published_rule,std(eta) for out-of-halo particles,rel,3.981e-07,2.872e-05,9
+27,Fig5,4,mean(\eta) for halo particles,published_rule,mean(eta) for halo particles,rel,1.037e-07,1.737e-05,9
+27,Fig5,5,std(\eta) for halo particles,published_rule,std(eta) for halo particles,rel,4.111e-08,5.807e-06,9
+28,Fig10,0,P_y(a) from simulation,published_rule,-P_y(a) from simulation,rel,5.182e-07,9.338e-07,9
+28,Fig10,1,P_y(a) from Eq. (66),published_rule,-P_y(a) from Eq. 66,rel,2.909e-05,1.301e-05,9
+28,Fig10,2,l_{\delta0}(a) from Eq. (64),published_rule,l_d0(a) from Eq. 64,rel,3.697e-06,4.090e-07,10
+28,Fig10,3,l_{\delta1}(a) from Eq. (64),published_rule,l_d1(a) from Eq. 64,rel,1.455e-05,7.152e-06,9
+29,Fig8,0,z=0,published_rule,z=0,rel,0.000e+00,0.000e+00,119751
+29,Fig8,1,z=0.1,published_rule,z=0.1,rel,0.000e+00,0.000e+00,119752
+29,Fig8,2,z=0.3,published_rule,z=0.3,rel,0.000e+00,0.000e+00,119751
+29,Fig8,3,z=0.5,published_rule,z=0.5,rel,0.000e+00,0.000e+00,119752
+29,Fig8,4,z=1.0,published_rule,z=1,rel,0.000e+00,0.000e+00,119752
+29,Fig8,5,z=1.5,published_rule,z=1.5,rel,0.000e+00,0.000e+00,119752
+29,Fig8,6,z=2.0,published_rule,z=2,rel,0.000e+00,0.000e+00,119752
+29,Fig8,7,z=3.0,published_rule,z=3,rel,0.000e+00,1.730e-01,10000
+29,Fig8,8,z=5.0,published_rule,z=5,rel,0.000e+00,2.000e+00,10000
+29,Fig8,9,data1,published_rule,,rel,,,0
+29,Fig8,10,data2,published_rule,,rel,,,0
+30,Fig9,0,r=0.1Mpc/h,published_rule,r=0.1Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,1,r=0.3Mpc/h,published_rule,r=0.3Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,2,r=0.5Mpc/h,published_rule,r=0.5Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,3,r=1Mpc/h,published_rule,r=1Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,4,r=3Mpc/h,published_rule,r=3Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,5,r=5Mpc/h,published_rule,r=5Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,6,r=10Mpc/h,published_rule,r=10Mpc/h,rel,0.000e+00,0.000e+00,10
+31,Fig7,0,E_\delta(k) from N-body,published_rule,E_delta(k) from N-body,rel,4.610e-16,1.065e-15,10000
+31,Fig7,1,\Delta_\delta^2(k) from N-body,published_rule,Delta^2(k) from N-body,rel,4.681e-16,3.949e-15,10000
+31,Fig7,2,P_\delta(k) from N-body,published_rule,P_delta(k) from N-body,rel,4.764e-16,4.204e-16,10000
+31,Fig7,3,E_\delta(k) from theory,published_rule,E_delta(k) from theory,rel,1.988e-09,2.839e-06,76002
+31,Fig7,4,\Delta_\delta^2(k) from theory,published_rule,Delta^2(k) from theory,rel,6.436e-10,1.862e-08,76002
+31,Fig7,5,P_\delta(k) from theory,published_rule,P_delta(k) from theory,rel,1.421e-08,1.078e-03,76002
+32,Fig11,0,z=0,published_rule,z=0,rel,0.000e+00,2.156e-17,119751
+32,Fig11,1,z=0.1,published_rule,z=0.1,rel,0.000e+00,1.163e-17,119752
+32,Fig11,2,z=0.3,published_rule,z=0.3,rel,0.000e+00,4.435e-17,119751
+32,Fig11,3,z=0.5,published_rule,z=0.5,rel,0.000e+00,4.466e-17,119752
+32,Fig11,4,z=1.0,published_rule,z=1,rel,0.000e+00,8.277e-17,119752
+32,Fig11,5,z=1.5,published_rule,z=1.5,rel,0.000e+00,1.279e-16,119752
+32,Fig11,6,z=2.0,published_rule,z=2,rel,0.000e+00,1.479e-17,119752
+32,Fig11,7,z=3.0,published_rule,z=3,rel,0.000e+00,4.934e-17,119752
+32,Fig11,8,z=0 from Eq. (35),published_rule,z=0 from Eq. 88,rel,5.816e-04,1.000e+00,119747
+32,Fig11,9,z=2 from Eq. (35),published_rule,z=2 from Eq. 88,rel,6.231e-05,3.021e-04,11999
+33,Fig12,0,z=0,published_rule,z=0,rel,6.656e-13,2.345e-17,119751
+33,Fig12,1,z=0.1,published_rule,z=0.1,rel,6.548e-13,6.560e-17,119752
+33,Fig12,2,z=0.3,published_rule,z=0.3,rel,6.500e-13,6.706e-17,119751
+33,Fig12,3,z=0.5,published_rule,z=0.5,rel,6.502e-13,4.481e-17,119752
+33,Fig12,4,z=1.0,published_rule,z=1,rel,6.459e-13,2.401e-16,119752
+33,Fig12,5,z=1.5,published_rule,z=1.5,rel,6.787e-13,1.493e-16,119752
+33,Fig12,6,z=2.0,published_rule,z=2,rel,6.383e-13,7.919e-17,119752
+33,Fig12,7,z=3.0,published_rule,z=3,rel,7.044e-13,8.091e-17,119752
+34,Fig6,0,\xi(r) from N-body Sim.,published_rule,xi(r) from N-body,rel,0.000e+00,0.000e+00,119751
+34,Fig6,1,\sigma_\delta^2(r) from \xi(r) using Eq. (80),published_rule,"sigma_delta^2(r) from xi, Eq. 80",rel,0.000e+00,2.156e-17,119751
+34,Fig6,2,\xi(r) from model Eq. (86),published_rule,xi(r) from model Eq. 86,rel,1.350e-03,1.350e-03,12000
+34,Fig6,3,\sigma_\delta^2(r) from model Eq. (88),published_rule,sigma_delta^2(r) from model Eq. 88,rel,1.350e-03,1.350e-03,11999
+34,Fig6,4,Linear theory,published_rule,linear theory,rel,1.339e-04,9.696e-06,100000
+34,Fig6,5,Nonlinear theory,published_rule,nonlinear theory,rel,1.691e-02,2.863e-05,100000
+01,Fig21_4_power_spectrum,0,P_\delta(k) from N-body simulation,revised,N-body,rel,4.764e-16,4.204e-16,10000
+01,Fig21_4_power_spectrum,1,P_\delta(k) from nonlinear theory,revised,nonlinear theory,rel,1.421e-08,1.078e-03,76002
+01,Fig21_4_power_spectrum,2,P_\delta(k) from linear theory,revised,linear theory,rel,3.857e-11,7.357e-12,76001
+03,Fig17,0,-<\Deltau_L/(Hr)>,revised,-<Delta u_L>/(Har),rel,9.132e-06,1.045e-01,119752
+03,Fig17,1,Linear regime,revised,"linear regime, Eq. 4",rel,3.774e-02,9.994e-01,119751
+03,Fig17,2,Nonlinear regime,revised,"nonlinear regime, Eq. 5 (alpha = 5/2)",rel,2.732e-05,4.994e-01,119751
+04,Fig14,0,K_4(u_p) for all particles ,revised,K_4(u_p),rel,1.910e-05,4.521e-05,10
+04,Fig14,1,K_6(u_p) for all particles,revised,K_6(u_p),rel,2.552e-05,1.755e-04,10
+04,Fig14,2,K_8(u_p) for all particles,revised,K_8(u_p),rel,4.345e-05,3.752e-04,10
+04,Fig14,3,K_4(u_{hp}) for halo particles,revised,K_4(u_hp),rel,7.506e-06,1.285e-05,9
+04,Fig14,4,K_6(u_{hp}) for halo particles,revised,K_6(u_hp),rel,1.911e-05,5.950e-05,9
+04,Fig14,5,K_8(u_{hp}) for halo particles,revised,K_8(u_hp),rel,6.771e-05,1.610e-04,9
+04,Fig14,6,K_4(u_{op}) for  out-of-halo particles,revised,K_4(u_op),rel,1.398e-05,4.107e-05,9
+04,Fig14,7,K_6(u_{op}) for  out-of-halo particles,revised,K_6(u_op),rel,5.887e-05,1.224e-04,9
+04,Fig14,8,K_8(u_{op}) for  out-of-halo particles,revised,K_8(u_op),rel,1.282e-04,2.268e-04,9
+05,Fig15,0,"K_4(u_L,r)",revised,"K_4(u_L,r)",rel,1.640e-16,8.036e-16,119752
+05,Fig15,1,"K_4(\Deltau_L,r)",revised,"K_4(Delta u_L,r)",rel,1.716e-04,2.986e-03,119751
+05,Fig15,2,"K_4(\Sigmau_L,r)",revised,"K_4(Sigma u_L,r)",rel,0.000e+00,0.000e+00,119752
+05,Fig15,3,"K_6(u_L,r)",revised,"K_6(u_L,r)",rel,1.648e-16,1.091e-15,119752
+05,Fig15,4,"K_6(\Deltau_L,r)",revised,"K_6(Delta u_L,r)",rel,1.890e-08,3.485e-04,119751
+05,Fig15,5,"K_6(\Sigmau_L,r)",revised,"K_6(Sigma u_L,r)",rel,0.000e+00,1.746e-16,119752
+05,Fig15,6,"K_8(u_L,r)",revised,"K_8(u_L,r)",rel,2.884e-05,3.009e-03,119752
+05,Fig15,7,"K_8(\Deltau_L,r)",revised,"K_8(Delta u_L,r)",rel,5.572e-13,6.802e-06,119751
+05,Fig15,8,"K_8(\Sigmau_L,r)",revised,"K_8(Sigma u_L,r)",rel,0.000e+00,1.016e-16,119752
+06,Fig16,0,"K_3(\Deltau_L,r)",revised,"K_3(Delta u_L,r)",rel,1.937e+00,2.001e+00,119751
+06,Fig16,1,"K_5(\Deltau_L,r)",revised,"K_5(Delta u_L,r)",rel,1.999e+00,2.000e+00,119751
+07,Fig18,0,<u_L>=-<\Deltau_L>/2  at z=0,revised,<u_L> = -<Delta u_L>/2 at z=0,rel,0.000e+00,5.544e-02,119752
+07,Fig18,1,-<\Deltau_L> at z=0,revised,-<Delta u_L> at z=0,rel,0.000e+00,5.544e-02,119752
+07,Fig18,2,-<\Deltau_L> at z=0.3,revised,-<Delta u_L> at z=0.3,rel,0.000e+00,1.186e+00,119752
+07,Fig18,3,-<\Deltau_L> at z=1.0,revised,-<Delta u_L> at z=1,rel,0.000e+00,2.000e+00,119752
+07,Fig18,4,-<\Deltau_L> at z=2.0,revised,-<Delta u_L> at z=2,rel,0.000e+00,1.898e+00,119752
+07,Fig18,5,<\Deltau_L> from Eq. (14) at z=0,revised,"-<Delta u_L>, Eq. 14, z=0",rel,1.019e-03,3.557e-03,11900
+07,Fig18,6,<\Deltau_L> from Eq. (14) at z=2,revised,"-<Delta u_L>, Eq. 14, z=2",rel,1.232e-03,3.557e-03,11900
+07,Fig18,7,<\Deltau_L> from Eq. (12) at z=0,revised,"-<Delta u_L>, Eq. 12, z=0",rel,5.500e-06,3.215e-06,100
+07,Fig18,8,<\Deltau_L> from Eq. (12) at z=2,revised,"-<Delta u_L>, Eq. 12, z=2",rel,7.324e-02,8.178e-02,100
+08,Fig19,0,<u_L^2>,revised,<u_L^2>,rel,0.000e+00,0.000e+00,119752
+08,Fig19,1,S_2^{lp}(r)=<\Deltau_L^2>,revised,S_2^lp = <Delta u_L^2>,rel,0.000e+00,0.000e+00,119752
+08,Fig19,2,<\Sigmau_L^2>,revised,<Sigma u_L^2>,rel,0.000e+00,0.000e+00,119752
+08,Fig19,3,"S_2^{cp}(u_L,r)",revised,S_2^cp(u_L),rel,0.000e+00,1.375e-16,119752
+08,Fig19,4,"S_2^{cp}(\Deltau_L,r)",revised,S_2^cp(Delta u_L),rel,0.000e+00,1.686e-16,119752
+08,Fig19,5,<u_L^2> from Eq. (26),revised,"<u_L^2>, Eq. 26",rel,0.000e+00,3.535e-16,1000
+08,Fig19,6,<u_L^2> from Eq. (27),revised,"<u_L^2>, Eq. 27",rel,1.979e-06,1.065e-03,119001
+09,Fig20,0,<u^2>,revised,<u^2>,rel,7.434e-16,4.085e-15,119751
+09,Fig20,1,<u_L^2>,revised,<u_L^2>,rel,0.000e+00,0.000e+00,119751
+09,Fig20,2,<u^2>/<u_L^2>,revised,<u^2>/<u_L^2>,rel,7.531e-16,7.225e-15,119751
+09,Fig20,3,<u_T^2>/2,revised,<u_T^2>/2,rel,1.283e-15,6.475e-15,119751
+09,Fig20,4,<\Deltau_L^2>,revised,<Delta u_L^2>,rel,0.000e+00,0.000e+00,119752
+09,Fig20,5,<\Sigmau_L^2>,revised,<Sigma u_L^2>,rel,0.000e+00,0.000e+00,119752
+10,Fig21,0,z=0.0,revised,z=0,rel,0.000e+00,0.000e+00,119752
+10,Fig21,1,z=0.1,revised,z=0.1,rel,0.000e+00,0.000e+00,119752
+10,Fig21,2,z=0.3,revised,z=0.3,rel,0.000e+00,0.000e+00,119751
+10,Fig21,3,z=0.5,revised,z=0.5,rel,0.000e+00,0.000e+00,119752
+10,Fig21,4,z=1.0,revised,z=1,rel,0.000e+00,0.000e+00,119752
+10,Fig21,5,z=1.5,revised,z=1.5,rel,0.000e+00,0.000e+00,119752
+10,Fig21,6,z=2.0,revised,z=2,rel,0.000e+00,0.000e+00,119752
+10,Fig21,7,z=3.0,revised,z=3,rel,0.000e+00,0.000e+00,119751
+10,Fig21,8,z=5.0,revised,z=5,rel,0.000e+00,0.000e+00,119750
+10,Fig21,9,z=10.0,revised,z=10,rel,0.000e+00,0.000e+00,119486
+10,Fig21,10,z=10.0 S_2^l(r),revised,"S_2^l(r), z=10 (Eq. 21)",rel,0.000e+00,0.000e+00,119253
+11,Fig22,0,z=0.0,revised,z=0,rel,0.000e+00,4.415e-03,119752
+11,Fig22,1,z=0.1,revised,z=0.1,rel,0.000e+00,4.162e-01,119752
+11,Fig22,2,z=0.3,revised,z=0.3,rel,0.000e+00,5.747e-02,119751
+11,Fig22,3,z=0.5,revised,z=0.5,rel,0.000e+00,1.112e-01,119752
+11,Fig22,4,z=1.0,revised,z=1,rel,0.000e+00,2.633e-01,119752
+11,Fig22,5,z=1.5,revised,z=1.5,rel,0.000e+00,5.567e-02,119752
+11,Fig22,6,z=2.0,revised,z=2,rel,0.000e+00,5.704e-01,119752
+11,Fig22,7,z=3.0,revised,z=3,rel,0.000e+00,1.772e+00,119751
+11,Fig22,8,z=5.0,revised,z=5,rel,0.000e+00,4.292e-01,119750
+11,Fig22,9,z=10.0,revised,z=10,rel,0.000e+00,1.063e-01,119486
+11,Fig22,10,From Eq. (22),revised,Eq. 22 (beta_2^* = 9.5),rel,7.466e-02,7.466e-02,2000
+12,Fig23,0,S_2^{lp}(r)/u^2-2,revised,S_2^lp/u^2 - 2,rel,0.000e+00,4.415e-03,119752
+12,Fig23,1,S_4^{lp}(r)/u^4-30,revised,S_4^lp/u^4 - 30,rel,2.000e+00,2.058e-01,119751
+12,Fig23,2,S_6^{lp}(r)/u^6-1280,revised,S_6^lp/u^6 - 1280,rel,2.000e+00,2.220e-01,119752
+12,Fig23,3,S_8^{lp}(r)/u^8-96000,revised,S_8^lp/u^8 - 96000,rel,2.000e+00,1.648e-01,119752
+12,Fig23,4,S_3^{lp}(r)/u^3,revised,-S_3^lp/u^3,rel,5.226e-03,9.963e-02,119751
+12,Fig23,5,S_5^{lp}(r)/u^5,revised,-S_5^lp/u^5,rel,0.000e+00,2.409e-01,119752
+12,Fig23,6,S_7^{lp}(r)/u^7,revised,-S_7^lp/u^7,rel,0.000e+00,4.938e-01,119752
+12,Fig23,7,\beta_2^*=9.5,revised,beta_2^* = 9.5,rel,3.038e-07,3.999e-07,2000
+12,Fig23,8,\beta_4^*=300,revised,beta_4^* = 300,rel,3.038e-07,3.999e-07,2000
+12,Fig23,9,\beta_6^*=2.25e4,revised,beta_6^* = 2.25e4,rel,3.038e-07,3.999e-07,2000
+12,Fig23,10,\beta_8^*=2.75e6,revised,beta_8^* = 2.75e6,rel,3.038e-07,3.999e-07,2000
+13,Fig24,0,S_3^{lp}/(S_2^{lp}S_1^{lp}),revised,S_3/(S_2 S_1),rel,2.660e-03,2.049e+00,119751
+13,Fig24,1,S_5^{lp}/(S_4^{lp}S_1^{lp}),revised,S_5/(S_4 S_1),rel,2.497e-04,2.000e+00,119751
+13,Fig24,2,S_7^{lp}/(S_6^{lp}S_1^{lp}),revised,S_7/(S_6 S_1),rel,0.000e+00,2.000e+00,119752
+14,Fig25,0,u_L (longitudinal),revised,u_L,dex,2.440e-02,1.219e+00,741
+14,Fig25,1,\Deltau_L=u_L^{'}-u_L,revised,Delta u_L,dex,4.274e-02,1.281e+00,1023
+14,Fig25,2,\Sigmau_L=u_L^{'}+u_L,revised,Sigma u_L,dex,3.075e-02,9.801e-01,791
+14,Fig25,3,X distribution,revised,"X distribution (alpha = 1.33, v0^2 = 0.84)",dex,1.168e-01,1.255e-01,2001
+16,Fig26,0,u_L,revised,u_L,dex,2.294e-01,1.425e+00,1164
+16,Fig26,1,\Deltau_L,revised,Delta u_L,dex,2.800e-02,1.353e+00,1116
+16,Fig26,2,\Sigmau_L,revised,Sigma u_L,dex,1.824e-02,1.206e+00,1215
+17,FIg27,0,"K_4(\Deltau_L,r) at z=0",revised,"K_4(Delta u_L,r) at z=0",rel,1.716e-04,2.986e-03,119751
+17,FIg27,1,"K_6(\Deltau_L,r) at z=0 ",revised,"K_6(Delta u_L,r) at z=0",rel,1.890e-08,3.485e-04,119751
+17,FIg27,2,"K_4(\Deltau_L,r) at z=0.3",revised,"K_4(Delta u_L,r) at z=0.3",rel,1.067e-04,2.059e-03,119751
+17,FIg27,3,"K_6(\Deltau_L,r) at z=0.3",revised,"K_6(Delta u_L,r) at z=0.3",rel,1.398e-04,2.718e-03,119751
+17,FIg27,4,"K_4(\Deltau_L,r) at z=1",revised,"K_4(Delta u_L,r) at z=1",rel,3.189e-16,8.117e-16,119751
+17,FIg27,5,"K_6(\Deltau_L,r) at z=1",revised,"K_6(Delta u_L,r) at z=1",rel,5.042e-16,8.335e-16,119751
+17,FIg27,6,"K_4(\Deltau_L,r) at z=2",revised,"K_4(Delta u_L,r) at z=2",rel,2.704e-16,1.616e-15,119752
+17,FIg27,7,"K_6(\Deltau_L,r) at z=2",revised,"K_6(Delta u_L,r) at z=2",rel,4.984e-16,1.575e-15,119752
+17,FIg27,8,"K_8(\Deltau_L,r) at z=0",revised,"K_8(Delta u_L,r) at z=0",rel,5.572e-13,6.802e-06,119751
+17,FIg27,9,"K_8(\Deltau_L,r) at z=0.3",revised,"K_8(Delta u_L,r) at z=0.3",rel,1.875e-04,3.785e-03,119751
+17,FIg27,10,"K_8(\Deltau_L,r) at z=1",revised,"K_8(Delta u_L,r) at z=1",rel,6.988e-16,1.325e-15,119751
+17,FIg27,11,"K_8(\Deltau_L,r) at z=2",revised,"K_8(Delta u_L,r) at z=2",rel,6.765e-16,1.486e-15,119752
+18,Fig28,0,"K_3(\Deltau_L,r) at z=0",revised,"K_3(Delta u_L,r) at z=0",rel,4.995e-03,5.313e-03,119751
+18,Fig28,1,"K_3(\Deltau_L,r) at z=0.3",revised,"K_3(Delta u_L,r) at z=0.3",rel,5.050e-03,3.057e-03,119751
+18,Fig28,2,"K_3(\Deltau_L,r) at z=1",revised,"K_3(Delta u_L,r) at z=1",rel,6.246e-16,1.712e-15,119751
+18,Fig28,3,"K_3(\Deltau_L,r) at z=2",revised,"K_3(Delta u_L,r) at z=2",rel,5.100e-16,1.763e-15,119752
+19,Fig29(ab),0,Logistic,revised,logistic,dex,1.015e-13,2.860e-13,2401
+19,Fig29(ab),1,P_{uL},revised,P_uL (option 1),dex,7.319e-04,2.878e-02,101
+19,Fig29(ab),2,u_L,revised,u_L,dex,7.572e-02,2.000e+00,3575
+19,Fig29(ab),3,\Deltau_L,revised,Delta u_L,dex,6.806e-02,2.000e+00,2050
+19,Fig29(ab),4,\Sigmau_L,revised,Sigma u_L,dex,5.833e-02,1.523e+00,2023
+19,Fig29(ab),5,Laplace or,revised,Laplace,dex,1.964e-13,3.944e-13,3001
+19,Fig29(ab),6,Exponential  Approximation from Eq. (49),revised,"exponential tail, Eq. 49",dex,1.781e-13,3.570e-13,3001
+20,Fig29(ab),0,Logistic,revised,logistic,dex,1.015e-13,2.860e-13,2401
+20,Fig29(ab),1,P_{uL},revised,P_uL (option 1),dex,7.319e-04,2.878e-02,101
+20,Fig29(ab),2,u_L,revised,u_L,dex,7.572e-02,2.000e+00,3575
+20,Fig29(ab),3,\Deltau_L,revised,Delta u_L,dex,6.806e-02,2.000e+00,2050
+20,Fig29(ab),4,\Sigmau_L,revised,Sigma u_L,dex,5.833e-02,1.523e+00,2023
+20,Fig29(ab),5,Laplace or,revised,Laplace,dex,1.964e-13,3.944e-13,3001
+20,Fig29(ab),6,Exponential  Approximation from Eq. (49),revised,"exponential tail, Eq. 49",dex,1.781e-13,3.570e-13,3001
+21,Fig30,0,K_6 from X distribution,revised,K_6 from X distribution,rel,4.657e-11,4.115e-08,49998
+21,Fig30,1,K_8 from X distribution,revised,K_8 from X distribution,rel,2.331e-10,1.141e-07,49998
+21,Fig30,2,K_{10} from X distribution,revised,K_10 from X distribution,rel,8.516e-09,4.457e-03,14676
+21,Fig30,3,"K_6(u_{hp}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_6(u_hp),rel,1.911e-05,5.950e-05,9
+21,Fig30,4,"K_8(u_{hp}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_8(u_hp),rel,6.771e-05,1.610e-04,9
+21,Fig30,5,"K_{10}(u_{hp}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_10(u_hp),rel,1.377e-04,3.117e-04,9
+21,Fig30,6,"K_6(u_{p}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_6(u_p),rel,3.552e-05,9.425e-03,10
+21,Fig30,7,"K_8(u_{p}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_8(u_p),rel,6.900e-05,4.756e-03,10
+21,Fig30,8,"K_{10}(u_{p}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_10(u_p),rel,8.511e-06,1.786e-03,10
+21,Fig30,9,"K_6(u_{op}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_6(u_op),rel,5.887e-05,1.224e-04,9
+21,Fig30,10,"K_8(u_{op}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_8(u_op),rel,1.282e-04,2.268e-04,9
+21,Fig30,11,"K_{10}(u_{op}) for z=5,3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_10(u_op),rel,1.117e-04,4.243e-04,9
+21,Fig30,12,"K_6(u_{h}) for z=3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_6(u_h),rel,4.790e-05,1.475e-04,8
+21,Fig30,13,"K_8(u_{h}) for z=3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_8(u_h),rel,5.982e-05,1.533e-04,8
+21,Fig30,14,"K_{10}(u_{h}) for z=3,2,1.5,1.0,0.5,0.3,0.1,0",revised,K_10(u_h),rel,1.017e-04,1.865e-04,8
+21,Fig30,15,"K_6(\Sigmau_L,r=\infty) for z=2,1,0.3,0",revised,"K_6(Sigma u_L, r = inf)",rel,5.403e-02,4.695e-02,4
+21,Fig30,16,"K_8(\Sigmau_L,r=\infty) for z=2,1,0.3,0",revised,"K_8(Sigma u_L, r = inf)",rel,9.948e-02,7.781e-02,4
+21,Fig30,17,"K_6(\Deltau_L,r=\infty) for z=2,1,0.3,0",revised,"K_6(Delta u_L, r = inf)",rel,6.226e-02,6.232e-02,4
+21,Fig30,18,"K_8(\Deltau_L,r=\infty) for z=2,1,0.3,0",revised,"K_8(Delta u_L, r = inf)",rel,1.153e-01,1.235e-01,4
+21,Fig30,19,"K_6(u_L,r=\infty) for z=2,1,0.3,0",revised,"K_6(u_L, r = inf)",rel,3.513e-03,1.048e-02,4
+21,Fig30,20,"K_8(u_L,r=\infty) for z=2,1,0.3,0",revised,"K_8(u_L, r = inf)",rel,6.201e-01,7.247e-01,4
+21,Fig30,21,"K_6(u_L,r=0) for z=0",revised,"K_6(u_L, r = 0)",rel,3.123e-02,3.123e-02,1
+21,Fig30,22,"K_8(u_L,r=0) for z=0",revised,"K_8(u_L, r = 0)",rel,1.381e-02,1.381e-02,1
+21,Fig30,23,"K_6(\Deltau_L,r=0) for z=0",revised,"K_6(Delta u_L, r = 0)",rel,1.626e-02,1.626e-02,1
+21,Fig30,24,"K_8(\Deltau_L,r=0) for z=0",revised,"K_8(Delta u_L, r = 0)",rel,2.201e-02,2.201e-02,1
+23a,Fig1a,0,z=10,revised,,rel,,,0
+23a,Fig1a,1,z=5,revised,,rel,,,0
+23a,Fig1a,2,z=3,revised,,rel,,,0
+23a,Fig1a,3,z=2,revised,,rel,,,0
+23a,Fig1a,4,z=1.5,revised,,rel,,,0
+23a,Fig1a,5,z=1,revised,,rel,,,0
+23a,Fig1a,6,z=0.5,revised,,rel,,,0
+23a,Fig1a,7,z=0.3,revised,,rel,,,0
+23a,Fig1a,8,z=0.1,revised,,rel,,,0
+23a,Fig1a,9,z=0,revised,,rel,,,0
+23b,Fig1b,0,\Deltax=15Mpc/h,revised,Delta x = 15 Mpc/h,rel,2.449e-01,1.734e-01,45
+23b,Fig1b,1,\Deltax=7.5Mpc/h,revised,Delta x = 7.48 Mpc/h,rel,1.575e-01,3.790e-01,119
+23b,Fig1b,2,\Deltax=3.75Mpc/h,revised,Delta x = 3.74 Mpc/h,rel,1.773e-01,7.292e-01,367
+23b,Fig1b,3,\Deltax=1.87Mpc/h,revised,Delta x = 1.87 Mpc/h,rel,1.977e-01,2.117e+00,1300
+23b,Fig1b,4,\Deltax=0.94Mpc/h,revised,Delta x = 0.936 Mpc/h,rel,2.467e-01,2.664e+01,4358
+23b,Fig1b,5,\Deltax=0.47Mpc/h,revised,Delta x = 0.468 Mpc/h,rel,2.636e-01,3.910e+02,13266
+23b,Fig1b,6,\Deltax=0.23Mpc/h,revised,Delta x = 0.234 Mpc/h,rel,2.655e-01,8.665e+03,36871
+23b,Fig1b,7,Particle density,revised,particle density (Delaunay),rel,2.822e-01,4.684e-01,3821
+24,Fig2,0,z=10,revised,z=10,rel,1.343e-02,8.761e-03,843
+24,Fig2,1,z=5,revised,z=5,rel,2.674e-02,9.598e-03,1416
+24,Fig2,2,z=3,revised,z=3,rel,2.020e-02,1.065e-02,1148
+24,Fig2,3,z=2,revised,z=2,rel,1.426e-02,1.525e-02,659
+24,Fig2,4,z=1.5,revised,z=1.5,rel,1.052e-02,1.461e-02,708
+24,Fig2,5,z=1,revised,z=1,rel,1.028e-02,1.767e-02,500
+24,Fig2,6,z=0.5,revised,z=0.5,rel,8.355e-03,1.653e-02,553
+24,Fig2,7,z=0.3,revised,z=0.3,rel,7.483e-03,1.661e-02,568
+24,Fig2,8,z=0.1,revised,z=0.1,rel,9.428e-03,2.193e-02,359
+24,Fig2,9,z=0,revised,z=0,rel,9.858e-03,2.162e-02,365
+24,Fig2,10,Eq. (57) at z=0,revised,Eq. 57 at z=0,rel,6.716e-04,1.065e-03,2001
+25,Fig3,0,\eta(z=0) for halo particles,revised,eta(z=0) for halo particles,rel,1.307e-02,1.605e-02,349
+25,Fig3,1,\eta(z=0) for out-of-halo particles,revised,eta(z=0) for out-of-halo particles,rel,1.438e-02,1.580e-02,311
+25,Fig3,2,\eta(z=0.3) for halo particles,revised,eta(z=0.3) for halo particles,rel,1.465e-02,1.880e-02,331
+25,Fig3,3,\eta(z=0.3) for out-of-halo particles,revised,eta(z=0.3) for out-of-halo particles,rel,1.290e-02,1.498e-02,446
+25,Fig3,4,\eta(z=1) for halo particles,revised,eta(z=1) for halo particles,rel,1.617e-02,2.183e-02,288
+25,Fig3,5,\eta(z=1) for out-of-halo particles,revised,eta(z=1) for out-of-halo particles,rel,1.108e-02,1.016e-02,812
+25,Fig3,6,\eta(z=2) for halo particles,revised,eta(z=2) for halo particles,rel,2.113e-02,2.638e-02,255
+25,Fig3,7,\eta(z=2) for out-of-halo particles,revised,eta(z=2) for out-of-halo particles,rel,1.335e-02,1.039e-02,745
+26,Fig4,0,K_3(\eta) for particles in halos,revised,K_3(eta) for particles in halos,rel,1.634e-07,4.659e-05,9
+26,Fig4,1,K_4(\eta) for particles in halos,revised,K_4(eta) for particles in halos,rel,3.004e-08,4.229e-05,9
+26,Fig4,2,K_5(\eta) for particles in halos,revised,K_5(eta) for particles in halos,rel,1.773e-07,7.421e-05,9
+26,Fig4,3,K_6\eta) for particles in halos,revised,K_6(eta) for particles in halos,rel,1.024e-07,9.210e-05,9
+26,Fig4,4,K_3(\eta) for particles out-of-halo,revised,K_3(eta) for particles out-of-halo,rel,1.089e-06,1.506e-04,9
+26,Fig4,5,K_4(\eta) for particles out-of-halo,revised,K_4(eta) for particles out-of-halo,rel,4.615e-07,7.124e-05,9
+26,Fig4,6,K_5\eta) for particles out-of-halo,revised,K_5(eta) for particles out-of-halo,rel,1.300e-06,2.032e-04,9
+26,Fig4,7,K_6(\eta) for particles out-of-halo,revised,K_6(eta) for particles out-of-halo,rel,1.209e-06,2.169e-04,9
+27,Fig5,0,mean(\eta) for all particles,revised,mean(eta) for all particles,rel,2.872e-05,1.932e-05,10
+27,Fig5,1,std(\eta) for all particles,revised,std(eta) for all particles,rel,1.210e-05,1.437e-05,10
+27,Fig5,2,mean(\eta) for out-of-halo particles ,revised,mean(eta) for out-of-halo particles,rel,2.000e+00,2.000e+00,9
+27,Fig5,3,std(\eta) for out-of-halo particles,revised,std(eta) for out-of-halo particles,rel,3.981e-07,2.872e-05,9
+27,Fig5,4,mean(\eta) for halo particles,revised,mean(eta) for halo particles,rel,1.037e-07,1.737e-05,9
+27,Fig5,5,std(\eta) for halo particles,revised,std(eta) for halo particles,rel,4.111e-08,5.807e-06,9
+28,Fig10,0,P_y(a) from simulation,revised,-P_y(a) from simulation,rel,1.591e-04,1.594e-04,9
+28,Fig10,1,P_y(a) from Eq. (66),revised,-P_y(a) from Eq. 66,rel,2.909e-05,1.301e-05,9
+28,Fig10,2,l_{\delta0}(a) from Eq. (64),revised,l_d0(a) from Eq. 64,rel,3.697e-06,4.090e-07,10
+28,Fig10,3,l_{\delta1}(a) from Eq. (64),revised,l_d1(a) from Eq. 64,rel,1.455e-05,7.152e-06,9
+29,Fig8,0,z=0,revised,z=0,rel,2.000e+00,4.486e-06,119751
+29,Fig8,1,z=0.1,revised,z=0.1,rel,0.000e+00,0.000e+00,119752
+29,Fig8,2,z=0.3,revised,z=0.3,rel,0.000e+00,0.000e+00,119751
+29,Fig8,3,z=0.5,revised,z=0.5,rel,0.000e+00,0.000e+00,119752
+29,Fig8,4,z=1.0,revised,z=1,rel,0.000e+00,0.000e+00,119752
+29,Fig8,5,z=1.5,revised,z=1.5,rel,0.000e+00,0.000e+00,119752
+29,Fig8,6,z=2.0,revised,z=2,rel,0.000e+00,0.000e+00,119752
+29,Fig8,7,z=3.0,revised,z=3,rel,0.000e+00,1.730e-01,10000
+29,Fig8,8,z=5.0,revised,z=5,rel,0.000e+00,2.000e+00,10000
+29,Fig8,9,data1,revised,,rel,,,0
+29,Fig8,10,data2,revised,,rel,,,0
+30,Fig9,0,r=0.1Mpc/h,revised,r=0.1Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,1,r=0.3Mpc/h,revised,r=0.3Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,2,r=0.5Mpc/h,revised,r=0.5Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,3,r=1Mpc/h,revised,r=1Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,4,r=3Mpc/h,revised,r=3Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,5,r=5Mpc/h,revised,r=5Mpc/h,rel,0.000e+00,0.000e+00,10
+30,Fig9,6,r=10Mpc/h,revised,r=10Mpc/h,rel,0.000e+00,0.000e+00,10
+31,Fig7,0,E_\delta(k) from N-body,revised,E_delta(k) from N-body,rel,4.610e-16,1.065e-15,10000
+31,Fig7,1,\Delta_\delta^2(k) from N-body,revised,Delta^2(k) from N-body,rel,4.681e-16,3.949e-15,10000
+31,Fig7,2,P_\delta(k) from N-body,revised,P_delta(k) from N-body,rel,4.764e-16,4.204e-16,10000
+31,Fig7,3,E_\delta(k) from theory,revised,E_delta(k) from theory,rel,1.988e-09,2.839e-06,76002
+31,Fig7,4,\Delta_\delta^2(k) from theory,revised,Delta^2(k) from theory,rel,6.436e-10,1.862e-08,76002
+31,Fig7,5,P_\delta(k) from theory,revised,P_delta(k) from theory,rel,1.421e-08,1.078e-03,76002
+32,Fig11,0,z=0,revised,z=0,rel,9.198e-05,8.750e-01,119751
+32,Fig11,1,z=0.1,revised,z=0.1,rel,9.168e-05,8.750e-01,119752
+32,Fig11,2,z=0.3,revised,z=0.3,rel,9.117e-05,8.750e-01,119751
+32,Fig11,3,z=0.5,revised,z=0.5,rel,9.078e-05,8.750e-01,119752
+32,Fig11,4,z=1.0,revised,z=1,rel,9.004e-05,8.668e-01,119752
+32,Fig11,5,z=1.5,revised,z=1.5,rel,8.944e-05,8.750e-01,119752
+32,Fig11,6,z=2.0,revised,z=2,rel,8.887e-05,8.750e-01,119752
+32,Fig11,7,z=3.0,revised,z=3,rel,8.772e-05,8.750e-01,119752
+32,Fig11,8,z=0 from Eq. (35),revised,z=0 from Eq. 88,rel,3.290e-04,1.000e+00,119747
+32,Fig11,9,z=2 from Eq. (35),revised,z=2 from Eq. 88,rel,6.707e-04,5.696e-02,11999
+33,Fig12,0,z=0,revised,z=0,rel,1.304e-04,8.938e-01,119751
+33,Fig12,1,z=0.1,revised,z=0.1,rel,1.298e-04,8.925e-01,119752
+33,Fig12,2,z=0.3,revised,z=0.3,rel,1.288e-04,8.937e-01,119751
+33,Fig12,3,z=0.5,revised,z=0.5,rel,1.280e-04,8.949e-01,119752
+33,Fig12,4,z=1.0,revised,z=1,rel,1.266e-04,8.517e-01,119752
+33,Fig12,5,z=1.5,revised,z=1.5,rel,1.256e-04,9.415e-01,119752
+33,Fig12,6,z=2.0,revised,z=2,rel,1.248e-04,8.916e-01,119752
+33,Fig12,7,z=3.0,revised,z=3,rel,1.231e-04,8.852e-01,119752
+34,Fig6,0,\xi(r) from N-body Sim.,revised,xi(r) from N-body,rel,2.000e+00,4.486e-06,119751
+34,Fig6,1,\sigma_\delta^2(r) from \xi(r) using Eq. (80),revised,"sigma_delta^2(r) from xi, Eq. 80",rel,9.198e-05,8.750e-01,119751
+34,Fig6,2,\xi(r) from model Eq. (86),revised,xi(r) from model Eq. 86,rel,1.999e+00,5.086e-04,12000
+34,Fig6,3,\sigma_\delta^2(r) from model Eq. (88),revised,sigma_delta^2(r) from model Eq. 88,rel,4.567e-04,5.674e-02,11999
+34,Fig6,4,Linear theory,revised,linear theory,rel,2.000e+00,9.696e-06,100000
+34,Fig6,5,Nonlinear theory,revised,nonlinear theory,rel,1.963e+00,2.863e-05,100000

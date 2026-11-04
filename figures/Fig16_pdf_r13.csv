@@ -1,0 +1,3084 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,"Plotted data of Fig. 16: PDFs at r = 1.3 Mpc/h, z = 0",,,
+#Ref. [1] Fig. 16,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
+#Note,"1,048,567 pairs with 1.299 < r < 1.3 Mpc/h (author CSV 29, truncated at the Excel row limit)",,,
+,,,,
+,,,,
+series,label,x,y,source
+0,u_L,-11.91,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.53,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.51,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.49,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.31,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.27,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.23,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-11.09,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.95,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.93,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.91,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.73,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.71,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.65,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.57,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.53,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.47,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.45,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.39,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.37,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.35,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.31,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.29,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.27,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.21,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.19,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.17,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.15,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.11,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.09,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.07,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.05,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-10.03,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.97,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.93,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.89,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.87,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.85,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.83,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.81,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.79,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.75,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.73,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.71,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.67,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.63,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.61,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.59,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.57,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.55,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.51,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.49,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.47,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.45,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.43,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.41,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.39,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.37,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.35,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.33,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.31,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.29,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.27,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.25,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.23,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.21,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.19,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.17,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.15,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.13,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.11,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.09,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.07,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.05,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.03,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-9.01,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.99,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.97,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.95,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.91,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.89,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.87,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.85,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.83,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.81,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.79,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.77,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.75,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.73,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.71,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.69,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.67,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.65,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.63,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.61,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.59,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.57,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.55,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.53,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.51,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.49,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.47,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.45,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.43,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.41,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.39,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.37,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.35,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.33,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.31,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.29,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.27,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.25,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.23,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.21,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.19,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.17,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.15,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.13,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.11,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.09,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.07,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.05,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.03,-3.34390258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-8.01,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.99,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.97,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.95,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.93,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.91,-3.39220726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.89,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.87,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.85,-3.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.83,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.81,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.79,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.77,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.75,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.73,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.71,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.69,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.67,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.65,-3.36738367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.63,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.61,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.59,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.57,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.55,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.53,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.51,-3.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.49,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.47,-3.34390258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.45,-3.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.43,-3.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.41,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.39,-3.20768283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.37,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.35,-3.41853619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.33,-3.22471617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.31,-3.26092834,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.29,-3.17549815,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.27,-3.36738367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.25,-3.24244494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.23,-3.1175062,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.21,-3.09117726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.19,-3.19129241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.17,-3.17549815,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.15,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.13,-3.20768283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.11,-3.20768283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.09,-3.22471617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.07,-3.13129448,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.05,-3.09117726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.03,-3.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-7.01,-3.09117726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.99,-3.19129241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.97,-3.16025818,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.95,-3.19129241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.93,-3.06635368,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.91,-2.915086,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.89,-2.96944366,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.87,-3.13129448,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.85,-3.1175062,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.83,-3.22471617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.81,-3.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.79,-2.96944366,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.77,-3.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.75,-3.10414224,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.73,-3.1175062,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.71,-2.95989835,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.69,-3.07858813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.67,-3.07858813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.65,-2.96944366,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.63,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.61,-2.94141494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.59,-2.90665283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.57,-3.20768283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.55,-3.05445445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.53,-3.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.51,-3.09117726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.49,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.47,-2.95989835,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.45,-3.00987232,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.43,-2.96944366,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.41,-2.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.39,-2.85922818,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.37,-2.8164762,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.35,-2.89838031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.33,-2.9324601,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.31,-2.90665283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.29,-2.95989835,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.27,-2.85180417,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.25,-2.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.23,-2.96944366,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.21,-2.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.19,-2.94141494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.17,-2.89838031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.15,-2.80974282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.13,-2.83732634,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.11,-2.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.09,-2.80974282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.07,-2.74184258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.05,-2.83732634,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.03,-2.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-6.01,-2.78380709,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.99,-2.83026449,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.97,-2.86678132,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.95,-2.79014726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.93,-2.73056157,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.91,-2.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.89,-2.70357808,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.87,-2.70357808,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.85,-2.69323725,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.83,-2.73616545,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.81,-2.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.79,-2.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.77,-2.68313692,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.75,-2.74184258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.73,-2.54710922,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.71,-2.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.69,-2.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.67,-2.72502909,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.65,-2.64038494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.63,-2.69323725,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.61,-2.68313692,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.59,-2.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.57,-2.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.55,-2.64952832,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.53,-2.64952832,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.51,-2.59735031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.49,-2.52228563,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.47,-2.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.45,-2.49880454,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.43,-2.60562284,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.41,-2.51206647,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.39,-2.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.37,-2.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.35,-2.53629635,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.33,-2.51885246,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.31,-2.51206647,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.29,-2.55077417,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.27,-2.46732014,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.25,-2.44946991,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.23,-2.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.21,-2.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.19,-2.48593561,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.17,-2.45239446,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.15,-2.48593561,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.13,-2.48911727,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.11,-2.48593561,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.09,-2.39993971,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.07,-2.47964138,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.05,-2.40517223,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.03,-2.40781233,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-5.01,-2.38210693,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.99,-2.4158303,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.97,-2.37961813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.95,-2.35783835,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.93,-2.3649776,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.91,-2.28619644,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.89,-2.34619437,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.87,-2.30250989,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.85,-2.42675652,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.83,-2.29837372,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.81,-2.31730481,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.79,-2.34390258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.77,-2.27435131,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.75,-2.25344032,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.73,-2.30043688,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.71,-2.27240816,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.69,-2.24607922,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.67,-2.28221206,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.65,-2.24607922,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.63,-2.22645683,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.61,-2.21272305,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.59,-2.25716819,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.57,-2.23526635,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.55,-2.20270043,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.53,-2.18490561,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.51,-2.22125564,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.49,-2.216116,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.47,-2.19614492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.45,-2.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.43,-2.21103647,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.41,-2.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.39,-2.10943858,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.37,-2.12022906,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.35,-2.11480031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.33,-2.12159691,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.31,-2.14989973,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.29,-2.08483708,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.27,-2.12711184,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.25,-2.0899018,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.23,-2.05328227,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.21,-2.11211117,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.19,-2.10151809,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.17,-2.09373948,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.15,-2.03382445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.13,-2.06036331,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.11,-2.02826363,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.09,-2.04862491,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.07,-1.99837408,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.05,-2.05445445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.03,-2.03382445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-4.01,-1.99734373,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.99,-1.94687784,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.97,-2.01306177,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.95,-1.96560032,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.93,-1.98118207,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.91,-1.96464478,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.89,-1.95520322,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.87,-1.95241032,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.85,-1.90167043,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.83,-1.94232066,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.81,-1.90665283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.79,-1.87291986,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.77,-1.88945891,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.75,-1.8918739,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.73,-1.85401808,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.71,-1.84668185,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.69,-1.87602198,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.67,-1.86907312,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.65,-1.86602007,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.63,-1.8178355,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.61,-1.8387526,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.59,-1.82886579,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.57,-1.83803888,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.55,-1.79270948,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.53,-1.84595499,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.51,-1.81851674,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.49,-1.79983453,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.47,-1.77017618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.45,-1.78067137,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.43,-1.78696561,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.41,-1.74701624,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.39,-1.77631906,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.37,-1.74701624,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.35,-1.75283797,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.33,-1.71043412,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.31,-1.72668144,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.29,-1.70990287,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.27,-1.6781735,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.25,-1.70201118,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.23,-1.6631378,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.21,-1.70672897,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.19,-1.69119831,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.17,-1.68213969,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.15,-1.63276161,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.13,-1.6314301,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.11,-1.62745989,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.09,-1.61790502,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.07,-1.6372297,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.05,-1.60437187,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.03,-1.59449176,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-3.01,-1.59367847,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.99,-1.61576247,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.97,-1.58086886,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.95,-1.56880975,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.93,-1.57266332,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.91,-1.574603,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.89,-1.53558497,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.87,-1.53558497,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.85,-1.54058924,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.83,-1.51409115,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.81,-1.53239812,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.79,-1.51172993,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.77,-1.47995393,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.75,-1.48561872,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.73,-1.48214813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.71,-1.48593561,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.69,-1.46732014,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.67,-1.46701654,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.65,-1.44367923,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.63,-1.45327568,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.61,-1.43796475,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.59,-1.45415869,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.57,-1.43344669,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.55,-1.43232448,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.53,-1.41180281,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.51,-1.39993971,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.49,-1.38310646,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.47,-1.38586708,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.45,-1.39042266,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.43,-1.37517392,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.41,-1.37763731,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.39,-1.34711449,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.37,-1.35595421,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.35,-1.33329023,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.33,-1.32314888,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.31,-1.33239891,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.29,-1.31217529,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.27,-1.30668583,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.25,-1.27767476,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.23,-1.28102384,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.21,-1.2932583,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.19,-1.27983886,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.17,-1.26453089,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.15,-1.24226402,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.13,-1.24190241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.11,-1.23119177,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.09,-1.23937953,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.07,-1.22108333,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.05,-1.24571442,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.03,-1.19712196,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-2.01,-1.19306537,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.99,-1.20935641,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.97,-1.180804,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.95,-1.18190448,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.93,-1.18395564,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.91,-1.16705006,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.89,-1.15268697,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.87,-1.14669459,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.85,-1.1448117,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.83,-1.12517364,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.81,-1.12009251,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.79,-1.11832127,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.77,-1.1055923,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.75,-1.09995118,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.73,-1.09787073,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.71,-1.09800046,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.69,-1.06239078,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.67,-1.05551213,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.65,-1.07084035,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.63,-1.06095864,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.61,-1.05574752,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.59,-1.03674447,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.57,-1.02925933,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.55,-1.02255492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.53,-1.01125154,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.51,-1.01843012,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.49,-0.999303495,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.47,-1.00807531,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.45,-0.987977425,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.43,-0.973613543,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.41,-0.969540184,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.39,-0.939699251,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.37,-0.95651275,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.35,-0.94431993,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.33,-0.932017165,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.31,-0.929545062,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.29,-0.91824825,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.27,-0.924120684,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.25,-0.902166109,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.23,-0.891067412,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.21,-0.891389828,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.19,-0.882609453,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.17,-0.876878959,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.15,-0.865563957,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.13,-0.858031779,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.11,-0.848650447,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.09,-0.839252896,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.07,-0.829634517,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.05,-0.8264983,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.03,-0.826915156,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-1.01,-0.817087359,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.99,-0.811684777,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.97,-0.799703936,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.95,-0.79573953,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.93,-0.78588913,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.91,-0.783366721,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.89,-0.775268626,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.87,-0.763698122,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.85,-0.7587388,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.83,-0.756841797,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.81,-0.742299978,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.79,-0.740359376,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.77,-0.732962386,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.75,-0.726515926,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.73,-0.718048813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.71,-0.71492244,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.69,-0.707678705,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.67,-0.697653669,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.65,-0.698170133,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.63,-0.682638022,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.61,-0.685389105,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.59,-0.677729567,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.57,-0.665815687,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.55,-0.665959612,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.53,-0.655857631,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.51,-0.64966695,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.49,-0.654546976,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.47,-0.640565938,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.45,-0.640113595,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.43,-0.632450562,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.41,-0.622135336,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.39,-0.621225365,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.37,-0.617518581,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.35,-0.616789575,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.33,-0.600929513,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.31,-0.600516607,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.29,-0.601632355,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.27,-0.598951134,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.25,-0.584990684,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.23,-0.591368928,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.21,-0.581856116,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.19,-0.576942118,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.17,-0.577294074,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.15,-0.569500874,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.13,-0.571658098,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.11,-0.568311288,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.09,-0.563585264,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.07,-0.555696979,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.05,-0.55659128,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.03,-0.549744861,results/velocity_pdfs.npz r1.3_uL
+0,u_L,-0.01,-0.551805924,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.01,-0.544235612,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.03,-0.542137916,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.05,-0.542318354,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.07,-0.543836994,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.09,-0.53897443,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.11,-0.531446612,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.13,-0.527940543,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.15,-0.53345781,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.17,-0.537758319,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.19,-0.526929054,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.21,-0.538115645,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.23,-0.535442836,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.25,-0.530286477,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.27,-0.530391816,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.29,-0.535442836,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.31,-0.531024386,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.33,-0.530040786,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.35,-0.529865377,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.37,-0.531481816,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.39,-0.533953217,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.41,-0.534661922,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.43,-0.534307425,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.45,-0.538544825,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.47,-0.537686889,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.49,-0.537901214,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.51,-0.536403153,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.53,-0.537544064,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.55,-0.538151394,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.57,-0.546817351,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.59,-0.553210093,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.61,-0.556255701,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.63,-0.547547381,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.65,-0.548974478,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.67,-0.551068706,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.69,-0.557936193,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.71,-0.561996103,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.73,-0.556889789,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.75,-0.561429952,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.77,-0.558797628,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.79,-0.565979962,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.81,-0.570308578,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.83,-0.567392551,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.85,-0.579608434,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.87,-0.579687104,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.89,-0.594328979,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.91,-0.592826158,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.93,-0.585987367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.95,-0.592461392,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.97,-0.602585073,results/velocity_pdfs.npz r1.3_uL
+0,u_L,0.99,-0.594898972,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.01,-0.604163724,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.03,-0.608892322,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.05,-0.616918134,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.07,-0.615121759,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.09,-0.626100727,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.11,-0.638894617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.13,-0.633740656,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.15,-0.630323618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.17,-0.635973997,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.19,-0.645756226,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.21,-0.65450024,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.23,-0.652821084,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.25,-0.660097441,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.27,-0.672291323,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.29,-0.66730522,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.31,-0.678025475,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.33,-0.684436759,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.35,-0.692471525,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.37,-0.693032925,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.39,-0.69972322,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.41,-0.691656235,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.43,-0.713260631,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.45,-0.71572883,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.47,-0.716321135,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.49,-0.732794456,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.51,-0.73397133,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.53,-0.735376542,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.55,-0.740188562,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.57,-0.747826599,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.59,-0.74788454,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.61,-0.768350135,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.63,-0.761420558,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.65,-0.776380935,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.67,-0.780483948,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.69,-0.784815315,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.71,-0.798465236,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.73,-0.798269975,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.75,-0.803309693,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.77,-0.82816813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.79,-0.826081844,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.81,-0.824212717,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.83,-0.826567748,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.85,-0.836117697,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.87,-0.852098702,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.89,-0.854536283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.91,-0.853204998,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.93,-0.879146412,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.95,-0.878598011,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.97,-0.89341037,results/velocity_pdfs.npz r1.3_uL
+0,u_L,1.99,-0.895847494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.01,-0.899529018,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.03,-0.92100186,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.05,-0.902993494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.07,-0.920225641,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.09,-0.922991857,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.11,-0.941777003,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.13,-0.951668574,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.15,-0.953432303,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.17,-0.950650732,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.19,-0.96531344,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.21,-0.970796908,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.23,-0.98396729,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.25,-0.987977425,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.27,-0.985366629,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.29,-0.990806715,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.31,-1.01962012,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.33,-1.02441299,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.35,-1.02419398,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.37,-1.03226023,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.39,-1.02914859,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.41,-1.05036557,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.43,-1.04573922,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.45,-1.05562981,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.47,-1.09092187,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.49,-1.07809208,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.51,-1.09373948,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.53,-1.0807027,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.55,-1.10335333,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.57,-1.10625303,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.59,-1.11845726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.61,-1.12669578,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.63,-1.12822328,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.65,-1.14293694,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.67,-1.16220939,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.69,-1.14931521,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.71,-1.18585767,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.73,-1.18984717,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.75,-1.1790803,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.77,-1.19371189,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.79,-1.19306537,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.81,-1.20402349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.83,-1.20969191,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.85,-1.21407705,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.87,-1.23119177,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.89,-1.23544438,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.91,-1.25642005,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.93,-1.25103425,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.95,-1.26225212,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.97,-1.29102646,results/velocity_pdfs.npz r1.3_uL
+0,u_L,2.99,-1.28419968,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.01,-1.28260886,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.03,-1.28961215,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.05,-1.29305493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.07,-1.30836752,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.09,-1.30899983,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.11,-1.3201088,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.13,-1.34504696,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.15,-1.34573504,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.17,-1.34094121,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.19,-1.36859172,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.21,-1.38310646,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.23,-1.37912208,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.25,-1.3873803,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.27,-1.39067715,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.29,-1.39271849,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.31,-1.4166403,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.33,-1.42981006,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.35,-1.40887288,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.37,-1.45356982,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.39,-1.43008872,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.41,-1.45122228,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.43,-1.42235299,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.45,-1.47870506,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.47,-1.48152009,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.49,-1.4812064,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.51,-1.4994581,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.53,-1.50505349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.55,-1.51816907,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.57,-1.51987956,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.59,-1.54747432,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.61,-1.54456203,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.63,-1.53381161,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.65,-1.53416571,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.67,-1.57655139,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.69,-1.58244955,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.71,-1.57073226,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.73,-1.58642663,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.75,-1.58883048,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.77,-1.63365156,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.79,-1.60687742,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.81,-1.63588444,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.83,-1.61962671,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.85,-1.64906655,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.87,-1.65464046,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.89,-1.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.91,-1.67916166,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.93,-1.67768027,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.95,-1.70778436,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.97,-1.68866301,results/velocity_pdfs.npz r1.3_uL
+0,u_L,3.99,-1.73111872,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.01,-1.7004499,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.03,-1.71740013,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.05,-1.71417116,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.07,-1.73223516,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.09,-1.72889441,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.11,-1.74701624,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.13,-1.78760008,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.15,-1.79206751,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.17,-1.77880075,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.19,-1.80245472,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.21,-1.79658137,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.23,-1.80311224,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.25,-1.807743,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.27,-1.83307546,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.29,-1.82262682,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.31,-1.81988245,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.33,-1.85550031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.35,-1.85624333,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.37,-1.89511492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.39,-1.88785635,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.41,-1.90167043,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.43,-1.8992005,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.45,-1.89838031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.47,-1.89511492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.49,-1.90832642,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.51,-1.93512722,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.53,-1.9533393,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.55,-1.92022564,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.57,-1.95520322,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.59,-1.9922283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.61,-1.98516645,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.63,-1.96084349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.65,-2.00565584,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.67,-1.98516645,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.69,-1.99324658,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.71,-2.02826363,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.73,-2.05094735,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.75,-2.0417312,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.77,-2.06036331,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.79,-2.03719545,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.81,-2.05328227,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.83,-2.0963169,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.85,-2.10151809,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.87,-2.10151809,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.89,-2.12296909,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.91,-2.05917509,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.93,-2.11615114,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.95,-2.16175833,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.97,-2.11886549,results/velocity_pdfs.npz r1.3_uL
+0,u_L,4.99,-2.16175833,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.01,-2.16326369,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.03,-2.16781132,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.05,-2.12572653,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.07,-2.16326369,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.09,-2.22125564,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.11,-2.2370499,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.13,-2.2370499,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.15,-2.15727333,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.17,-2.19777454,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.19,-2.25158831,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.21,-2.30668583,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.23,-2.21782246,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.25,-2.29021772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.27,-2.24063913,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.29,-2.31946012,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.31,-2.33709887,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.33,-2.3238031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.35,-2.33485445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.37,-2.33040011,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.39,-2.3238031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.41,-2.35548445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.43,-2.36020509,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.45,-2.34162281,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.47,-2.38712773,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.49,-2.38210693,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.51,-2.36980315,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.53,-2.42125905,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.55,-2.38712773,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.57,-2.37223617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.59,-2.43796475,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.61,-2.40781233,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.63,-2.49232241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.65,-2.44367923,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.67,-2.47343706,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.69,-2.46732014,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.71,-2.47343706,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.73,-2.48911727,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.75,-2.48911727,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.77,-2.55447032,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.79,-2.49232241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.81,-2.50208225,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.83,-2.50538488,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.85,-2.55077417,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.87,-2.47036783,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.89,-2.56957773,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.91,-2.60562284,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.93,-2.58522968,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.95,-2.60981895,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.97,-2.61405601,results/velocity_pdfs.npz r1.3_uL
+0,u_L,5.99,-2.53987081,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.01,-2.63588444,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.03,-2.60562284,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.05,-2.59735031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.07,-2.64038494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.09,-2.54710922,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.11,-2.66361478,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.13,-2.77139783,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.15,-2.73056157,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.17,-2.71417116,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.19,-2.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.21,-2.65886835,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.23,-2.72502909,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.25,-2.65417323,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.27,-2.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.29,-2.77139783,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.31,-2.74184258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.33,-2.74184258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.35,-2.74759491,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.37,-2.80974282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.39,-2.85922818,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.41,-2.85180417,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.43,-2.86678132,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.45,-2.87446815,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.47,-2.80974282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.49,-2.79658137,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.51,-2.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.53,-2.85922818,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.55,-2.90665283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.57,-2.94141494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.59,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.61,-2.915086,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.63,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.65,-2.95989835,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.67,-2.99940689,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.69,-2.90665283,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.71,-3.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.73,-2.89026242,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.75,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.77,-2.9324601,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.79,-2.89838031,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.81,-3.00987232,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.83,-2.9792035,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.85,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.87,-3.1175062,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.89,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.91,-3.05445445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.93,-3.07858813,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.95,-3.26092834,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.97,-3.03159157,results/velocity_pdfs.npz r1.3_uL
+0,u_L,6.99,-3.03159157,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.01,-3.04287258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.03,-3.06635368,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.05,-2.98918772,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.07,-3.13129448,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.09,-3.30043688,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.11,-3.05445445,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.13,-3.1175062,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.15,-3.22471617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.17,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.19,-3.06635368,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.21,-3.13129448,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.23,-3.19129241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.25,-3.34390258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.27,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.29,-3.26092834,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.31,-3.26092834,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.33,-3.22471617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.35,-3.34390258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.37,-3.19129241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.39,-3.04287258,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.41,-3.19129241,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.43,-3.24244494,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.45,-3.36738367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.47,-3.26092834,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.49,-3.36738367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.51,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.53,-3.26092834,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.55,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.57,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.59,-3.41853619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.61,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.63,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.65,-3.41853619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.67,-3.2802335,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.69,-3.41853619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.71,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.73,-3.17549815,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.75,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.77,-3.39220726,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.79,-3.41853619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.81,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.83,-3.44656492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.85,-3.41853619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.87,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.89,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.91,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.93,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.95,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.97,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,7.99,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.01,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.03,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.05,-3.54347493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.07,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.09,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.11,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.13,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.15,-3.47652814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.17,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.19,-3.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.21,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.23,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.25,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.27,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.29,-3.58126349,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.31,-3.50871282,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.33,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.35,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.37,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.39,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.41,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.43,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.45,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.47,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.49,-3.66841367,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.51,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.53,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.55,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.57,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.59,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.61,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.63,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.65,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.67,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.69,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.71,-3.71956619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.73,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.75,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.77,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.79,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.81,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.83,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.85,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.87,-3.84450493,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.89,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.91,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.93,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.95,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.97,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,8.99,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.01,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.03,-3.77755814,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.05,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.07,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.09,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.11,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.13,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.15,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.17,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.19,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.21,-3.92368617,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.23,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.25,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.27,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.29,-4.02059619,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.31,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.33,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.35,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.37,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.39,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.41,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.43,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.45,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.49,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.51,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.53,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.57,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.59,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.61,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.63,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.65,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.67,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.73,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.75,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.79,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.81,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.83,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.93,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.97,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,9.99,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.01,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.03,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.09,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.19,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.27,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.39,-4.14553492,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.41,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.47,-4.32162618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.57,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.73,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.79,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.93,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,10.99,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.03,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.13,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.19,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.37,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.47,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.49,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.61,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,11.71,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,12.13,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,12.23,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+0,u_L,12.25,-4.62265618,results/velocity_pdfs.npz r1.3_uL
+1,Delta u_L,-17.085,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-16.965,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-16.005,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-15.735,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-15.585,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-15.525,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-15.495,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-15.135,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-15.075,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.985,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.895,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.865,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.805,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.745,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.715,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.655,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.595,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.535,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.415,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.295,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.265,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.145,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.115,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.085,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-14.025,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.995,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.965,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.905,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.875,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.815,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.785,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.755,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.695,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.635,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.605,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.575,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.545,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.515,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.485,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.455,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.425,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.395,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.365,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.335,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.305,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.275,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.245,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.215,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.185,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.125,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.095,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.065,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.035,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-13.005,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.975,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.945,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.915,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.885,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.855,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.825,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.795,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.765,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.735,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.705,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.675,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.645,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.615,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.585,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.555,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.525,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.495,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.465,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.435,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.405,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.375,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.345,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.315,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.255,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.225,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.195,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.165,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.135,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.105,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.075,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.045,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-12.015,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.985,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.955,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.925,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.895,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.865,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.835,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.805,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.775,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.745,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.715,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.685,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.655,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.625,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.595,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.565,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.535,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.505,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.475,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.445,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.415,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.385,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.355,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.325,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.295,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.265,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.235,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.205,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.175,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.145,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.115,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.085,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.055,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-11.025,-3.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.995,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.965,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.935,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.905,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.875,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.845,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.815,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.785,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.755,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.725,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.695,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.665,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.635,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.605,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.575,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.545,-3.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.515,-3.17549815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.485,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.455,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.425,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.395,-3.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.365,-3.17549815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.335,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.305,-3.21896384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.275,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.245,-3.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.215,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.185,-3.1175062,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.155,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.125,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.095,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.065,-3.17549815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.035,-3.26726852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-10.005,-3.06635368,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.975,-3.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.945,-2.96623852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.915,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.885,-3.15529476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.855,-3.06635368,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.825,-3.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.795,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.765,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.735,-3.03531944,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.705,-3.00635575,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.675,-3.08274409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.645,-3.15529476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.615,-2.91793384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.585,-2.9792035,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.555,-2.9536494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.525,-2.9536494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.495,-3.09977743,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.465,-2.91793384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.435,-3.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.405,-2.8164762,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.375,-3.00635575,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.345,-3.09977743,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.315,-2.86424898,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.285,-2.87446815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.255,-2.96623852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.225,-3.05055941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.195,-2.91793384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.165,-2.96623852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.135,-2.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.105,-2.94141494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.075,-2.84450493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.045,-2.74184258,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-9.015,-3.00635575,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.985,-2.86424898,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.955,-2.82561958,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.925,-2.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.895,-2.8164762,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.865,-2.82561958,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.835,-2.79014726,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.805,-2.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.775,-2.8164762,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.745,-2.8164762,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.715,-2.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.685,-2.94141494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.655,-2.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.625,-2.75735475,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.595,-2.73428945,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.565,-2.68480408,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.535,-2.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.505,-2.74184258,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.475,-2.77344157,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.445,-2.67164264,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.415,-2.65886835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.385,-2.62265618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.355,-2.73428945,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.325,-2.61690385,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.295,-2.65886835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.265,-2.67164264,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.235,-2.69837689,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.205,-2.62265618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.175,-2.56829851,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.145,-2.58390359,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.115,-2.68480408,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.085,-2.65886835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.055,-2.55323477,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-8.025,-2.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.995,-2.64038494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.965,-2.55323477,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.935,-2.62265618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.905,-2.55819819,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.875,-2.56829851,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.845,-2.51094571,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.815,-2.51999384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.785,-2.444639,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.755,-2.49339607,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.725,-2.51999384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.695,-2.48911727,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.665,-2.60562284,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.635,-2.44849942,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.605,-2.52458959,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.575,-2.43325945,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.545,-2.46833366,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.515,-2.43325945,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.485,-2.49339607,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.455,-2.40781233,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.425,-2.50208225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.395,-2.39050747,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.365,-2.31874049,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.335,-2.32453117,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.305,-2.3738658,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.275,-2.3454291,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.245,-2.31019672,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.215,-2.27760935,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.185,-2.33935495,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.155,-2.2802335,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.125,-2.36099687,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.095,-2.33336458,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.065,-2.32453117,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.035,-2.34849833,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-7.005,-2.22355959,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.975,-2.29906035,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.945,-2.22125564,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.915,-2.25467939,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.885,-2.26726852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.855,-2.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.825,-2.21441621,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.795,-2.21216013,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.765,-2.17757115,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.735,-2.24003887,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.705,-2.20105225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.675,-2.18385022,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.645,-2.17138158,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.615,-2.15332517,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.585,-2.14746942,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.555,-2.16730367,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.525,-2.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.495,-2.12850158,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.465,-2.14169158,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.435,-2.08274409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.405,-2.13222946,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.375,-2.10855136,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.345,-2.12480544,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.315,-2.05523767,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.285,-2.05211324,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.255,-2.05680836,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.225,-2.0368196,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.195,-2.02350118,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.165,-2.05523767,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.135,-2.00495705,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.105,-1.99529032,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.075,-2.04746833,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.045,-2.06635368,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-6.015,-1.9536494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.985,-1.98449984,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.955,-1.94504922,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.925,-1.99256746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.895,-1.94626744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.865,-1.94021024,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.835,-1.92368617,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.805,-1.93423636,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.775,-1.89133608,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.745,-1.90665283,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.715,-1.90222122,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.685,-1.88387562,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.655,-1.88812303,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.625,-1.88599413,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.595,-1.86830784,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.565,-1.86122954,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.535,-1.81377031,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.505,-1.84838258,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.475,-1.85131371,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.445,-1.81557236,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.415,-1.82102383,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.385,-1.84161924,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.355,-1.78760008,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.325,-1.76532368,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.295,-1.81018848,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.265,-1.76936366,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.235,-1.74413438,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.205,-1.75030563,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.175,-1.74643834,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.145,-1.74490101,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.115,-1.78004694,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.085,-1.70253285,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.055,-1.71452875,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-5.025,-1.71025697,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.995,-1.69906679,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.965,-1.70322939,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.935,-1.66520853,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.905,-1.66584767,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.875,-1.66905754,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.845,-1.65949822,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.815,-1.63261347,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.785,-1.64645909,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.755,-1.62731354,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.725,-1.61405601,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.695,-1.5930019,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.665,-1.5930019,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.635,-1.59680437,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.605,-1.58443354,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.575,-1.58923242,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.545,-1.56170664,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.515,-1.55224886,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.485,-1.55570939,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.455,-1.52970173,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.425,-1.50871282,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.395,-1.52228563,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.365,-1.53392961,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.335,-1.49082373,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.305,-1.50384053,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.275,-1.49511946,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.245,-1.46630898,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.215,-1.45396231,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.185,-1.46630898,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.155,-1.45474837,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.125,-1.43176446,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.095,-1.43891195,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.065,-1.44272158,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.035,-1.43101889,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-4.005,-1.40464613,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.975,-1.40816556,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.945,-1.39631409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.915,-1.37978361,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.885,-1.38780158,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.855,-1.37158603,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.825,-1.36131399,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.795,-1.36867238,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.765,-1.35909901,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.735,-1.35127931,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.705,-1.33336458,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.675,-1.32133675,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.645,-1.29961044,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.615,-1.30071271,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.585,-1.32336684,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.555,-1.29305493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.525,-1.27292548,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.495,-1.27214973,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.465,-1.27708642,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.435,-1.26599306,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.405,-1.25517601,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.375,-1.25097273,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.345,-1.23550373,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.315,-1.22843805,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.285,-1.21373816,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.255,-1.21691151,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.225,-1.19603649,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.195,-1.18851326,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.165,-1.17508473,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.135,-1.17487817,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.105,-1.1876617,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.075,-1.17425907,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.045,-1.15588738,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-3.015,-1.12628012,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.985,-1.14284102,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.955,-1.14766335,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.925,-1.13826142,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.895,-1.1298027,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.865,-1.11624135,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.835,-1.0970068,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.805,-1.09580019,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.775,-1.09391083,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.745,-1.07594904,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.715,-1.0797478,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.685,-1.05133563,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.655,-1.060284,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.625,-1.04547087,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.595,-1.03832495,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.565,-1.02393861,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.535,-1.0177105,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.505,-1.02016211,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.475,-1.00705679,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.445,-0.991212408,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.415,-0.995563548,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.385,-0.993382529,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.355,-0.977364936,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.325,-0.965855491,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.295,-0.954021808,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.265,-0.955888674,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.235,-0.951174777,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.205,-0.928109473,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.175,-0.924265618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.145,-0.924497613,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.115,-0.901340296,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.085,-0.896962291,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.055,-0.899036341,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-2.025,-0.893383367,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.995,-0.890155197,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.965,-0.868205906,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.935,-0.874778471,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.905,-0.85624333,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.875,-0.84171512,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.845,-0.846536378,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.815,-0.833922318,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.785,-0.829331524,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.755,-0.810813171,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.725,-0.815391822,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.695,-0.803199987,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.665,-0.796494956,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.635,-0.790402807,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.605,-0.792452578,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.575,-0.75822421,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.545,-0.770583017,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.515,-0.769932266,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.485,-0.762198382,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.455,-0.743216211,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.425,-0.741994996,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.395,-0.737823066,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.365,-0.723565581,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.335,-0.718626237,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.305,-0.712387605,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.275,-0.715244816,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.245,-0.699896129,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.215,-0.690723927,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.185,-0.684670475,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.155,-0.683070371,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.125,-0.679755636,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.095,-0.664442801,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.065,-0.649158868,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.035,-0.656107728,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-1.005,-0.64201661,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.975,-0.638459023,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.945,-0.628661822,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.915,-0.625502877,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.885,-0.618334803,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.855,-0.600145327,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.825,-0.608415738,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.795,-0.593705557,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.765,-0.593164177,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.735,-0.584274486,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.705,-0.581263492,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.675,-0.567277846,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.645,-0.572456931,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.615,-0.566615695,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.585,-0.553926241,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.555,-0.546914617,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.525,-0.55165838,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.495,-0.54227023,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.465,-0.534685565,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.435,-0.535774557,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.405,-0.52690583,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.375,-0.519993835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.345,-0.511438484,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.315,-0.511080045,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.285,-0.509426098,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.255,-0.506092706,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.225,-0.495681038,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.195,-0.497326751,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.165,-0.488224052,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.135,-0.482693177,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.105,-0.486612411,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.075,-0.485175468,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.045,-0.479974776,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,-0.015,-0.482902991,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.015,-0.477770759,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.045,-0.473231773,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.075,-0.473231773,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.105,-0.481143694,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.135,-0.513865721,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.165,-0.535584971,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.195,-0.55165838,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.225,-0.583109873,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.255,-0.603013788,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.285,-0.627489161,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.315,-0.634335092,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.345,-0.662026869,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.375,-0.689641572,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.405,-0.70072705,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.435,-0.722179806,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.465,-0.728340114,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.495,-0.758857638,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.525,-0.760763487,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.555,-0.782884928,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.585,-0.799616895,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.615,-0.82093241,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.645,-0.826081844,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.675,-0.846148702,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.705,-0.85972766,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.735,-0.872610865,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.765,-0.900461157,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.795,-0.896200657,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.825,-0.922876245,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.855,-0.936616057,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.885,-0.948959612,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.915,-0.948591514,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.945,-0.974361234,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,0.975,-0.998030358,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.005,-1.01555874,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.035,-1.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.065,-1.02554629,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.095,-1.04256792,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.125,-1.05586526,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.155,-1.06187307,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.185,-1.07858813,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.215,-1.10274072,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.245,-1.08863007,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.275,-1.11552023,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.305,-1.13466985,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.335,-1.1292446,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.365,-1.14284102,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.395,-1.14188294,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.425,-1.17611901,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.455,-1.16286175,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.485,-1.18300775,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.515,-1.19712196,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.545,-1.2180505,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.575,-1.23955925,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.605,-1.23526635,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.635,-1.24268628,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.665,-1.25171154,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.695,-1.28102384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.725,-1.26931708,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.755,-1.28499729,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.785,-1.29251308,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.815,-1.31501754,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.845,-1.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.875,-1.32569863,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.905,-1.32716238,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.935,-1.36194893,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.965,-1.3587835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,1.995,-1.3423814,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.025,-1.37978361,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.055,-1.39838216,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.085,-1.40993602,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.115,-1.41135761,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.145,-1.41709095,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.175,-1.41998626,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.205,-1.41529114,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.235,-1.4571151,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.265,-1.46996024,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.295,-1.44157518,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.325,-1.46308898,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.355,-1.47818576,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.385,-1.51139366,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.415,-1.51862454,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.445,-1.51005118,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.475,-1.49555138,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.505,-1.49598373,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.535,-1.52458959,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.565,-1.53582197,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.595,-1.52876776,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.625,-1.56019955,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.655,-1.57551116,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.685,-1.57447342,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.715,-1.59030608,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.745,-1.59192156,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.775,-1.57759411,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.805,-1.60729642,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.835,-1.60229489,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.865,-1.60064044,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.895,-1.63678082,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.925,-1.64707121,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.955,-1.66266134,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,2.985,-1.61690385,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.015,-1.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.045,-1.69085941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.075,-1.6748958,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.105,-1.68413645,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.135,-1.67949155,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.165,-1.69221658,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.195,-1.71740013,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.225,-1.70602679,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.255,-1.75186225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.285,-1.75264265,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.315,-1.74108133,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.345,-1.74490101,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.375,-1.74720905,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.405,-1.77838615,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.435,-1.77838615,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.465,-1.78929654,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.495,-1.80136105,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.525,-1.78760008,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.555,-1.81018848,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.585,-1.81919906,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.615,-1.8435409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.645,-1.85131371,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.675,-1.87550342,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.705,-1.86424898,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.735,-1.83213645,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.765,-1.88282022,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.795,-1.85823095,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.825,-1.88599413,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.855,-1.87966934,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.885,-1.91225671,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.915,-1.89457307,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.945,-1.90554068,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,3.975,-1.92484584,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.005,-1.93186962,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.035,-1.93186962,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.065,-1.97788945,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.095,-1.95117478,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.125,-1.9536494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.155,-1.97267263,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.185,-1.96751774,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.215,-2.00495705,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.245,-2.00495705,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.275,-2.0177105,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.305,-1.99803036,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.335,-1.99665818,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.365,-2.01057906,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.395,-1.99940689,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.425,-2.04287258,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.455,-2.06796516,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.485,-2.06635368,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.515,-2.08947748,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.545,-2.05838475,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.575,-2.09288372,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.605,-2.11931954,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.635,-2.11211117,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.665,-2.09288372,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.695,-2.08274409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.725,-2.14169158,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.755,-2.11931954,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.785,-2.16125771,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.815,-2.15926095,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.845,-2.143609,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.875,-2.20105225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.905,-2.14553492,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.935,-2.19886436,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.965,-2.18808727,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,4.995,-2.14746942,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.025,-2.17549815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.055,-2.23289962,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.085,-2.22587583,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.115,-2.25967134,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.145,-2.20105225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.175,-2.26726852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.205,-2.20325121,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.235,-2.26218899,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.265,-2.25716819,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.295,-2.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.325,-2.33336458,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.355,-2.3423814,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.385,-2.28552984,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.415,-2.36099687,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.445,-2.31587385,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.475,-2.3454291,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.505,-2.36099687,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.535,-2.37061264,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.565,-2.37714351,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.595,-2.38044614,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.625,-2.3973469,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.655,-2.40429576,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.685,-2.29632032,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.715,-2.35783835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.745,-2.4370196,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.775,-2.39050747,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.805,-2.3738658,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.835,-2.44849942,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.865,-2.39050747,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.895,-2.4806841,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.925,-2.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.955,-2.50208225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,5.985,-2.48911727,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.015,-2.48911727,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.045,-2.46029094,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.075,-2.48488022,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.105,-2.46029094,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.135,-2.52923449,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.165,-2.55819819,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.195,-2.52923449,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.225,-2.57863935,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.255,-2.52923449,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.285,-2.51999384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.315,-2.61122672,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.345,-2.4806841,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.375,-2.50208225,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.405,-2.60009035,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.435,-2.58923242,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.465,-2.62848572,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.495,-2.56829851,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.525,-2.67164264,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.555,-2.66520853,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.585,-2.67164264,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.615,-2.58923242,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.645,-2.57863935,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.675,-2.75735475,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.705,-2.70532575,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.735,-2.62265618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.765,-2.62265618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.795,-2.71238761,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.825,-2.69153747,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.855,-2.64038494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.885,-2.68480408,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.915,-2.65886835,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.945,-2.63439458,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,6.975,-2.74952941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.005,-2.77344157,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.035,-2.74184258,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.065,-2.68480408,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.095,-2.74952941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.125,-2.75735475,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.155,-2.7817141,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.185,-2.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.215,-2.80752136,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.245,-2.6781735,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.275,-2.83495961,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.305,-2.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.335,-2.77344157,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.365,-2.84450493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.395,-2.87446815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.425,-2.8164762,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.455,-2.84450493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.485,-2.79014726,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.515,-3.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.545,-2.80752136,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.575,-2.82561958,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.605,-2.87446815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.635,-2.91793384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.665,-2.80752136,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.695,-2.77344157,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.725,-2.92951572,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.755,-3.00635575,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.785,-2.92951572,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.815,-2.99256746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.845,-2.9792035,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.875,-2.88493358,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.905,-2.92951572,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.935,-2.94141494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.965,-3.05055941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,7.995,-2.85426476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.025,-3.06635368,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.055,-2.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.085,-3.21896384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.115,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.145,-2.9536494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.175,-3.09977743,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.205,-3.08274409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.235,-3.26726852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.265,-3.15529476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.295,-3.03531944,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.325,-3.00635575,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.355,-3.05055941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.385,-3.21896384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.415,-3.05055941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.445,-3.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.475,-3.15529476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.505,-3.03531944,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.535,-3.05055941,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.565,-3.15529476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.595,-3.21896384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.625,-3.09977743,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.655,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.685,-2.9792035,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.715,-3.17549815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.745,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.775,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.805,-3.21896384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.835,-3.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.865,-3.17549815,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.895,-3.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.925,-3.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.955,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,8.985,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.015,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.045,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.075,-3.26726852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.105,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.135,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.165,-3.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.195,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.225,-3.26726852,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.255,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.285,-3.21896384,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.315,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.345,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.375,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.405,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.435,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.465,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.495,-3.1175062,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.525,-3.41853619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.555,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.585,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.615,-3.29359746,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.645,-3.1359896,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.675,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.705,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.735,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.765,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.795,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.825,-3.38377409,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.855,-3.24244494,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.885,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.915,-3.3515894,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.945,-3.32162618,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,9.975,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.005,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.035,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.065,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.095,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.125,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.155,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.185,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.215,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.245,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.275,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.305,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.335,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.365,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.395,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.425,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.455,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.485,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.515,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.545,-3.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.575,-3.45632476,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.605,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.635,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.665,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.695,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.725,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.755,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.785,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.815,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.845,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.875,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.905,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.935,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.965,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,10.995,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.025,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.055,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.085,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.115,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.145,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.175,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.205,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.235,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.265,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.295,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.325,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.355,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.385,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.415,-3.54347493,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.445,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.475,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.505,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.535,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.565,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.595,-3.59462745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.625,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.655,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.685,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.715,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.775,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.805,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.835,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.865,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.895,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.925,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.955,-3.6526194,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,11.985,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.015,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.045,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.075,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.135,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.165,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.195,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.225,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.255,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.285,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.345,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.375,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.405,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.435,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.495,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.525,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.555,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.585,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.615,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.645,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.675,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.705,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.735,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.765,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.795,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.825,-3.71956619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.855,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.885,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.915,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.945,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,12.975,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.005,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.035,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.065,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.125,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.155,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.185,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.275,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.305,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.335,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.365,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.395,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.425,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.455,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.485,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.515,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.545,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.575,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.665,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.695,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.725,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.785,-3.89565745,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.845,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.875,-3.79874744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.905,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.935,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.965,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,13.995,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.055,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.085,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.115,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.175,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.205,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.235,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.385,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.415,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.475,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.595,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.685,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.715,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.745,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.775,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.805,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,14.955,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.015,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.045,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.105,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.285,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.375,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.405,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.465,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.525,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.615,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.855,-4.19668744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,15.975,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.125,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.245,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.275,-4.02059619,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.305,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.365,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.605,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.635,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.695,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.755,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.905,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,16.935,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,17.085,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+1,Delta u_L,17.535,-4.49771744,results/velocity_pdfs.npz r1.3_dU
+2,Sigma u_L,-19.275,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-18.975,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-18.915,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-18.555,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-17.715,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-17.565,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-17.475,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-17.265,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-17.145,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-16.485,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-16.425,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-16.395,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-16.245,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-16.185,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-16.065,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.975,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.885,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.855,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.825,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.795,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.705,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.675,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.495,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.465,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.435,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.405,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.315,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.255,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.195,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.165,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.105,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.075,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.045,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-15.015,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.925,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.895,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.805,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.775,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.745,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.715,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.685,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.655,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.595,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.535,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.505,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.475,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.445,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.415,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.385,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.355,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.325,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.295,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.265,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.205,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.175,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.145,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.115,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.085,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.055,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-14.025,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.995,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.965,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.935,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.905,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.875,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.845,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.815,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.785,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.755,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.725,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.695,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.665,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.635,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.605,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.575,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.545,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.515,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.485,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.455,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.425,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.395,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.365,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.335,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.305,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.275,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.245,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.215,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.185,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.155,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.125,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.095,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.065,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.035,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-13.005,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.975,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.945,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.915,-3.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.885,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.855,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.825,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.795,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.765,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.735,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.705,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.675,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.645,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.615,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.585,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.555,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.525,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.495,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.465,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.435,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.405,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.375,-3.71956619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.345,-3.84450493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.315,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.285,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.255,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.225,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.195,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.165,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.135,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.105,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.075,-3.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.045,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-12.015,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.985,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.955,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.925,-3.71956619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.895,-3.84450493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.865,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.835,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.805,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.775,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.745,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.715,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.685,-3.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.655,-3.62265618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.625,-3.59462745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.595,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.565,-3.71956619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.535,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.505,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.475,-3.59462745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.445,-3.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.415,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.385,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.355,-3.54347493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.325,-3.56829851,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.295,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.265,-3.84450493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.235,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.205,-3.56829851,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.175,-3.51999384,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.145,-3.54347493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.115,-3.51999384,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.085,-3.36738367,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.055,-3.56829851,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-11.025,-3.41853619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.995,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.965,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.935,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.905,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.875,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.845,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.815,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.785,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.755,-3.2802335,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.725,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.695,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.665,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.635,-3.29359746,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.605,-3.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.575,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.545,-3.15529476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.515,-3.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.485,-3.2802335,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.455,-3.40080743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.425,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.395,-3.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.365,-3.1359896,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.335,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.305,-3.09117726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.275,-3.16527898,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.245,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.215,-3.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.185,-3.1359896,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.155,-3.25467939,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.125,-3.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.095,-3.10855136,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.065,-3.12664958,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.035,-3.09117726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-10.005,-3.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.975,-3.10855136,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.945,-3.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.915,-3.1175062,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.885,-3.07447157,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.855,-3.12664958,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.825,-3.14553492,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.795,-2.99940689,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.765,-3.08274409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.735,-3.12664958,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.705,-3.10855136,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.675,-3.16527898,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.645,-2.99940689,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.615,-2.9792035,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.585,-3.09117726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.555,-2.94748909,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.525,-2.97267263,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.495,-3.03531944,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.465,-3.05838475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.435,-3.02789542,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.405,-2.96623852,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.375,-2.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.345,-3.05838475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.315,-2.93542458,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.285,-2.94748909,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.255,-2.87446815,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.225,-2.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.195,-2.84935743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.165,-2.85922818,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.135,-2.87966934,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.105,-2.8164762,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.075,-2.90112034,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.045,-2.8119757,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-9.015,-2.74952941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.985,-2.87966934,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.955,-2.82102383,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.925,-2.85922818,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.895,-2.79014726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.865,-2.74952941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.835,-2.7817141,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.805,-2.83495961,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.775,-2.8119757,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.745,-2.76936366,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.715,-2.76936366,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.685,-2.76936366,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.655,-2.72686543,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.625,-2.75342446,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.595,-2.72320047,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.565,-2.75342446,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.535,-2.72320047,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.505,-2.70183742,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.475,-2.71596207,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.445,-2.64952832,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.415,-2.71238761,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.385,-2.66520853,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.355,-2.69837689,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.325,-2.68147614,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.295,-2.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.265,-2.59192156,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.235,-2.62556117,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.205,-2.59462745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.175,-2.57086073,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.145,-2.57863935,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.115,-2.53157571,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.085,-2.56070133,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.055,-2.57603096,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-8.025,-2.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.995,-2.53867605,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.965,-2.55819819,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.935,-2.53629635,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.905,-2.49989436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.875,-2.54347493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.845,-2.48699358,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.815,-2.51319013,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.785,-2.50208225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.755,-2.49555138,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.725,-2.48911727,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.695,-2.50208225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.665,-2.48488022,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.635,-2.47036783,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.605,-2.3738658,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.575,-2.41673039,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.545,-2.43139152,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.515,-2.37714351,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.485,-2.3973469,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.455,-2.40605048,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.425,-2.38712773,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.395,-2.34849833,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.365,-2.3515894,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.335,-2.36899516,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.305,-2.34086554,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.275,-2.39050747,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.245,-2.29906035,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.215,-2.32453117,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.185,-2.30598705,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.155,-2.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.125,-2.3032031,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.095,-2.30181779,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.065,-2.27370263,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.035,-2.30598705,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-7.005,-2.33935495,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.975,-2.24729744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.945,-2.29632032,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.915,-2.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.885,-2.24851908,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.855,-2.26092834,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.825,-2.21103647,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.795,-2.21441621,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.765,-2.18490561,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.735,-2.2270386,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.705,-2.18279738,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.675,-2.16527898,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.645,-2.18490561,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.615,-2.19560306,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.585,-2.17965411,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.555,-2.15430885,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.525,-2.13129448,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.495,-2.1238863,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.465,-2.13036152,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.435,-2.12022906,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.405,-2.1465011,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.375,-2.07611351,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.345,-2.08694021,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.315,-2.08107693,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.285,-2.07039365,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.255,-2.05055941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.225,-2.05680836,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.195,-2.02789542,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.165,-2.03307888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.135,-2.03307888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.105,-1.99665818,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.075,-2.00846227,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.045,-1.99871808,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-6.015,-1.9818436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.985,-1.93721303,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.955,-1.98784316,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.925,-1.95179211,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.895,-1.9580142,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.865,-1.95926939,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.835,-1.92137609,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.805,-1.9225296,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.775,-1.93960914,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.745,-1.89349139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.715,-1.92542683,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.685,-1.89511492,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.655,-1.87758139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.625,-1.89295156,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.595,-1.86374428,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.565,-1.86072834,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.535,-1.85426476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.505,-1.83590475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.475,-1.80929762,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.445,-1.83119946,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.415,-1.83685196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.385,-1.80005228,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.355,-1.80092436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.325,-1.78380709,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.295,-1.79228139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.265,-1.78675432,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.235,-1.78296868,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.205,-1.77017618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.175,-1.76371815,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.145,-1.74952941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.115,-1.72247118,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.085,-1.73503888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.055,-1.71920443,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-5.025,-1.70497565,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.995,-1.71524482,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.965,-1.70637774,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.935,-1.68413645,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.905,-1.70322939,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.875,-1.64983644,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.845,-1.66937984,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.815,-1.64922042,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.785,-1.64584784,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.755,-1.66202687,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.725,-1.64250125,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.695,-1.63231732,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.665,-1.61377225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.635,-1.60257125,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.605,-1.59707726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.575,-1.59899226,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.545,-1.56906559,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.515,-1.57395548,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.485,-1.56727785,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.455,-1.55249512,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.425,-1.55496552,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.395,-1.53228054,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.365,-1.51953692,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.335,-1.51027464,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.305,-1.49750035,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.275,-1.52690583,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.245,-1.47220677,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.215,-1.50804519,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.185,-1.49706649,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.155,-1.47343706,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.125,-1.47179744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.095,-1.44714436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.065,-1.44791816,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.035,-1.44791816,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-4.005,-1.42491629,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.975,-1.43834338,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.945,-1.41727135,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.915,-1.41189191,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.885,-1.39631409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.855,-1.41153564,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.825,-1.39717459,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.795,-1.37550156,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.765,-1.38277302,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.735,-1.35894122,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.705,-1.36561792,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.675,-1.34359791,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.645,-1.34071424,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.615,-1.33202806,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.585,-1.32264072,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.555,-1.31802206,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.525,-1.32322152,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.495,-1.29961044,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.465,-1.2931905,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.435,-1.29550166,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.405,-1.30459284,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.375,-1.28833649,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.345,-1.24888625,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.315,-1.24949888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.285,-1.24680974,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.255,-1.23031102,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.225,-1.23349009,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.195,-1.23491052,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.165,-1.23160339,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.135,-1.22045213,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.105,-1.21013963,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.075,-1.20281053,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.045,-1.18164221,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-3.015,-1.18164221,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.985,-1.18904633,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.955,-1.15519607,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.925,-1.158266,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.895,-1.15381673,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.865,-1.13987784,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.835,-1.1465011,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.805,-1.12952356,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.775,-1.13921153,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.745,-1.12970964,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.715,-1.10917222,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.685,-1.10864,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.655,-1.09459692,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.625,-1.09787073,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.595,-1.09220033,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.565,-1.07316246,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.535,-1.06804589,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.505,-1.06243063,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.475,-1.05226893,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.445,-1.04700656,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.415,-1.04211133,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.385,-1.0348704,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.355,-1.02774823,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.325,-1.02342831,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.295,-1.01727929,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.265,-1.01114529,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.235,-1.00099531,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.205,-1.0021731,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.175,-0.986435827,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.145,-0.983767752,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.115,-0.988178907,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.085,-0.979598493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.055,-0.978283245,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-2.025,-0.964963061,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.995,-0.959898345,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.965,-0.950681541,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.935,-0.941837376,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.905,-0.937153291,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.875,-0.933761975,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.845,-0.920685455,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.815,-0.92172182,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.785,-0.917762446,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.755,-0.917134564,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.725,-0.909053645,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.695,-0.897398111,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.665,-0.898489578,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.635,-0.895548889,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.605,-0.890745235,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.575,-0.883558731,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.545,-0.877477251,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.515,-0.879146412,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.485,-0.869942065,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.455,-0.864299487,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.425,-0.862786967,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.395,-0.857037287,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.365,-0.849406229,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.335,-0.85500567,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.305,-0.843637205,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.275,-0.83557372,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.245,-0.832042659,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.215,-0.838038884,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.185,-0.831667702,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.155,-0.818835026,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.125,-0.813006695,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.095,-0.815752981,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.065,-0.813680403,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.035,-0.800793432,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-1.005,-0.810099311,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.975,-0.80162328,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.945,-0.806989897,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.915,-0.801798188,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.885,-0.785910211,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.855,-0.78435292,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.825,-0.790189844,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.795,-0.780171753,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.765,-0.773974523,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.735,-0.780421491,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.705,-0.778634867,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.675,-0.772541139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.645,-0.766451091,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.615,-0.764881569,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.585,-0.770298193,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.555,-0.763317698,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.525,-0.7675006,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.495,-0.76649141,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.465,-0.756960117,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.435,-0.766814096,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.405,-0.759412647,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.375,-0.752837969,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.345,-0.750227948,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.315,-0.747865225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.285,-0.749374336,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.255,-0.752837969,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.225,-0.755975099,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.195,-0.749451868,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.165,-0.748251677,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.135,-0.753620129,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.105,-0.751161079,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.075,-0.751511521,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.045,-0.743139784,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,-0.015,-0.747517713,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.015,-0.747517713,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.045,-0.743139784,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.075,-0.751511521,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.105,-0.751161079,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.135,-0.753620129,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.165,-0.748251677,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.195,-0.749451868,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.225,-0.755975099,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.255,-0.752837969,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.285,-0.749374336,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.315,-0.747865225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.345,-0.750227948,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.375,-0.752837969,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.405,-0.759412647,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.435,-0.766814096,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.465,-0.756960117,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.495,-0.76649141,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.525,-0.7675006,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.555,-0.763317698,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.585,-0.770298193,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.615,-0.764881569,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.645,-0.766451091,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.675,-0.772541139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.705,-0.778634867,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.735,-0.780421491,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.765,-0.773974523,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.795,-0.780171753,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.825,-0.790189844,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.855,-0.78435292,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.885,-0.785910211,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.915,-0.801798188,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.945,-0.806989897,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,0.975,-0.80162328,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.005,-0.810099311,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.035,-0.800793432,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.065,-0.813680403,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.095,-0.815752981,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.125,-0.813006695,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.155,-0.818835026,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.185,-0.831667702,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.215,-0.838038884,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.245,-0.832042659,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.275,-0.83557372,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.305,-0.843637205,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.335,-0.85500567,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.365,-0.849406229,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.395,-0.857037287,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.425,-0.862786967,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.455,-0.864299487,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.485,-0.869942065,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.515,-0.879146412,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.545,-0.877477251,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.575,-0.883558731,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.605,-0.890745235,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.635,-0.895548889,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.665,-0.898489578,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.695,-0.897398111,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.725,-0.909053645,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.755,-0.917134564,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.785,-0.917762446,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.815,-0.92172182,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.845,-0.920685455,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.875,-0.933761975,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.905,-0.937153291,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.935,-0.941837376,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.965,-0.950681541,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,1.995,-0.959898345,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.025,-0.964963061,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.055,-0.978283245,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.085,-0.979598493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.115,-0.988178907,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.145,-0.983767752,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.175,-0.986435827,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.205,-1.0021731,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.235,-1.00099531,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.265,-1.01114529,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.295,-1.01727929,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.325,-1.02342831,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.355,-1.02774823,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.385,-1.0348704,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.415,-1.04211133,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.445,-1.04700656,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.475,-1.05226893,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.505,-1.06243063,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.535,-1.06804589,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.565,-1.07316246,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.595,-1.09220033,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.625,-1.09787073,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.655,-1.09459692,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.685,-1.10864,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.715,-1.10917222,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.745,-1.12970964,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.775,-1.13921153,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.805,-1.12952356,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.835,-1.1465011,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.865,-1.13987784,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.895,-1.15381673,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.925,-1.158266,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.955,-1.15519607,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,2.985,-1.18904633,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.015,-1.18164221,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.045,-1.18164221,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.075,-1.20281053,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.105,-1.21013963,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.135,-1.22045213,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.165,-1.23160339,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.195,-1.23491052,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.225,-1.23349009,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.255,-1.23031102,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.285,-1.24680974,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.315,-1.24949888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.345,-1.24888625,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.375,-1.28833649,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.405,-1.30459284,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.435,-1.29550166,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.465,-1.2931905,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.495,-1.29961044,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.525,-1.32322152,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.555,-1.31802206,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.585,-1.32264072,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.615,-1.33202806,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.645,-1.34071424,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.675,-1.34359791,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.705,-1.36561792,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.735,-1.35894122,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.765,-1.38277302,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.795,-1.37550156,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.825,-1.39717459,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.855,-1.41153564,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.885,-1.39631409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.915,-1.41189191,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.945,-1.41727135,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,3.975,-1.43834338,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.005,-1.42491629,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.035,-1.44791816,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.065,-1.44791816,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.095,-1.44714436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.125,-1.47179744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.155,-1.47343706,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.185,-1.49706649,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.215,-1.50804519,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.245,-1.47220677,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.275,-1.52690583,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.305,-1.49750035,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.335,-1.51027464,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.365,-1.51953692,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.395,-1.53228054,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.425,-1.55496552,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.455,-1.55249512,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.485,-1.56727785,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.515,-1.57395548,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.545,-1.56906559,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.575,-1.59899226,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.605,-1.59707726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.635,-1.60257125,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.665,-1.61377225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.695,-1.63231732,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.725,-1.64250125,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.755,-1.66202687,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.785,-1.64584784,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.815,-1.64922042,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.845,-1.66937984,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.875,-1.64983644,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.905,-1.70322939,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.935,-1.68413645,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.965,-1.70637774,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,4.995,-1.71524482,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.025,-1.70497565,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.055,-1.71920443,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.085,-1.73503888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.115,-1.72247118,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.145,-1.74952941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.175,-1.76371815,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.205,-1.77017618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.235,-1.78296868,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.265,-1.78675432,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.295,-1.79228139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.325,-1.78380709,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.355,-1.80092436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.385,-1.80005228,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.415,-1.83685196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.445,-1.83119946,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.475,-1.80929762,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.505,-1.83590475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.535,-1.85426476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.565,-1.86072834,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.595,-1.86374428,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.625,-1.89295156,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.655,-1.87758139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.685,-1.89511492,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.715,-1.92542683,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.745,-1.89349139,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.775,-1.93960914,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.805,-1.9225296,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.835,-1.92137609,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.865,-1.95926939,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.895,-1.9580142,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.925,-1.95179211,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.955,-1.98784316,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,5.985,-1.93721303,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.015,-1.9818436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.045,-1.99871808,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.075,-2.00846227,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.105,-1.99665818,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.135,-2.03307888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.165,-2.03307888,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.195,-2.02789542,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.225,-2.05680836,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.255,-2.05055941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.285,-2.07039365,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.315,-2.08107693,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.345,-2.08694021,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.375,-2.07611351,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.405,-2.1465011,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.435,-2.12022906,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.465,-2.13036152,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.495,-2.1238863,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.525,-2.13129448,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.555,-2.15430885,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.585,-2.17965411,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.615,-2.19560306,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.645,-2.18490561,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.675,-2.16527898,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.705,-2.18279738,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.735,-2.2270386,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.765,-2.18490561,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.795,-2.21441621,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.825,-2.21103647,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.855,-2.26092834,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.885,-2.24851908,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.915,-2.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.945,-2.29632032,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,6.975,-2.24729744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.005,-2.33935495,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.035,-2.30598705,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.065,-2.27370263,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.095,-2.30181779,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.125,-2.3032031,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.155,-2.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.185,-2.30598705,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.215,-2.32453117,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.245,-2.29906035,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.275,-2.39050747,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.305,-2.34086554,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.335,-2.36899516,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.365,-2.3515894,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.395,-2.34849833,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.425,-2.38712773,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.455,-2.40605048,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.485,-2.3973469,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.515,-2.37714351,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.545,-2.43139152,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.575,-2.41673039,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.605,-2.3738658,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.635,-2.47036783,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.665,-2.48488022,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.695,-2.50208225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.725,-2.48911727,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.755,-2.49555138,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.785,-2.50208225,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.815,-2.51319013,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.845,-2.48699358,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.875,-2.54347493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.905,-2.49989436,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.935,-2.53629635,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.965,-2.55819819,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,7.995,-2.53867605,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.025,-2.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.055,-2.57603096,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.085,-2.56070133,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.115,-2.53157571,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.145,-2.57863935,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.175,-2.57086073,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.205,-2.59462745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.235,-2.62556117,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.265,-2.59192156,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.295,-2.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.325,-2.68147614,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.355,-2.69837689,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.385,-2.66520853,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.415,-2.71238761,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.445,-2.64952832,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.475,-2.71596207,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.505,-2.70183742,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.535,-2.72320047,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.565,-2.75342446,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.595,-2.72320047,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.625,-2.75342446,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.655,-2.72686543,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.685,-2.76936366,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.715,-2.76936366,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.745,-2.76936366,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.775,-2.8119757,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.805,-2.83495961,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.835,-2.7817141,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.865,-2.74952941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.895,-2.79014726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.925,-2.85922818,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.955,-2.82102383,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,8.985,-2.87966934,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.015,-2.74952941,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.045,-2.8119757,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.075,-2.90112034,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.105,-2.8164762,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.135,-2.87966934,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.165,-2.85922818,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.195,-2.84935743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.225,-2.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.255,-2.87446815,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.285,-2.94748909,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.315,-2.93542458,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.345,-3.05838475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.375,-2.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.405,-2.96623852,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.435,-3.02789542,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.465,-3.05838475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.495,-3.03531944,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.525,-2.97267263,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.555,-2.94748909,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.585,-3.09117726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.615,-2.9792035,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.645,-2.99940689,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.675,-3.16527898,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.705,-3.10855136,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.735,-3.12664958,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.765,-3.08274409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.795,-2.99940689,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.825,-3.14553492,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.855,-3.12664958,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.885,-3.07447157,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.915,-3.1175062,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.945,-3.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,9.975,-3.10855136,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.005,-3.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.035,-3.09117726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.065,-3.12664958,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.095,-3.10855136,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.125,-3.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.155,-3.25467939,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.185,-3.1359896,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.215,-3.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.245,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.275,-3.16527898,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.305,-3.09117726,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.335,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.365,-3.1359896,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.395,-3.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.425,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.455,-3.40080743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.485,-3.2802335,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.515,-3.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.545,-3.15529476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.575,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.605,-3.20768283,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.635,-3.29359746,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.665,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.695,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.725,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.755,-3.2802335,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.785,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.815,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.845,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.875,-3.38377409,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.905,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.935,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.965,-3.30738574,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,10.995,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.025,-3.41853619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.055,-3.56829851,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.085,-3.36738367,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.115,-3.51999384,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.145,-3.54347493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.175,-3.51999384,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.205,-3.56829851,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.235,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.265,-3.84450493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.295,-3.4370196,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.325,-3.56829851,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.355,-3.54347493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.385,-3.47652814,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.415,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.445,-3.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.475,-3.59462745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.505,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.535,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.565,-3.71956619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.595,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.625,-3.59462745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.655,-3.62265618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.685,-3.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.715,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.745,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.775,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.805,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.835,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.865,-3.45632476,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.895,-3.84450493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.925,-3.71956619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.955,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,11.985,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.015,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.045,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.075,-3.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.105,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.135,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.165,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.195,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.225,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.255,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.285,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.315,-3.6526194,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.345,-3.84450493,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.375,-3.71956619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.405,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.435,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.465,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.495,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.525,-3.68480408,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.555,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.585,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.615,-3.75735475,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.645,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.675,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.705,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.735,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.765,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.795,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.825,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.855,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.885,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.915,-3.89565745,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.945,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,12.975,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.005,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.035,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.065,-3.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.095,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.125,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.155,-3.9536494,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.185,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.215,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.245,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.275,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.305,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.335,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.365,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.395,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.425,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.455,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.485,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.515,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.545,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.575,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.605,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.635,-4.02059619,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.665,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.695,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.725,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.755,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.785,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.815,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.845,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.875,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.905,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.935,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.965,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,13.995,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.025,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.055,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.085,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.115,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.145,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.175,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.205,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.265,-4.19668744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.295,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.325,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.355,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.385,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.415,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.445,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.475,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.505,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.535,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.595,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.655,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.685,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.715,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.745,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.775,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.805,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.895,-4.09977743,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,14.925,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.015,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.045,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.075,-4.32162618,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.105,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.165,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.195,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.255,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.315,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.405,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.435,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.465,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.495,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.675,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.705,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.795,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.825,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.855,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.885,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,15.975,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,16.065,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,16.185,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,16.245,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,16.395,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,16.425,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,16.485,-4.49771744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,17.145,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,17.265,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,17.475,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,17.565,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,17.715,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,18.555,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,18.915,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,18.975,-4.79874744,results/velocity_pdfs.npz r1.3_sU
+2,Sigma u_L,19.275,-4.79874744,results/velocity_pdfs.npz r1.3_sU

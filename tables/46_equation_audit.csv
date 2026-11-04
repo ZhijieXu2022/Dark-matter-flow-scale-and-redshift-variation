@@ -1,0 +1,96 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,
+# Updated,10/2026,,,,,,
+#Name,Equation-by-equation audit of all 88 numbered equations and the unnumbered logistic density,,,,,,
+#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,
+,,,,,,,
+,,,,,,,
+n,label,kind,check,value,tolerance,status,note
+1,eq:1,citation,Kolmogorov (1941/1962) structure functions of incompressible turbulence,,,n/a,"cited, not specific to this paper"
+2,ZEqnNum658459,identity,-(u x r_hat) x r_hat = u - (u.r_hat) r_hat on 1000 random vectors,1.33e-15,1e-12,pass,
+3,ZEqnNum143209,citation,pair conservation equation (Peebles 1980),,,n/a,"used for Fig. 3; see Eqs. 4, 5"
+4,ZEqnNum538076,derivation,Eq. 3 with dln xibar/dln a = 2: corrected form -2 xibar/(3(1+xi)) vs exact reduction,1.96e-16,1e-10,fixed (E2),printed -2 xibar(1+xibar)/(3(1+xi)) has a spurious factor (1+xibar) (max rel. dev. 5.00 for xibar<=5); the reduction gives -2 xibar/(3(1+xi)) (residual 2e-16); the published Fig. 3 linear curve used the printed form; both reduce to -2/3 xibar for xibar << 1
+5,ZEqnNum464521,derivation,"Eq. 3 with xibar >> 1, dln xibar/dln a = alpha (=2.5): approximation error for xibar >= 10",0.1,1e-01,pass,dln(1+xibar)/dln a = alpha xibar/(1+xibar) -> alpha
+6,eq:44,derivation,"algebra: Eq. 5 with xibar = 3 xi/(3+gamma) (power law, xi >> 1) and alpha = gamma+3 gives -1; data: right-hand side of Eq. 5 from xi(r, z = 0, 0.1) at r = 0.1 Mpc/h",0.0679,1e-01,pass,"algebraic residual 0e+00; Eq. 5 from xi: 1.02, 1.07, 1.21 at r = 0.05, 0.1, 0.2 Mpc/h (alpha of xibar = 2.36, xibar/xi = 1.36); measured -<Delta u_L>/(Har) = 1.04 (0.02-0.05), 0.96 (0.05-0.1 Mpc/h)"
+7,eq:37,definition,"generalized kurtosis, central moment, structure function",,,n/a,
+8,eq:38,definition,"generalized kurtosis, central moment, structure function",,,n/a,
+9,ZEqnNum250774,definition,"generalized kurtosis, central moment, structure function",,,n/a,
+10,ZEqnNum571209,identity,<(u_L + u_L')^2> = 2<u_L^2>(1+rho_L) = 3<u_L^2> for rho_L = 1/2,0,1e-15,pass,data (0.005<r<0.02): <Sigma u_L^2>/<u_L^2> = 2.77 (limit 3 approached within 7 per cent inside the softening length)
+11,eq:45,data,"stable clustering <Delta u_L> = -Har: median of -<Delta u_L>/(Har) over 0.02-0.1 Mpc/h, z = 0; <u_L> = -<Delta u_L>/2 by pair symmetry",0.033,1e-01,pass,0.967; holds below about 0.1 Mpc/h (1.15 over 0.1-0.3 Mpc/h)
+12,ZEqnNum115620,model,"least-squares amplitude c of u a^(-5/3)(r/r_t)^(5/2) in <Delta u_L> = -Har - c u a^(-5/3)(r/r_t)^(5/2), 0.05 < r < r_t/2",0.229,3e-01,pass (approximate fit); see O7,"c = 0.77, 0.80, 0.76, 0.75 at z = 0, 0.3, 1, 2 (approximately constant, i.e. the a^(-5/3) scaling is supported; the published Fig. 7 curve at z = 2 was drawn with a^(-7/4) instead of a^(-5/3)); the printed coefficient 1 overestimates the data by about 30 per cent"
+13,eq:47),derivation,-2/3 Har xibar = -(2Ha/r^2) int_0^r xi y^2 dy with xibar = 3 r^-3 int xi y^2 dy,6.66e-16,1e-12,pass,linear pair conservation with dln xibar/dln a = 2f is -(2/3) f Har xibar; Eq. 13 is written for f = 1 (Omega_m = 1); note added
+14,ZEqnNum164953,derivation,Eq. 13 with xibar of Eq. 87 equals the right-hand side of Eq. 14 (f = 1),6.65e-16,1e-12,pass,"Eq. 13 is the f = 1 form of linear pair conservation; in general dln xibar/dln a = 2f gives <Delta u_L> = -(2/3) f Har xibar, and with xibar proportional to 1/(aHf)^2 (Eq. 87) this yields the prefactor 2/(aHf) of Eq. 14 (taken literally, Eq. 13 would give 2/(aHf^2)); identical for Omega_m = 1 (note added to Eq. 13)"
+15,49,identity,"data: <Delta u_L^2> = 2(<u_L^2> - L_2), <Sigma u_L^2> = 2(<u_L^2> + L_2) (rho_L = L_2/<u_L^2>), z = 0, 0.05 < r < 100",0.00065,1e-03,pass,"exact for the pair sample; the Level-2 files hold <u_L^2> of one member of each pair, so the identity holds to sampling noise (median 6e-5)"
+16,50,data,<Delta u_L^2> = <u_L^2> = <Sigma u_L^2>/3 = 2u^2 at small r,0.215,5e-02,flagged (O1),"medians over 0.005 < r < 0.02 Mpc/h (z = 0): 2.43, 2.02, 1.87 u^2; at 0.06-0.1 Mpc/h (outside the softening length) <Delta u_L^2> = 3.33 u^2: the equalities hold only roughly"
+17,ZEqnNum388521,data,"<Delta u_L^2> = <Sigma u_L^2> = 2<u_L^2> = 2u^2 at large r (80-119.7 Mpc/h, z = 0)",0.0141,3e-02,pass,"2.028, 1.972, 2.000 u^2"
+18,eq:52,identity,|u|^2 = u_L^2 + u_T.u_T (random vectors),3.55e-15,1e-12,pass,
+19,eq:53,definition,S_2^lp and <(Sigma u_L)^2>,,,n/a,
+20,ZEqnNum530715,identity,data: S_2^lp = 2(<u_L^2> - L_2) (same check as Eq. 15),0.00065,1e-03,pass,sampling noise only (see Eq. 15)
+21,ZEqnNum955110,definition,S_2^l = 2(u^2 - L_2),,,n/a,
+22,ZEqnNum836912,model,"beta_2^* from a least-squares fit of S_2^lp - 2u^2 = beta (r/r_s)^(2/3), 0.05 < r < 0.5 Mpc/h, z = 0",0.152,2e-01,flagged (O2),"beta_2^* = 8.05 (median ratio 8.73; text 9.5; the published Fig. 11 curve used 8.84). Second equality requires u^2(a) = a^(3/2) u0^2; the snapshots give u^2 ~ a^1.27 (z <= 2), so it holds at z = 0 only"
+23,eq:56,derivation,r_s = u0^3/(-eps_u) = 4/9 u0/H0 = 2/3 u0 t0 (t0 = 2/(3H0)),0.00251,1e-02,pass,r_s = 1.5760 Mpc/h
+24,eq:57,derivation,-eps_u = 3/2 u0^2/t0 = 9/4 u0^2 H0 = 0.6345 u0^3/(Mpc/h) = 4.6e-7 m^2/s^3 (h = 0.5),0.00336,1e-02,fixed (E3),"4.585e-07 m^2/s^3 with t0 = 2/(3H0) = 13.04 Gyr; the text quotes t0 = 13.7 Gyr, which gives 4.36e-07"
+25,ZEqnNum178092,citation,L_2 = u^2[1 - (r/r1)^n] (P20 Eq. 138),,,n/a,validated in P20
+26,ZEqnNum864517,derivation,"<u_L^2> = S_2^lp/2 + L_2 with Eqs. 22, 25",1.99e-16,1e-12,pass,data at r = 0.1 Mpc/h: 2.51 vs model 2.49; r = 0.3: 3.05 vs 3.22
+27,ZEqnNum864804,model,"least-squares nu in <u_L^2> - u^2 = -2nu/(3H) a0 u^2/(r r2) e^(-r/r2)(...), 10 < r < 30 Mpc/h, z = 0",0.00844,3e-01,pass,nu = -3025 (Mpc/h) km/s = -6051 Mpc km/s (text: -6000 Mpc km/s). Cross-paper: P19 Eq. 101 gives nu = -6.1e3 (Mpc/h) km/s from a3 (factor 2 larger)
+28,ZEqnNum634712,model,"S_2n^lp(r -> 0) = 2^n K_2n(Delta u_L, 0) u^2n: data K_4, K_6, K_8 at 0.005-0.02 Mpc/h vs 7.5, 160, 6000",0.022,5e-02,pass,"7.41, 157, 6132"
+29,eq:62,data,beta_2n^* from fits (0.05 < r < 0.5) vs quoted; 10^(1.826n-1.003) = least squares of log10 of the quoted values,0.152,2e-01,pass,"fits 8.05, 286, 2.05e+04, 2.43e+06; LSQ line of the quoted values: slope 1.826, intercept -1.003 (reproduces 1.826, -1.003), but it approximates the quoted values only to a factor 1.5 (n = 1: 6.65 vs 9.5)"
+30,ZEqnNum780846,data,"gamma = S_(2n+1)/(S_1 S_2n) = 2n+1, median over 0.05 < r < 0.5 Mpc/h (z = 0)",0.131,2e-01,pass,"gamma = 3.39, 6.96, 13.40 for n = 1, 2, 3 (predicted 3, 5, 7); the text states that n = 2, 3 deviate; the test is for n = 1"
+31,eq:64,derivation,Eq. 30 with S_1 = -Har and S_2n -> 2^n K_2n(0) u^2n (Eq. 28 at r -> 0): algebra by inspection,,,pass (by inspection); see O1,"data S_3/(-6Har u^2): 2.37, 1.69, 2.81 for r in 0.02-0.05, 0.05-0.1, 0.1-0.3 Mpc/h; the limit is not reached because S_2^lp is 2.7-4.3 u^2 there (O1), while Eq. 30 itself holds (gamma = 1.07, 1.14 times 3)"
+32,ZEqnNum436604,model,X distribution normalisation (alpha = 1.33),1.33e-14,1e-09,pass,the curve drawn in the published Fig. 14 integrates to alpha = 1.33 (factor 1/alpha missing); corrected in the revised figure
+33,eq:66,identity,"variance alpha K_2/K_1 v0^2 (quadrature), and v0^2 = 0.84 u0^2 for <u_L^2> = 2.5 u0^2",7.33e-15,1e-08,pass,v0^2 = 0.834 u0^2; data <u_L^2>(r = 0.1) = 2.51 u0^2
+34,eq:67,definition,"particles in a halo group, n_p N_h = N f(nu) dnu",,,n/a,
+35,eq:67-2,definition,nu = (m_h/m_h^*)^(2/3) = sigma_v^2/sigma_h^2,,,n/a,
+36,ZEqnNum510377,definition,pair counts per halo group,,,n/a,
+37,ZEqnNum317855,derivation,n_p^(alpha_p-1) = mu_v^(alpha_p-1) nu^(3(alpha_p-1)/2) with n_p = mu_v nu^(3/2),0,1e-12,pass,
+38,ZEqnNum692067,definition,p = 3(alpha_p - 1)/2,,,n/a,
+39,ZEqnNum388848,identity,Gaussian kernel of Eq. 39 is normalised with variance 2(1-rho)sigma^2,3.33e-16,1e-09,pass,
+40,eq:73,citation,"rho_cor = sigma_h^2/sigma^2, sigma^2 = sigma_v^2 + sigma_h^2 (P20 Eq. 58)",,,n/a,
+41,ZEqnNum970288,identity,MGF of the Gaussian kernel = exp((1-rho)sigma^2 t^2); (1-rho)sigma^2 = sigma_v^2 = nu sigma_h^2,2.22e-16,1e-09,pass,
+42,eq:75,identity,"m-th moment of the Gaussian kernel = m!/(m/2)! ((1-rho)sigma^2)^(m/2), m = 4",2.22e-16,1e-09,pass,
+43,eq:76,model,double-lambda mass function normalisation int f dnu = 1,2.21e-11,1e-07,pass,
+44,ZEqnNum550265,derivation,beta_p from int beta_p f nu^p dnu = 1; value 1.5426,8.3e-06,1e-04,pass,beta_p = 1.54259
+45,eq:78,derivation,MGF = (1 - 4 eta0 sigma_h^2 t^2)^-(p+q/2) (quadrature of Eq. 41 with Eq. 43),1.67e-13,1e-08,pass,
+46,ZEqnNum297401,derivation,moments M_m (m = 4) from Eq. 42 vs closed form,5.59e-12,1e-08,pass,
+47,ZEqnNum258992,derivation,"K_2n from Eq. 46; values 7.7, 159.24, 6356 for p = 0.36, q = 0.556",0.000285,1e-03,pass,"data K_4, K_6, K_8 (r -> 0) give p = 0.371 (least squares; p = 0.403 from K_4 alone); alpha_p = 1.247"
+48,eq:81,derivation,"N_pair/N = mu_p mu_v^(alpha_p-1)/beta_p = 0.26 with mu_p = 0.21, mu_v = 14",0.0136,2e-02,pass,mu_p and mu_v are quoted from the simulation; the halo-pair counts behind them were not re-derived
+49,ZEqnNum404751,derivation,logistic tail: sech^2(x/2s)/(4s) / (exp(-x/s)/s) -> 1 for x >> s,7e-05,1e-04,pass,
+50,eq:83,definition,"convolution for independent u_L, u_L' (rho_L = 0)",,,n/a,
+51,ZEqnNum564799,identity,characteristic function of the logistic = pi s w/sinh(pi s w) (quadrature); Eq. 51 squared relation,6.66e-16,1e-09,pass,the early draft (Paper2.tex) also gives hat P_Delta = pi s t/sinh(pi s t); restored in the revision
+52,ZEqnNum593993,identity,MGF of u_L: sqrt(pi s t/sin(pi s t)) with variance (pi s)^2/6 = u^2 (= half the logistic MGF exponent),5.55e-16,1e-09,fixed (E8),MGF_PuL is not equal to hat P_uL (the Fourier transform of Eq. 51); the equality sign was removed
+53,ZEqnNum404751-2,derivation,X distribution: MGF K1(alpha sqrt(1-(v0t)^2))/(K1(alpha) sqrt(1-(v0t)^2)) vs quadrature (corrected form),2.11e-15,1e-08,fixed (E8),"the printed form with sqrt(1+(v0t)^2) is the characteristic function (rel. diff. 4e-16), not the MGF (rel. diff. 0.12); the MGF of u_L is the square root of the MGF"
+54,ZEqnNum482729,derivation,"X-distribution kurtosis (Eq. 54) vs quadrature, m = 4..10, alpha = 1.33 and 2.1",3.67e-14,1e-06,pass,
+55,eq:2,definition,delta and eta = ln(1 + delta) (log = natural logarithm),,,n/a,
+56,eq:3,data,"<1/(1+delta)> = 1 over all particles, all redshifts (Delaunay volumes)",1.25e-07,1e-06,pass,deviation 1.25e-7 = (239.50001/239.5)^3 - 1: the author's Delauny_density.m uses L = 239.50001
+57,eq:4,model,bimodal fit: exponents need a minus sign; refit of the corrected form to the z = 0 eta PDF,0.00114,5e-02,fixed (E6),"refit c1, mu1, s1, mu2, s2 = 0.404, -0.273, 1.212, 4.281, 2.978 (published 0.404, -0.30, 1.212, 4.256, 2.979); rms 0.0068 vs 0.0069; halo fraction 1 - c1 = 0.596 vs counted 0.613"
+58,ZEqnNum270889,definition,generalized kurtosis,,,n/a,
+59,ZEqnNum505648,definition,central moment,,,n/a,
+60,ZEqnNum535068,definition,radial distribution function,,,n/a,
+61,eq:8,derivation,int g 4 pi r^2 dr = (N-1)V/N: N-1 other particles around a reference particle,,,pass (by inspection),
+62,ZEqnNum676567,definition,xi = g - 1,,,n/a,
+63,ZEqnNum278276,derivation,int xi 4 pi r^2 dr = (N-1)V/N - V = -V/N (from Eq. 61),,,pass (by inspection; see O9),cannot be tested with the pair counts (r <= 119.75 Mpc/h < box): int to 119.75 = -120.5 (Mpc/h)^3 vs -V/N = -0.819
+64,ZEqnNum811732,definition,"correlation lengths l_d0, l_d1",,,n/a,
+65,eq:12,derivation,specific PE = (1/2)(N/V) int g V_g 4 pi r^2 dr / m_p with the uniform background removed (g -> g - 1),,,pass (by inspection),
+66,ZEqnNum101644,derivation,2 pi G rho0 = 3 H0^2/4 (Omega_m = 1); data: -P_y from Eq. 66 vs the particle potentials at z = 0,0.00604,2e-02,pass,ratio 0.9940; P_y(sim) is relative to z = 10 (potential of the author's files with a constant offset)
+67,eq:14,citation,cosmic energy equation (Layzer-Irvine),,,n/a,
+68,eq:15,derivation,"K = a^-2 int a P da - P solves a d(K+P)/da + 2K + P = 0 (numerical, test P(a))",1.13e-07,1e-04,pass,
+69,eq:16,derivation,"Eq. 68 with Eq. 66 gives Eq. 69 (numerical, test l^2(a))",1.47e-15,1e-03,pass,
+70,ZEqnNum922690,derivation,"K = -eps t, P = 7/5 eps t satisfy dK/dt + dP/dt + H(2K + P) = 0 with H = 2/(3t)",2.22e-16,1e-12,pass (algebra); see O3,"data: K ~ u^2 ~ a^1.27 and -P_y ~ a^1.26 (a >= 0.5), not a^(3/2) = t"
+71,eq:18,derivation,eps_u = -3/2 du^2/dt with K = 3/2 u^2 = 3/2 u0^2 t/t0; value consistent with Eq. 24 (corrected -4.6e-7),0.00336,1e-02,fixed (E4),-3/2 u0^2/t0 = -4.58e-07 m^2/s^3 (Eq. 24); the printed '-1e-7' is wrong (the early draft gives no value)
+72,ZEqnNum402409,derivation,"l_d1^2 = -(56/45) eps_u a^(5/2)/H0^3 from Eqs. 66, 70; data at a = 1",0.04,1e-01,pass,model 35.2 (Mpc/h)^2 vs data 36.6; data slope of l_d1 vs a (a >= 0.5) = 1.14 (5/4 predicted)
+73,ZEqnNum800171,definition,E_delta(k) from xi(r),,,n/a,
+74,ZEqnNum154392,identity,Eqs. 73-74 are an inverse pair (test xi = exp(-r^2/2)),9.07e-09,1e-04,pass,
+75,ZEqnNum404986,identity,P = 2 pi^2 E/k^2 equals Peebles' P(k) = 4 pi int xi j0(kr) r^2 dr (test xi),5.94e-15,1e-06,pass,
+76,ZEqnNum502544,identity,Delta^2 = k^3 P/(2 pi^2) = E k,,,pass (by inspection),
+77,ZEqnNum939404,derivation,sigma^2 = int_0^inf E W^2 dk (test xi) equals the real-space top-hat variance; printed lower limit -inf doubles it,1.29e-09,1e-03,fixed (E10),int_0^inf: 0.58886; real space: 0.58886; with -inf..inf the value would be twice; sigma_8 of the simulation (0.5097 vs input 0.51) confirms the 0..inf convention
+78,ZEqnNum605014,identity,W(x) = 3 j1(x)/x,1.11e-15,1e-12,pass,
+79,eq:26,identity,j1(x) = sin x/x^2 - cos x/x,2.52e-15,1e-12,pass,
+80,ZEqnNum202927,identity,Eq. 80 with the power-law pair of Eqs. 81-82 (m = 0.5; finite differences),1.49e-06,1e-05,pass,independent of the normalisation of E(k); also reproduces sigma_8 = 0.51 from the measured xi (fits.json)
+81,ZEqnNum270886,derivation,xi for E = b k^-m from Eq. 74: coefficient int x^(-m-1) sin x dx = -Gamma(-m) sin(m pi/2) (m = 0.5),2.64e-05,1e-03,fixed (E11),printed coefficient -2 b Gamma(-m) sin(m pi/2) is twice the transform of Eq. 74 (5.0133 vs 2.5067); corrected: -b Gamma(-m) sin(m pi/2) r^(m-1)
+82,ZEqnNum774806,derivation,"sigma^2 for E = b k^-m from Eq. 77 (0..inf), m = 0.5: corrected coefficient 36",5.57e-09,1e-04,fixed (E11),printed coefficient 72 is twice the transform; corrected 36 (Eqs. 81-82 together still satisfy Eq. 80)
+83,ZEqnNum823001,definition,E_delta_r = -d sigma^2/dr,,,n/a,
+84,ZEqnNum274094,derivation,E_delta_r r^2 = -2 int E(x/r) W W' x dx (from Eq. 77 with 0..inf; test xi); printed coefficient -4,7.25e-07,2e-03,fixed (E10),with Eq. 77 corrected (E10) the coefficient is -2
+85,eq:32,derivation,power law: E_dr r^2 = E(x0/r) gives x0 = (1/2)[36 (1-m^2)(4+m) Gamma(-5-m) sin(m pi/2)]^(-1/m) with the corrected Eq. 82 (printed 72),0,1e-10,fixed (E11),printed 72 follows from the doubled Eq. 82; corrected to 36 (x0 changes by 2^(1/m))
+86,ZEqnNum762470,citation,xi model (P20 Eq. 121); zero crossing 0.5(7 - sqrt 17) r2,0.00013,1e-03,pass (see O8),"model zero at 33.3 Mpc/h; data: 31.6 (z = 0), 30.4 (z = 1), 25.5 (z = 2), 21.9 (z = 3): about 31 Mpc/h for z <= 1, decreasing at higher z"
+87,ZEqnNum197404,derivation,xibar of the xi model by quadrature vs Eq. 87,9.27e-16,1e-08,pass,
+88,ZEqnNum769238,derivation,sigma^2 of the xi model: inversion of Eq. 80 (numerical) vs Eq. 88; limits r^-1 (r -> 0) and r^-4 (r -> inf),1.34e-06,2e-03,pass,"limits: r sigma^2 ratio 1.0001, r^4 sigma^2 ratio 1.0001 (1 expected); direct evaluation of Eq. 88 loses all digits for r < 0.1 Mpc/h (the published curve is 0 at r = 0.01): series used"
+U1,,model,logistic density sech^2(x/2s)/(4s): normalisation and variance (pi s)^2/3,7.77e-16,1e-08,pass,

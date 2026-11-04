@@ -1,0 +1,48 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,"Plotted data of Fig. 28: P_y(a) from the simulation and from Eq. 66; l_d0, l_d1 from Eq. 64",,,
+#Ref. [1] Fig. 28,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
+,,,,
+,,,,
+series,label,x,y,source
+0,-P_y(a) from simulation,0.0909090909,0,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.166666667,22762.1008,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.25,43928.2789,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.333333333,65838.4502,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.4,85186.244,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.5,115651.726,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.666666667,168089.299,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.769230769,201113.776,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,0.909090909,246586.103,results/particles.json potential (relative to z = 10)
+0,-P_y(a) from simulation,1,276304.473,results/particles.json potential (relative to z = 10)
+1,-P_y(a) from Eq. 66,0.0909090909,-9311.38522,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.166666667,17624.1051,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.25,40429.4881,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.333333333,63130.8823,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.4,82855.6085,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.5,113672.192,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.666666667,166403.606,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.769230769,199481.623,l_d1 of the data
+1,-P_y(a) from Eq. 66,0.909090909,244970.2,l_d1 of the data
+1,-P_y(a) from Eq. 66,1,274634.691,l_d1 of the data
+2,l_d0(a) from Eq. 64,0.0909090909,-0.572914026,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.166666667,-0.232510544,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.25,1.12142581,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.333333333,4.12422626,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.4,8.18656032,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.5,17.3316441,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.666666667,39.7645028,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.769230769,58.3160891,trapezoid over the data range
+2,l_d0(a) from Eq. 64,0.909090909,88.7269542,trapezoid over the data range
+2,l_d0(a) from Eq. 64,1,111.970097,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.0909090909,0,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.166666667,0.625816891,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.25,1.16088311,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.333333333,1.67505731,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.4,2.10213363,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.5,2.75284328,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.666666667,3.84596303,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.769230769,4.52323486,trapezoid over the data range
+3,l_d1(a) from Eq. 64,0.909090909,5.44916118,trapezoid over the data range
+3,l_d1(a) from Eq. 64,1,6.05127745,trapezoid over the data range

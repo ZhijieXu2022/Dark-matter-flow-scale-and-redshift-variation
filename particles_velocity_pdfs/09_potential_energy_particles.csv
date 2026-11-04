@@ -1,0 +1,19 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,Specific potential energy P_y(z) from the particle potentials (relative to z = 10),,,
+"#Ref. [1] Eq. (65, 66), Fig. 28",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Ref. [2],https://doi.org/10.5281/zenodo.6541231,Dark matter flow dataset Part I (halo-based statistics),,
+#Note,P_y relative to z = 10 (the potential of the author's files includes a large constant),,,
+,,,,
+,,,,
+z,a,<phi> - <phi(z=10)> (1/Mpc),"P_y (km/s)^2, G m_p = 1952.9277","P_y (km/s)^2, CODATA G m_p"
+10,0.0909090909,0,-0,-0
+5,0.166666667,3.88574365,-22765.7293,-22762.1008
+3,0.25,11.2485683,-43935.2815,-43928.2789
+2,0.333333333,22.4787107,-65848.9454,-65838.4502
+1.5,0.4,34.9013732,-85199.8235,-85186.244
+1,0.5,59.2291058,-115670.162,-115651.726
+0.5,0.666666667,114.778848,-168116.094,-168089.299
+0.3,0.769230769,158.457034,-201145.835,-201113.776
+0.1,0.909090909,229.609031,-246625.411,-246586.103
+0,1,283.009471,-276348.518,-276304.473

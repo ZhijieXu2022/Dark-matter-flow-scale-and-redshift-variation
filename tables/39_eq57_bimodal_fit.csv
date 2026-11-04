@@ -1,0 +1,13 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,10/2026,
+#Name,Bimodal fit (Eq. 57 with the minus signs restored) to the z = 0 eta PDF: published and refitted parameters,
+"#Ref. [1] Eq. (57), Fig. 24",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+#Note,rms (published parameters) 0.00685; rms (refit) 0.00682; halo fraction (counted) 0.6134,
+,,
+,,
+parameter,published,refit
+c1,0.404,0.404460748
+mu1,-0.3,-0.273477727
+sigma1,1.212,1.21248277
+mu2,4.256,4.28142698
+sigma2,2.979,2.97826804

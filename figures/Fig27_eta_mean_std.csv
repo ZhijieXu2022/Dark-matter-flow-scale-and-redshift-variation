@@ -1,0 +1,64 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,Plotted data of Fig. 27: mean and std of eta vs a,,,
+#Ref. [1] Fig. 27,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
+,,,,
+,,,,
+series,label,x,y,source
+0,mean(eta) for all particles [all],0.0909090909,0.0285923716,results/particles.json all
+0,mean(eta) for all particles [all],0.166666667,0.0876447229,results/particles.json all
+0,mean(eta) for all particles [all],0.25,0.222782299,results/particles.json all
+0,mean(eta) for all particles [all],0.333333333,0.444951354,results/particles.json all
+0,mean(eta) for all particles [all],0.4,0.672292235,results/particles.json all
+0,mean(eta) for all particles [all],0.5,1.03743524,results/particles.json all
+0,mean(eta) for all particles [all],0.666666667,1.61113783,results/particles.json all
+0,mean(eta) for all particles [all],0.769230769,1.92387842,results/particles.json all
+0,mean(eta) for all particles [all],0.909090909,2.29994567,results/particles.json all
+0,mean(eta) for all particles [all],1,2.51776421,results/particles.json all
+1,std(eta) for all particles [all],0.0909090909,0.24217064,results/particles.json all
+1,std(eta) for all particles [all],0.166666667,0.442867626,results/particles.json all
+1,std(eta) for all particles [all],0.25,0.793579295,results/particles.json all
+1,std(eta) for all particles [all],0.333333333,1.2482059,results/particles.json all
+1,std(eta) for all particles [all],0.4,1.6151138,results/particles.json all
+1,std(eta) for all particles [all],0.5,2.07451665,results/particles.json all
+1,std(eta) for all particles [all],0.666666667,2.60363116,results/particles.json all
+1,std(eta) for all particles [all],0.769230769,2.82877732,results/particles.json all
+1,std(eta) for all particles [all],0.909090909,3.05534555,results/particles.json all
+1,std(eta) for all particles [all],1,3.16923876,results/particles.json all
+2,mean(eta) for out-of-halo particles [out],0.166666667,0.0813308087,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.25,0.117451279,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.333333333,0.096827432,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.4,0.0586466446,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.5,-0.00806314213,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.666666667,-0.0829401393,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.769230769,-0.110699361,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],0.909090909,-0.127917501,results/particles.json out
+2,mean(eta) for out-of-halo particles [out],1,-0.130387314,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.166666667,0.430771088,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.25,0.618268525,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.333333333,0.74939937,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.4,0.832789565,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.5,0.937385468,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.666666667,1.09611061,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.769230769,1.18326212,results/particles.json out
+3,std(eta) for out-of-halo particles [out],0.909090909,1.29213519,results/particles.json out
+3,std(eta) for out-of-halo particles [out],1,1.35660981,results/particles.json out
+4,mean(eta) for halo particles [halo],0.166666667,1.45461829,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.25,1.88680124,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.333333333,2.27197927,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.4,2.56425757,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.5,2.93298201,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.666666667,3.44560583,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.769230769,3.70547979,results/particles.json halo
+4,mean(eta) for halo particles [halo],0.909090909,4.01149766,results/particles.json halo
+4,mean(eta) for halo particles [halo],1,4.18705922,results/particles.json halo
+5,std(eta) for halo particles [halo],0.166666667,0.779022159,results/particles.json halo
+5,std(eta) for halo particles [halo],0.25,1.26322272,results/particles.json halo
+5,std(eta) for halo particles [halo],0.333333333,1.67731036,results/particles.json halo
+5,std(eta) for halo particles [halo],0.4,1.94228601,results/particles.json halo
+5,std(eta) for halo particles [halo],0.5,2.22223209,results/particles.json halo
+5,std(eta) for halo particles [halo],0.666666667,2.51903461,results/particles.json halo
+5,std(eta) for halo particles [halo],0.769230769,2.64274023,results/particles.json halo
+5,std(eta) for halo particles [halo],0.909090909,2.76662555,results/particles.json halo
+5,std(eta) for halo particles [halo],1,2.82988974,results/particles.json halo

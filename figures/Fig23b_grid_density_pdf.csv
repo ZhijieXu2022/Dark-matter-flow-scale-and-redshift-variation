@@ -1,0 +1,597 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,"Plotted data of Fig. 23b: grid (CIC) density distribution at z = 0, and the particle (Delaunay) density",,,
+#Ref. [1] Fig. 23b,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
+,,,,
+,,,,
+series,label,x,y,source
+0,Delta x = 15 Mpc/h [grid],0.334965439,0.0126544865,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.375837404,0.022556646,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.421696503,0.0904663437,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.473151259,0.152297737,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.530884444,0.287439884,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.595662144,0.910866014,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.668343918,0.62471331,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.749894209,1.47531594,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.841395142,1.49120118,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],0.944060876,1.40536413,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],1.05925373,0.962408853,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],1.18850223,0.980792695,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],1.33352143,0.526068777,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],1.49623566,0.347040865,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],1.67880402,0.12498265,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],1.88364909,0.0416309438,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],2.11348904,0.0210588101,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],2.37137371,0.00536248121,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],2.66072506,0.00159310547,data/derived/grid_density_z0.npz (0.05 dex bins)
+0,Delta x = 15 Mpc/h [grid],2.98538262,0.000709928372,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.118850223,0.00891629722,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.167880402,0.0631225503,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.237137371,0.175397823,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.266072506,0.405246204,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.334965439,0.55996103,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.375837404,0.705600083,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.421696503,0.845609018,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.473151259,0.806842055,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.530884444,0.798444123,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.595662144,1.50817708,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.668343918,0.663956088,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.749894209,1.13651614,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.841395142,0.924129112,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],0.944060876,0.693140857,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],1.05925373,0.497211226,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],1.18850223,0.548798094,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],1.33352143,0.3784596,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],1.49623566,0.330042945,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],1.67880402,0.190472296,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],1.88364909,0.12151735,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],2.11348904,0.0889985425,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],2.37137371,0.0525076285,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],2.66072506,0.0327582312,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],2.98538262,0.019168066,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],3.34965439,0.0110726757,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],3.75837404,0.00775384707,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],4.21696503,0.00282707324,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],4.73151259,0.00167975445,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],5.30884444,0.000998055154,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],5.95662144,0.000311331157,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],6.68343918,0.000118917508,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],7.49894209,7.06568939e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],8.41395142,3.14865115e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],9.44060876,2.80623829e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],10.5925373,2.50106251e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+1,Delta x = 7.48 Mpc/h [grid],11.8850223,2.22907431e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.0749894209,0.23316775,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.118850223,1.09308231,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.167880402,1.74632481,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.237137371,1.72981913,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.266072506,1.82211438,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.334965439,1.47978402,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.375837404,1.3040561,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.421696503,1.10491446,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.473151259,0.927924355,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.530884444,0.757087212,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.595662144,1.18939621,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.668343918,0.460508051,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.749894209,0.720302872,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.841395142,0.538891644,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],0.944060876,0.398135057,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],1.05925373,0.299095813,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],1.18850223,0.325333395,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],1.33352143,0.232787421,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],1.49623566,0.210725515,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],1.67880402,0.14455064,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],1.88364909,0.0991723624,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],2.11348904,0.0834674711,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],2.37137371,0.0576327082,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],2.66072506,0.0449678911,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],2.98538262,0.034853046,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],3.34965439,0.026238287,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],3.75837404,0.0178074147,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],4.21696503,0.011292587,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],4.73151259,0.0089306945,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],5.30884444,0.00618794195,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],5.95662144,0.00426412496,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],6.68343918,0.00310176501,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],7.49894209,0.00185474346,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],8.41395142,0.00109415627,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],9.44060876,0.000869933869,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],10.5925373,0.000543981095,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],11.8850223,0.000339933832,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],13.3352143,0.000186249803,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],14.9623566,9.51706454e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],16.7880402,5.91773909e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],18.8364909,3.69193336e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],21.1348904,2.03693847e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],23.7137371,1.81542333e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],26.6072506,6.22306824e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],29.8538262,2.21852616e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],33.4965439,2.96589529e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+2,Delta x = 3.74 Mpc/h [grid],37.5837404,1.76223797e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.0237137371,1.85487387,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.0749894209,4.50189295,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.118850223,5.38035845,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.167880402,4.31094964,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.237137371,2.87606695,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.266072506,2.27330239,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.334965439,1.58167488,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.375837404,1.21100993,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.421696503,0.93722386,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.473151259,0.72505901,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.530884444,0.56677057,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.595662144,0.840031227,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.668343918,0.313372409,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.749894209,0.470447951,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.841395142,0.342425652,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],0.944060876,0.252429904,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],1.05925373,0.188369086,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],1.18850223,0.205806251,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],1.33352143,0.146112971,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],1.49623566,0.138744415,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],1.67880402,0.0960794256,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],1.88364909,0.0680370577,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],2.11348904,0.0601895733,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],2.37137371,0.0429260337,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],2.66072506,0.0360377882,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],2.98538262,0.0288449998,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],3.34965439,0.0225012589,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],3.75837404,0.0176422049,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],4.21696503,0.0122123674,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],4.73151259,0.0103068683,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],5.30884444,0.00751660288,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],5.95662144,0.00602300701,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],6.68343918,0.00459876301,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],7.49894209,0.00325076912,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],8.41395142,0.00247759487,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],9.44060876,0.00190517271,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],10.5925373,0.0013705041,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],11.8850223,0.00103234004,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],13.3352143,0.000768590854,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],14.9623566,0.000552487729,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],16.7880402,0.000413995164,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],18.8364909,0.000287003867,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],21.1348904,0.000207023458,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],23.7137371,0.000150994344,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],26.6072506,0.000116838106,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],29.8538262,7.51525737e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],33.4965439,5.09145357e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],37.5837404,3.7337417e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],42.1696503,2.43442418e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],47.3151259,1.53977491e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],53.0884444,9.82460542e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],59.5662144,7.296824e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],66.8343918,3.71617213e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],74.9894209,2.42883073e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],84.1395142,1.57432557e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],94.4060876,8.76949465e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],105.925373,5.86186525e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],118.850223,4.52780718e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],133.352143,6.20832677e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],149.623566,1.10663541e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],167.880402,4.93144924e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],188.364909,2.19757938e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],211.348904,1.95859469e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+3,Delta x = 1.87 Mpc/h [grid],266.072506,1.55576706e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.0237137371,77.8204556,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.0749894209,8.89706915,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.118850223,4.76406294,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.167880402,2.95886646,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.237137371,1.86549584,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.266072506,1.47978534,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.334965439,1.05261786,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.375837404,0.839576978,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.421696503,0.670260536,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.473151259,0.533147064,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.530884444,0.425010676,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.595662144,0.64024766,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.668343918,0.239243291,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.749894209,0.362776229,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.841395142,0.259181957,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],0.944060876,0.187944521,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1.05925373,0.139689714,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1.18850223,0.15234112,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1.33352143,0.109079525,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1.49623566,0.102420491,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1.67880402,0.0718136132,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1.88364909,0.0511033351,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],2.11348904,0.0458058987,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],2.37137371,0.0326870025,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],2.66072506,0.0279812485,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],2.98538262,0.0228958833,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],3.34965439,0.0184464784,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],3.75837404,0.0143656813,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],4.21696503,0.0100431041,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],4.73151259,0.00863553452,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],5.30884444,0.00660285609,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],5.95662144,0.00537385027,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],6.68343918,0.00424789443,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],7.49894209,0.00313263963,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],8.41395142,0.00242821271,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],9.44060876,0.00195252798,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],10.5925373,0.00146160725,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],11.8850223,0.00117953731,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],13.3352143,0.000906803729,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],14.9623566,0.000688603885,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],16.7880402,0.000536295105,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],18.8364909,0.000411936255,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],21.1348904,0.000326816006,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],23.7137371,0.000243860229,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],26.6072506,0.000191631608,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],29.8538262,0.00014442952,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],33.4965439,0.000114310547,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],37.5837404,8.60467759e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],42.1696503,6.37932021e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],47.3151259,4.85444662e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],53.0884444,3.70859361e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],59.5662144,2.72849097e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],66.8343918,2.06712075e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],74.9894209,1.6125504e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],84.1395142,1.1401561e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],94.4060876,8.46256234e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],105.925373,5.92536879e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],118.850223,4.16209968e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],133.352143,2.97611665e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],149.623566,2.10260728e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],167.880402,1.43936675e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],188.364909,9.55947031e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],211.348904,6.68370437e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],237.137371,4.01487851e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],266.072506,2.46978021e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],298.538262,1.87188145e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],334.965439,1.26668444e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],375.837404,6.19536786e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],421.696503,3.80378778e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],473.151259,1.64038521e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],530.884444,9.74663236e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],595.662144,7.81802571e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],668.343918,2.32260758e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],749.894209,1.38001746e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],841.395142,2.45988371e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+4,Delta x = 0.936 Mpc/h [grid],1059.25373,4.88488771e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.0237137371,259.303301,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.0749894209,1.88006075,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.118850223,0.94394331,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.167880402,0.569273016,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.237137371,0.355282382,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.266072506,0.284155262,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.334965439,0.206664781,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.375837404,0.169691642,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.421696503,0.140383236,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.473151259,0.116941694,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.530884444,0.0980913264,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.595662144,0.160328488,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.668343918,0.0659338937,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.749894209,0.109189655,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.841395142,0.0888875903,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],0.944060876,0.0728457942,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1.05925373,0.0600304461,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1.18850223,0.0732543149,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1.33352143,0.0587962982,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1.49623566,0.0624370616,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1.67880402,0.0493087904,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1.88364909,0.0391472327,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2.11348904,0.0386541821,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2.37137371,0.0302014599,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2.66072506,0.0281297999,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2.98538262,0.0250197754,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],3.34965439,0.0214047272,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],3.75837404,0.0176795836,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],4.21696503,0.0129135374,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],4.73151259,0.0113072983,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],5.30884444,0.00859023098,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],5.95662144,0.00679078057,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],6.68343918,0.00514230158,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],7.49894209,0.0036420472,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],8.41395142,0.00283343242,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],9.44060876,0.00229599072,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],10.5925373,0.00173892233,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],11.8850223,0.00139222452,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],13.3352143,0.00104512331,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],14.9623566,0.000787033917,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],16.7880402,0.000623154108,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],18.8364909,0.000471834028,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],21.1348904,0.000370988437,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],23.7137371,0.000280730561,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],26.6072506,0.000222370161,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],29.8538262,0.000167295071,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],33.4965439,0.000133606245,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],37.5837404,0.000101602312,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],42.1696503,7.84531229e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],47.3151259,6.1314865e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],53.0884444,4.73272101e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],59.5662144,3.66350513e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],66.8343918,2.82932314e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],74.9894209,2.22338063e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],84.1395142,1.72368664e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],94.4060876,1.30384572e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],105.925373,1.01929288e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],118.850223,7.78597805e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],133.352143,5.96823913e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],149.623566,4.5873496e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],167.880402,3.4516292e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],188.364909,2.61305923e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],211.348904,2.01429222e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],237.137371,1.4703947e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],266.072506,1.07056221e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],298.538262,7.99666022e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],334.965439,5.83331358e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],375.837404,4.33331563e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],421.696503,3.05836808e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],473.151259,2.10926198e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],530.884444,1.47295982e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],595.662144,1.06412017e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],668.343918,7.30653635e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],749.894209,4.77831045e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],841.395142,2.99798327e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],944.060876,2.04849914e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1059.25373,1.28838913e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1188.50223,6.96585721e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1333.52143,4.99576295e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1496.23566,2.24785318e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1678.80402,1.04022757e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],1883.64909,8.92766624e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2113.48904,5.81457797e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2371.37371,2.18199919e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2660.72506,4.86177206e-11,data/derived/grid_density_z0.npz (0.05 dex bins)
+5,Delta x = 0.468 Mpc/h [grid],2985.38262,4.33305891e-11,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.0237137371,343.874937,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.0749894209,0.111972245,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.118850223,0.0598531077,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.167880402,0.037794261,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.237137371,0.024444971,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.266072506,0.0201777822,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.334965439,0.0150174758,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.375837404,0.0126746686,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.421696503,0.0107293465,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.473151259,0.00914150792,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.530884444,0.00780252947,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.595662144,0.0131632343,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.668343918,0.00556629843,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.749894209,0.00947265546,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.841395142,0.00799221982,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],0.944060876,0.00673390996,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1.05925373,0.00572680574,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1.18850223,0.00725057301,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1.33352143,0.00607395045,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1.49623566,0.00677021497,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1.67880402,0.0056419006,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1.88364909,0.00473362462,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2.11348904,0.00495931859,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2.37137371,0.00414416878,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2.66072506,0.00415380081,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2.98538262,0.00401486073,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],3.34965439,0.00379708696,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],3.75837404,0.00352326053,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],4.21696503,0.00290643705,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],4.73151259,0.00293069683,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],5.30884444,0.0026141001,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],5.95662144,0.00249180975,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],6.68343918,0.00230881226,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],7.49894209,0.00198871836,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],8.41395142,0.00179315625,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],9.44060876,0.00166949254,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],10.5925373,0.00145474093,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],11.8850223,0.00134745528,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],13.3352143,0.00117130573,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],14.9623566,0.0010073057,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],16.7880402,0.000895291126,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],18.8364909,0.000759173112,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],21.1348904,0.000657073706,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],23.7137371,0.000543577251,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],26.6072506,0.000461215957,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],29.8538262,0.000367191266,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],33.4965439,0.00029934785,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],37.5837404,0.000228613807,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],42.1696503,0.000173988014,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],47.3151259,0.000127544734,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],53.0884444,9.14125989e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],59.5662144,6.43499525e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],66.8343918,4.79291849e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],74.9894209,3.61373744e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],84.1395142,2.69335166e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],94.4060876,1.9986569e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],105.925373,1.4944856e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],118.850223,1.11805409e-05,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],133.352143,8.38888029e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],149.623566,6.31122605e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],167.880402,4.77628196e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],188.364909,3.59853624e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],211.348904,2.7208017e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],237.137371,2.07347882e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],266.072506,1.57524453e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],298.538262,1.19711585e-06,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],334.965439,9.12698277e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],375.837404,6.9603237e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],421.696503,5.23806885e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],473.151259,3.94102546e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],530.884444,2.99830778e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],595.662144,2.24388196e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],668.343918,1.67856786e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],749.894209,1.22260922e-07,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],841.395142,9.09388258e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],944.060876,6.64734546e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1059.25373,4.8093246e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1188.50223,3.46728263e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1333.52143,2.47544904e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1496.23566,1.757216e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1678.80402,1.21985947e-08,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],1883.64909,8.50703581e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2113.48904,5.50854755e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2371.37371,3.57643305e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2660.72506,2.50685122e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],2985.38262,1.47053187e-09,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],3349.65439,9.75115312e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],3758.37404,5.76513398e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],4216.96503,3.08674311e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],4731.51259,1.94795743e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],5308.84444,1.02035058e-10,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],5956.62144,6.10783259e-11,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],6683.43918,1.81453717e-11,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],7498.94209,4.31255456e-12,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],8413.95142,6.72624452e-12,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],9440.60876,2.56918789e-12,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],10592.5373,1.52652741e-12,data/derived/grid_density_z0.npz (0.05 dex bins)
+6,Delta x = 0.234 Mpc/h [grid],11885.0223,6.80259493e-13,data/derived/grid_density_z0.npz (0.05 dex bins)
+7,particle density (Delaunay) [particle],0.0334965439,0.000169921084,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0375837404,0.000867351501,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0421696503,0.00208594814,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0473151259,0.0063537587,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0530884444,0.0161209299,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0595662144,0.0332700427,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0668343918,0.061572327,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0749894209,0.102576698,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0841395142,0.153422947,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.0944060876,0.212210809,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.105925373,0.276176896,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.118850223,0.336416074,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.133352143,0.392269247,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.149623566,0.435125586,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.167880402,0.466018871,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.188364909,0.482632384,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.211348904,0.487129429,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.237137371,0.476528985,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.266072506,0.460279519,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.298538262,0.43611718,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.334965439,0.411082355,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.375837404,0.377734332,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.421696503,0.346444083,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.473151259,0.315372805,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.530884444,0.286520777,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.595662144,0.255722409,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.668343918,0.228731943,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.749894209,0.203984521,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.841395142,0.181356771,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],0.944060876,0.159913927,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1.05925373,0.140120073,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1.18850223,0.123719719,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1.33352143,0.10762018,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1.49623566,0.0936597422,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1.67880402,0.0815877456,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1.88364909,0.0712526657,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2.11348904,0.0615253349,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2.37137371,0.0530472369,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2.66072506,0.0458504,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2.98538262,0.0399111123,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],3.34965439,0.0343679295,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],3.75837404,0.0296128947,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],4.21696503,0.0256301675,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],4.73151259,0.0222241575,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],5.30884444,0.019140924,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],5.95662144,0.0165754306,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],6.68343918,0.0143958315,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],7.49894209,0.0124723218,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],8.41395142,0.0108432904,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],9.44060876,0.009408736,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],10.5925373,0.0081893677,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],11.8850223,0.00718637012,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],13.3352143,0.0062545788,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],14.9623566,0.00547528619,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],16.7880402,0.00481679305,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],18.8364909,0.00424168531,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],21.1348904,0.00370695872,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],23.7137371,0.00326747833,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],26.6072506,0.00289695495,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],29.8538262,0.00258028458,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],33.4965439,0.00227922874,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],37.5837404,0.00200952952,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],42.1696503,0.00179241842,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],47.3151259,0.00159077996,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],53.0884444,0.00141489913,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],59.5662144,0.00125878901,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],66.8343918,0.00112739372,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],74.9894209,0.00099757322,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],84.1395142,0.000887851977,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],94.4060876,0.000795815197,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],105.925373,0.000708806976,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],118.850223,0.000624619708,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],133.352143,0.000555812095,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],149.623566,0.000494593406,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],167.880402,0.000439173295,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],188.364909,0.00038730139,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],211.348904,0.000343260856,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],237.137371,0.00030558244,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],266.072506,0.000268527339,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],298.538262,0.000236607548,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],334.965439,0.000208709433,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],375.837404,0.000183943225,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],421.696503,0.000162741993,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],473.151259,0.0001418627,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],530.884444,0.000125151633,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],595.662144,0.000109316848,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],668.343918,9.60297589e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],749.894209,8.31936625e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],841.395142,7.33771011e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],944.060876,6.33058857e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1059.25373,5.53296576e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1188.50223,4.79769061e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1333.52143,4.12818808e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1496.23566,3.60576399e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1678.80402,3.09701177e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1883.64909,2.66681752e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2113.48904,2.28154247e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2371.37371,1.96829419e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2660.72506,1.6810452e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2985.38262,1.42086201e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],3349.65439,1.21739188e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],3758.37404,1.04079427e-05,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],4216.96503,8.7231897e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],4731.51259,7.30999391e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],5308.84444,6.15636286e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],5956.62144,5.20315671e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],6683.43918,4.31246292e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],7498.94209,3.5969465e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],8413.95142,2.96231496e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],9440.60876,2.45041604e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],10592.5373,1.98678153e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],11885.0223,1.64921023e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],13335.2143,1.3374676e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],14962.3566,1.09166125e-06,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],16788.0402,8.77551393e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],18836.4909,7.07181045e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],21134.8904,5.60525317e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],23713.7371,4.52175692e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],26607.2506,3.496392e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],29853.8262,2.77575754e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],33496.5439,2.14888382e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],37583.7404,1.63062082e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],42169.6503,1.28408513e-07,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],47315.1259,9.85871509e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],53088.4444,7.24272251e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],59566.2144,5.575121e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],66834.3918,4.09166036e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],74989.4209,3.08847907e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],84139.5142,2.30183618e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],94406.0876,1.64263597e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],105925.373,1.19484353e-08,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],118850.223,8.85534597e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],133352.143,6.42949841e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],149623.566,4.35737693e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],167880.402,3.2547565e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],188364.909,2.18384451e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],211348.904,1.48363547e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],237137.371,1.0757256e-09,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],266072.506,8.01220036e-10,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],298538.262,5.30366411e-10,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],334965.439,3.78460596e-10,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],375837.404,2.39554224e-10,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],421696.503,1.95097502e-10,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],473151.259,1.33417997e-10,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],530884.444,8.96690177e-11,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],595662.144,5.90695276e-11,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],668343.918,4.41295441e-11,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],749894.209,3.17404015e-11,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],841395.142,1.7219186e-11,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],944060.876,1.91832696e-11,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1059253.73,9.76977542e-12,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1188502.23,5.65975898e-12,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1333521.43,5.0442655e-12,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1496235.66,2.0749414e-12,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1678804.02,2.7739402e-12,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],1883649.09,8.24092268e-13,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2113489.04,7.34473007e-13,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2371373.71,6.54599757e-13,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],2660725.06,5.83412647e-13,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],3349654.39,1.54473713e-13,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],4216965.03,1.22702832e-13,"eta lattice, 0.05 dex bins in 1 + delta"
+7,particle density (Delaunay) [particle],6683439.18,7.74202528e-14,"eta lattice, 0.05 dex bins in 1 + delta"

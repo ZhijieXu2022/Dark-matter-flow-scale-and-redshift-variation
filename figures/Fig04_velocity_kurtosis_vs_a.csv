@@ -1,0 +1,101 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,10/2026,,,
+#Name,"Plotted data of Fig. 4: K_4, K_6, K_8 of u_p, u_hp, u_op vs a",,,
+#Ref. [1] Fig. 4,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
+,,,,
+,,,,
+series,label,x,y,source
+0,K_4(u_p) [all],0.0909090909,3.02196244,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.166666667,3.07075378,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.25,3.2598475,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.333333333,3.64786394,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.4,3.99110459,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.5,4.39066125,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.666666667,4.80212964,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.769230769,5.00124701,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],0.909090909,5.25485572,results/particles.json velocity/all/class_mean_K4
+0,K_4(u_p) [all],1,5.42164508,results/particles.json velocity/all/class_mean_K4
+1,K_6(u_p) [all],0.0909090909,15.3067032,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.166666667,16.133834,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.25,20.6759989,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.333333333,33.0502235,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.4,43.6597322,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.5,55.63023,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.666666667,66.1645199,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.769230769,70.482726,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],0.909090909,79.3428937,results/particles.json velocity/all/class_mean_K6
+1,K_6(u_p) [all],1,87.8030064,results/particles.json velocity/all/class_mean_K6
+2,K_8(u_p) [all],0.0909090909,108.784481,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.166666667,122.734261,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.25,253.837921,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.333333333,790.539558,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.4,1167.29448,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.5,1615.42058,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.666666667,1901.06844,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.769230769,1933.0081,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],0.909090909,2360.59217,results/particles.json velocity/all/class_mean_K8
+2,K_8(u_p) [all],1,2935.00071,results/particles.json velocity/all/class_mean_K8
+3,K_4(u_hp) [halo],0.166666667,2.92820251,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.25,3.35471679,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.333333333,3.81435377,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.4,4.08682803,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.5,4.35605917,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.666666667,4.63472422,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.769230769,4.78438154,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],0.909090909,4.99595902,results/particles.json velocity/halo/class_mean_K4
+3,K_4(u_hp) [halo],1,5.14475159,results/particles.json velocity/halo/class_mean_K4
+4,K_6(u_hp) [halo],0.166666667,14.4645648,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.25,22.9592777,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.333333333,35.1808876,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.4,41.762536,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.5,48.7471914,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.666666667,55.1808857,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.769230769,58.1265806,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],0.909090909,65.226693,results/particles.json velocity/halo/class_mean_K6
+4,K_6(u_hp) [halo],1,72.2987704,results/particles.json velocity/halo/class_mean_K6
+5,K_8(u_hp) [halo],0.166666667,104.887108,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.25,294.066525,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.333333333,708.672689,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.4,869.860652,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.5,1093.09002,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.666666667,1256.52032,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.769230769,1281.75229,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],0.909090909,1586.38475,results/particles.json velocity/halo/class_mean_K8
+5,K_8(u_hp) [halo],1,1992.79293,results/particles.json velocity/halo/class_mean_K8
+6,K_4(u_op) [out],0.0909090909,3.02196244,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.166666667,3.05788383,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.25,3.12269535,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.333333333,3.19931235,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.4,3.26369074,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.5,3.36523542,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.666666667,3.51404846,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.769230769,3.60381106,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],0.909090909,3.71611948,results/particles.json velocity/out/class_mean_K4
+6,K_4(u_op) [out],1,3.77869491,results/particles.json velocity/out/class_mean_K4
+7,K_6(u_op) [out],0.0909090909,15.3067032,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.166666667,15.866997,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.25,16.9932736,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.333333333,18.4712836,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.4,19.8496642,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.5,22.0503803,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.666666667,25.3213264,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.769230769,27.3931112,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],0.909090909,30.2049793,results/particles.json velocity/out/class_mean_K6
+7,K_6(u_op) [out],1,31.7271322,results/particles.json velocity/out/class_mean_K6
+8,K_8(u_op) [out],0.0909090909,108.784481,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.166666667,117.104397,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.25,136.670672,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.333333333,166.255497,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.4,197.510757,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.5,249.189006,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.666666667,325.729826,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.769230769,376.629085,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],0.909090909,456.716782,results/particles.json velocity/out/class_mean_K8
+8,K_8(u_op) [out],1,502.126638,results/particles.json velocity/out/class_mean_K8
+9,Gaussian K_4 = 3 [gauss],0.09,3,Gaussian
+9,Gaussian K_4 = 3 [gauss],1,3,Gaussian
+10,Gaussian K_6 = 15 [gauss],0.09,15,Gaussian
+10,Gaussian K_6 = 15 [gauss],1,15,Gaussian
+11,Gaussian K_8 = 105 [gauss],0.09,105,Gaussian
+11,Gaussian K_8 = 105 [gauss],1,105,Gaussian

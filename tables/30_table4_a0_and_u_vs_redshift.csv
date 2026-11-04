@@ -1,0 +1,19 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,10/2026,
+#Name,"Table 4: a0(z) (least squares of Eq. 86 over 20-90 Mpc/h, r2 = 23.1321) and u(z) (km/s)",
+"#Ref. [1] Eq. (86), Table 4",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+#Ref. [2],https://doi.org/10.5281/zenodo.6757654,Dark matter flow dataset Part II (correlation-based statistics)
+#Note,r2 fit: 23.1321 Mpc/h,
+,,
+,,
+z,a0,u (km/s)
+0,0.450683626,354.606762
+0.1,0.462768354,335.416336
+0.3,0.486215495,303.37437
+0.5,0.508705303,277.66929
+1,0.558592582,231.288678
+1.5,0.604176722,199.758087
+2,0.642892398,177.145528
+3,0.693537503,148.610779
+5,0.735643147,118.49691
+10,0.753211444,86.4682913
