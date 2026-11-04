@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,,,,
 # Updated,10/2026,,,,,,,,,,,
 #Name,"Mean, standard deviation and generalized kurtosis K_n (central moments, Eq. 58) of eta = ln(1 + delta) for all particles",,,,,,,,,,,
-"#Ref. [1] Eq. (55, 58), Fig. 26, 27",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,,,,,
+"#Ref. [1] Eq. (55, 58), Fig. 26, 27",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,,,,,,,,,
 #Ref. [2],https://doi.org/10.5281/zenodo.6541231,Dark matter flow dataset Part I (halo-based statistics),,,,,,,,,,
 #Note,"delta from the Delaunay density of every particle (Z_data/Z*/particle_den3.0.mat, column 7; rho_bar = 256^3/239.5^3).",,,,,,,,,,,
 ,,,,,,,,,,,,

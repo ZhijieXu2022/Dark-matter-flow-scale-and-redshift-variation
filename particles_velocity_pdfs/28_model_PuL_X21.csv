@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
 # Updated,10/2026
 #Name,Model curve: P_uL from the X(alpha = 2.1) Delta u_L (option 2)
-"#Ref. [1] Eq. (32, 49-53), Fig. 14, 19, 20",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+"#Ref. [1] Eq. (32, 49-53), Fig. 14, 19, 20",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515
 ,
 ,
 x,PDF

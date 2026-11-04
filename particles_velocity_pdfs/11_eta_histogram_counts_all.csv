@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,,
 # Updated,10/2026,,,,,,,,,
 #Name,"Histogram of eta = ln(1 + delta) for all particles: counts in bins [x, x + 0.01)",,,,,,,,,
-"#Ref. [1] Eq. (55, 57), Fig. 24, 25",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,,,
+"#Ref. [1] Eq. (55, 57), Fig. 24, 25",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,,,,,,,
 #Ref. [2],https://doi.org/10.5281/zenodo.6541231,Dark matter flow dataset Part I (halo-based statistics),,,,,,,,
 #Note,Aggregated from the 0.0005 lattice of data/particle_reduced (counts are exact); PDF = count/(N 0.01).,,,,,,,,,
 #Note,NaN: no halo particles in the author's halo files at that redshift.,,,,,,,,,

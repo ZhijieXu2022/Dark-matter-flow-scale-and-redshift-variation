@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
 # Updated,10/2026,,,
 #Name,"Plotted data of Fig. 1: density power spectrum P_delta(k), z = 0",,,
-#Ref. [1] Fig. 1,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Ref. [1] Fig. 1,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,
 #Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
 #Note,r_2 marked at 23.13 Mpc/h; k_max r_2 = sqrt(2),,,
 ,,,,

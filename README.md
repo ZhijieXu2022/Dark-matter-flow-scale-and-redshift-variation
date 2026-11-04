@@ -6,11 +6,25 @@ The complete archive, with the same files, is on Zenodo: [doi:10.5281/zenodo.239
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23933115.svg)](https://doi.org/10.5281/zenodo.23933115)
 
+## Major findings
+
+Virgo SCDM N-body simulation, ten redshifts:
+
+- Delaunay tessellation reconstructs the comoving density field; the density correlation, spectrum and dispersion functions are obtained, modelled and compared with the N-body simulation.
+- Velocity distributions are symmetric on small and large scales and non-symmetric with a negative skewness on intermediate scales, due to the inverse energy cascade at a constant rate ε<sub>u</sub> on small scales.
+- On small scales, the even-order moments of the pairwise velocity Δu<sub>L</sub> follow a two-thirds law, ∝ (−ε<sub>u</sub>r)<sup>2/3</sup>, while the odd-order moments scale linearly, ⟨(Δu<sub>L</sub>)<sup>2n+1</sup>⟩ = (2n+1)⟨(Δu<sub>L</sub>)<sup>2n</sup>⟩⟨Δu<sub>L</sub>⟩ ∝ r.
+- Fully developed velocity fields are never Gaussian on any scale, even when they start from a Gaussian initial condition.
+- On small scales, u<sub>L</sub> and Σu<sub>L</sub> are modelled by an X distribution that maximises entropy; the distribution of Δu<sub>L</sub> can differ.
+- On large scales, Δu<sub>L</sub> and Σu<sub>L</sub> are modelled by a logistic or an X distribution, while u<sub>L</sub> has a different distribution.
+- The redshift variation of the velocity distributions follows the evolution of the X distribution, whose shape parameter α(z) decreases with time.
+
+Corrections to the published article are marked in the accompanying manuscript; the default build shows the corrected values.
+
 ## Contents
 
 | Path | Content |
 |---|---|
-| `P13_revised.pdf` | Manuscript (revised edition) |
+| `manuscript.pdf` | Manuscript (revised edition) |
 | `statistics/` | 53 files, numbered 01 to 53: pair statistics as functions of separation r and redshift. Files 01 to 29 are level-2 statistics, files 30 to 53 are level-3 statistics |
 | `figures/` | 32 files: the plotted series of the figures, named by figure number (`Fig01_...` to `Fig34_...`, with `Fig23a` and `Fig23b` as printed) |
 | `tables.zip` | 19 CSV files: the tables and the small result sets of the paper (see the index below) |

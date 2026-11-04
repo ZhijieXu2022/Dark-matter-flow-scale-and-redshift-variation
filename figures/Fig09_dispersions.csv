@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
 # Updated,10/2026,,,
 #Name,"Plotted data of Fig. 9: <u^2>, <u_L^2>, <u_T^2>/2, ratios, <Delta u_L^2>, <Sigma u_L^2>; z = 0",,,
-#Ref. [1] Fig. 9,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Ref. [1] Fig. 9,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,
 #Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
 ,,,,
 ,,,,
