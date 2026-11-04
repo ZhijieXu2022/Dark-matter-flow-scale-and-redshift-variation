@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
 # Updated,10/2026,,
 #Name,"Density spectra at z = 0 from xi(r) (Eqs. 73, 75, 76)",,
-"#Ref. [1] Eq. (73-76), Fig. 1, 31",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,
+"#Ref. [1] Eq. (73-76), Fig. 1, 31",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,
 ,,,
 ,,,
 k (h/Mpc),E_delta (Mpc/h),P_delta (Mpc/h)^3,Delta^2

@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
 # Updated,10/2026,
 #Name,"PDF of u_L/u0 at r = 0.1 Mpc/h, z = 0",
-#Ref. [1] Fig. 14,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+#Ref. [1] Fig. 14,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515
 #Ref. [2],https://doi.org/10.5281/zenodo.6757654,Dark matter flow dataset Part II (correlation-based statistics)
 #Note,"N = 832582, bin width 0.03; moments: mean = 0.014221, var = 2.50995, K3 = 0.0211532, K4 = 4.75258, K5 = 0.514432, K6 = 52.2051, K7 = 16.5115, K8 = 962.284, K9 = 644.249, K10 = 24461.9",
 #Note,"Samples: author's pair CSVs (r = 0.1, 1.3) and the 1 M-pair subsample of P20 (r = 100); see DATA_PROVENANCE.md.",

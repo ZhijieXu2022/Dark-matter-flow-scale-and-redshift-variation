@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
 # Updated,10/2026,,,
 #Name,"Plotted data of Fig. 12: S_n^lp, n = 2..8 (even reduced by 2^n K_2n(0)), z = 0",,,
-#Ref. [1] Fig. 12,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+#Ref. [1] Fig. 12,https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,
 #Note,Series longer than 3000 points thinned to 3000 points uniform in log x (values unchanged); full resolution in results/csv/statistics.,,,
 ,,,,
 ,,,,

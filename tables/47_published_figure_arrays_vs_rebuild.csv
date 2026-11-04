@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,
 # Updated,10/2026,,,,,,,,
 #Name,Every series of the published figures (.fig arrays) vs the rebuilt series,,,,,,,,
-#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,,
+#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 figure,fig_file,pub_series,pub_label,variant,built_label,unit,median_diff,max_dev_over_max,n_points

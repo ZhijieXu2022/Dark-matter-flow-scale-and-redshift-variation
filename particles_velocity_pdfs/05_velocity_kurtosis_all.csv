@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,,,
 # Updated,10/2026,,,,,,,,,,
 #Name,"Generalized kurtosis K_n of the 1-D particle velocity of all particles (pooled x, y, z components)",,,,,,,,,,
-"#Ref. [1] Eq. (7), Fig. 4, 21",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,,,,
+"#Ref. [1] Eq. (7), Fig. 4, 21",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,,,,,,,,
 #Ref. [2],https://doi.org/10.5281/zenodo.6541231,Dark matter flow dataset Part I (halo-based statistics),,,,,,,,,
 #Note,global_mean: moments about the mean of all particles (as in the published Figs 4 and 21); class_mean: about the mean of the class.,,,,,,,,,,
 ,,,,,,,,,,,

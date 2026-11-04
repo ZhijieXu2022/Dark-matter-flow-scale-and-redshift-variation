@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
 # Updated,10/2026
 #Name,<1/(1+delta)> over all particles (Eq. 56; equals 1 for the Delaunay volumes)
-#Ref. [1] Eq. (56),https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515
+#Ref. [1] Eq. (56),https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515
 #Note,Deviation 1.25e-7 = (239.50001/239.5)^3 - 1 (box size used in the author's Delauny_density.m).
 ,
 ,

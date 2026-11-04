@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,,
 # Updated,10/2026,,,,,,,,,
 #Name,"R_(3,1) = <u_L u.u'>  (R_3 of Section 3)",,,,,,,,,
-#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,,,,,,,
+#Ref. [1],https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,,,,,,,
 #Ref. [2],https://doi.org/10.5281/zenodo.6757654,Dark matter flow dataset Part II (correlation-based statistics),,,,,,,,
 #Note,Converted from the author's file Paper_data/tmp/R31_z*.mat:R3_vel_long2_all x (-1) by code/tools/prepare_level2_from_matlab.py (sign convention of the paper: r = x' - x; odd-order statistics negated relative to the author's pair code).,,,,,,,,,
 #Note,Velocity statistics normalised by u^p(z) with u(z) of Table 4 (p = order); xi is dimensionless.,,,,,,,,,

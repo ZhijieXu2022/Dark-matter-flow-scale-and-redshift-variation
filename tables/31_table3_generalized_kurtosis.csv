@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
 # Updated,10/2026,,,
 #Name,"Table 3: generalized kurtosis K_4, K_6, K_8 of the velocity distributions at z = 0 (N-body, recomputed) and models",,,
-"#Ref. [1] Eq. (47, 54), Fig. 5, Table 3",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+"#Ref. [1] Eq. (47, 54), Fig. 5, Table 3",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,
 ,,,,
 ,,,,
 distribution,velocity,K4,K6,K8

@@ -1,7 +1,7 @@
 # Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
 # Updated,10/2026,,,
 #Name,"Constants beta_2n^* of Eqs. (22), (28)-(29): least squares over 0.05-0.5 Mpc/h (z = 0), median ratio, quoted values and Eq. (29)",,,
-"#Ref. [1] Eq. (22, 28, 29), Fig. 10, 12",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158 (P13); arXiv:2202.06515,,
+"#Ref. [1] Eq. (22, 28, 29), Fig. 10, 12",https://doi.org/10.1063/5.0236964,Xu 2024 Phys. Fluids 36 117158; arXiv:2202.06515,,
 ,,,,
 ,,,,
 n,beta_lsq,median_ratio,beta_text,beta_eq29
