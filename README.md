@@ -18,8 +18,6 @@ Virgo SCDM N-body simulation, ten redshifts:
 - On large scales, Δu<sub>L</sub> and Σu<sub>L</sub> are modelled by a logistic or an X distribution, while u<sub>L</sub> has a different distribution.
 - The redshift variation of the velocity distributions follows the evolution of the X distribution, whose shape parameter α(z) decreases with time.
 
-Corrections to the published article are marked in the accompanying manuscript; the default build shows the corrected values.
-
 ## Contents
 
 | Path | Content |
